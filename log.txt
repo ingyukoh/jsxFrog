@@ -1,0 +1,18 @@
+[2025-5-25 11:27:10] Starting masked2.jsx - Fast development mode
+[2025-5-25 11:27:10] Found 2d.eps: D:\EPS\Iter\UI2\2d.eps
+[2025-5-25 11:27:20] Found PatCol.eps: D:\EPS\Iter\UI2\PatCol.eps
+[2025-5-25 11:27:25] Fetching CL + BL from 2D document
+[2025-5-25 11:27:25] Found CL and BL groups
+[2025-5-25 11:27:25] Step 1: Extracting pattern from PatCol file...
+[2025-5-25 11:27:27] Pattern copied from PatCol file to 2D document
+[2025-5-25 11:27:27] Protected 0 disclaimer text items
+[2025-5-25 11:27:27] Step 2: Scaling pattern to match CL height...
+[2025-5-25 11:27:27] Original dimensions: Width: 320.35 pts, Height: 566.93 pts
+[2025-5-25 11:27:27] Scaling uniformly by 0.7739 to match CL height (438.77 pts)
+[2025-5-25 11:27:27] Pattern scaled and centered
+[2025-5-25 11:27:27] Step 3: Creating clipping mask...
+[2025-5-25 11:27:27] Clipping path derived from largest path (80097 pts짼)
+[2025-5-25 11:27:27] Step 4: Assembling final Target group...
+[2025-5-25 11:27:27] Target group assembled + clipping applied
+[2025-5-25 11:27:27] Step 5: Saving final EPS file...
+[2025-5-25 11:27:43] WORKFLOW COMPLETE! Saved to: D:\EPS\Iter\UI2\targG.eps

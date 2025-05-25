@@ -1,0 +1,28 @@
+[2025-05-25 11:50:23] ===== testMSP.jsx STARTED =====
+[2025-05-25 11:50:23] Script folder: /d/EPS/Iter/UI2
+[2025-05-25 11:50:23] Test paths:
+[2025-05-25 11:50:23]   PatCol: D:\EPS\Iter\UI2\PatCol.eps
+[2025-05-25 11:50:23]   PatBlk: D:\EPS\Iter\UI2\PatBlk.eps
+[2025-05-25 11:50:23]   Mask: D:\EPS\Iter\UI2\2d.eps
+[2025-05-25 11:50:23] All input files verified to exist
+[2025-05-25 11:50:23] Including MSP1.jsx...
+[2025-05-25 11:51:12] MSP1.jsx execution complete
+[2025-05-25 11:51:12] Success: true
+[2025-05-25 11:51:12] Error message: 
+[2025-05-25 11:51:12] Output paths: 2 files
+[2025-05-25 11:51:12] Output files created:
+[2025-05-25 11:51:12]   1: D:\EPS\Iter\UI2\Target\2d_PatCol.eps
+[2025-05-25 11:51:12]     Verified: File exists (size: 13335858 bytes)
+[2025-05-25 11:51:12]   2: D:\EPS\Iter\UI2\Target\2d_PatBlk.eps
+[2025-05-25 11:51:12]     Verified: File exists (size: 1787766 bytes)
+[2025-05-25 11:51:12] Target folder contents:
+[2025-05-25 11:51:12]   - targG.eps
+[2025-05-25 11:51:12]   - s25_PatCol.eps
+[2025-05-25 11:51:12]   - s25plus_PatCol.eps
+[2025-05-25 11:51:12]   - s25plus_PatBlk.eps
+[2025-05-25 11:51:12]   - s25ultra_PatCol.eps
+[2025-05-25 11:51:12]   - s25ultra_PatBlk.eps
+[2025-05-25 11:51:12]   - s25_PatBlk.eps
+[2025-05-25 11:51:12]   - 2d_PatCol.eps
+[2025-05-25 11:51:12]   - 2d_PatBlk.eps
+[2025-05-25 11:51:17] ===== testMSP.jsx COMPLETED =====
