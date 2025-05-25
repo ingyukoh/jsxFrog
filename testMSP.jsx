@@ -6,9 +6,9 @@
 
 (function() {
     var scriptFolder = File($.fileName).path;
-    var logFile = new File(scriptFolder + "/logTestMSP.txt");
+    var logFile = new File(scriptFolder + "/log.txt");
     logFile.encoding = "UTF8";
-    logFile.open("w");
+    logFile.open("a");
     
     function log(message) {
         var d = new Date();

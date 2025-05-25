@@ -16,3 +16,67 @@
 [2025-5-25 11:27:27] Target group assembled + clipping applied
 [2025-5-25 11:27:27] Step 5: Saving final EPS file...
 [2025-5-25 11:27:43] WORKFLOW COMPLETE! Saved to: D:\EPS\Iter\UI2\targG.eps
+[2025-05-25 12:05:18] ===== MSP1.jsx STARTED =====
+[2025-05-25 12:05:18] Processing PatCol masking
+[2025-05-25 12:05:18] Pattern: D:\EPS\Iter\UI2\PatCol.eps
+[2025-05-25 12:05:18] Mask: D:\EPS\Iter\UI2\2d.eps
+[2025-05-25 12:05:29] Fetching CL + BL from mask document
+[2025-05-25 12:05:29] Found CL and BL groups
+[2025-05-25 12:05:29] Extracting pattern from PatCol file...
+[2025-05-25 12:05:31] Pattern copied to mask document
+[2025-05-25 12:05:31] Protected 0 disclaimer text items
+[2025-05-25 12:05:31] Scaling pattern to match CL height...
+[2025-05-25 12:05:31] Scaling uniformly by 0.7739
+[2025-05-25 12:05:31] Pattern scaled and centered
+[2025-05-25 12:05:31] Creating clipping mask...
+[2025-05-25 12:05:31] Clipping path created
+[2025-05-25 12:05:31] Assembling final Target group...
+[2025-05-25 12:05:31] Target group assembled + clipping applied
+[2025-05-25 12:05:31] Saving to: D:\EPS\Iter\UI2\Target\2d_PatCol.eps
+[2025-05-25 12:05:48] Successfully created: 2d_PatCol.eps
+[2025-05-25 12:05:48] Processing PatBlk masking
+[2025-05-25 12:05:48] Pattern: D:\EPS\Iter\UI2\PatBlk.eps
+[2025-05-25 12:05:48] Mask: D:\EPS\Iter\UI2\2d.eps
+[2025-05-25 12:05:53] Fetching CL + BL from mask document
+[2025-05-25 12:05:53] Found CL and BL groups
+[2025-05-25 12:05:53] Extracting pattern from PatBlk file...
+[2025-05-25 12:05:55] Pattern copied to mask document
+[2025-05-25 12:05:55] Protected 0 disclaimer text items
+[2025-05-25 12:05:55] Scaling pattern to match CL height...
+[2025-05-25 12:05:55] Scaling uniformly by 0.7739
+[2025-05-25 12:05:55] Pattern scaled and centered
+[2025-05-25 12:05:55] Creating clipping mask...
+[2025-05-25 12:05:55] Clipping path created
+[2025-05-25 12:05:55] Assembling final Target group...
+[2025-05-25 12:05:55] Target group assembled + clipping applied
+[2025-05-25 12:05:55] Saving to: D:\EPS\Iter\UI2\Target\2d_PatBlk.eps
+[2025-05-25 12:06:06] Successfully created: 2d_PatBlk.eps
+[2025-05-25 12:06:06] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
+[2025-05-25 12:05:18] ===== testMSP.jsx STARTED =====
+[2025-05-25 12:05:18] Script folder: /d/EPS/Iter/UI2
+[2025-05-25 12:05:18] Test paths:
+[2025-05-25 12:05:18]   PatCol: D:\EPS\Iter\UI2\PatCol.eps
+[2025-05-25 12:05:18]   PatBlk: D:\EPS\Iter\UI2\PatBlk.eps
+[2025-05-25 12:05:18]   Mask: D:\EPS\Iter\UI2\2d.eps
+[2025-05-25 12:05:18] All input files verified to exist
+[2025-05-25 12:05:18] Including MSP1.jsx...
+[2025-05-25 12:06:06] MSP1.jsx execution complete
+[2025-05-25 12:06:06] Success: true
+[2025-05-25 12:06:06] Error message: 
+[2025-05-25 12:06:06] Output paths: 2 files
+[2025-05-25 12:06:06] Output files created:
+[2025-05-25 12:06:06]   1: D:\EPS\Iter\UI2\Target\2d_PatCol.eps
+[2025-05-25 12:06:06]     Verified: File exists (size: 13335858 bytes)
+[2025-05-25 12:06:06]   2: D:\EPS\Iter\UI2\Target\2d_PatBlk.eps
+[2025-05-25 12:06:06]     Verified: File exists (size: 1787766 bytes)
+[2025-05-25 12:06:06] Target folder contents:
+[2025-05-25 12:06:06]   - targG.eps
+[2025-05-25 12:06:06]   - s25_PatCol.eps
+[2025-05-25 12:06:06]   - s25plus_PatCol.eps
+[2025-05-25 12:06:06]   - s25plus_PatBlk.eps
+[2025-05-25 12:06:06]   - s25ultra_PatCol.eps
+[2025-05-25 12:06:06]   - s25ultra_PatBlk.eps
+[2025-05-25 12:06:06]   - s25_PatBlk.eps
+[2025-05-25 12:06:06]   - 2d_PatCol.eps
+[2025-05-25 12:06:06]   - 2d_PatBlk.eps
+[2025-05-25 13:04:34] ===== testMSP.jsx COMPLETED =====

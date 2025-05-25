@@ -533,7 +533,7 @@ patBlkButton.onClick = function() {
 // 2d BluePrint button click handler (first instance) - NOW WITH IMAGE PLACEMENT AND TARGET
 blueprintButton.onClick = function() {
     logToFile("BUTTON_CLICK", "2d BluePrint button #1 clicked");
-    var selectedFile = File.openDialog("Select 2d BluePrint file", "*.eps");
+    var selectedFile = File.openDialog("Select 2d BluePrint file (must have CL/BL groups)", "*.eps");
     if (selectedFile != null) {
         selectedBlueprint = selectedFile;
         blueprintText.text = selectedFile.name;
@@ -592,9 +592,58 @@ blueprintButton.onClick = function() {
             logToFile("DOCUMENT_UPDATED", "Document refreshed and zoomed to fit");
             
             // Update status text to confirm placement
-            statusText.text = "[OK] 2d BluePrint placed at (1,2). Checking for Target...";
+            statusText.text = "[OK] 2d BluePrint placed at (1,2). Generating masked files...";
             
-            // NEW: Try to place synthesized Target PatCol at (2,2) - REMOVED CONDITION
+            // NEW: Execute MSP1.jsx if PatCol and PatBlk are selected
+            if (selectedPatCol && selectedPatBlk) {
+                logToFile("MSP_START", "Starting MSP1.jsx execution");
+                try {
+                    // Set global parameters for MSP1
+                    $.global.MSP_patColPath = selectedPatCol.fsName;
+                    $.global.MSP_patBlkPath = selectedPatBlk.fsName;
+                    $.global.MSP_maskPath = selectedBlueprint.fsName;
+                    
+                    // Clear previous results
+                    $.global.MSP_success = false;
+                    $.global.MSP_outputPaths = [];
+                    $.global.MSP_errorMessage = "";
+                    
+                    logToFile("MSP_PARAMS", "PatCol: " + selectedPatCol.fsName);
+                    logToFile("MSP_PARAMS", "PatBlk: " + selectedPatBlk.fsName);
+                    logToFile("MSP_PARAMS", "Mask: " + selectedBlueprint.fsName);
+                    
+                    // Execute MSP1.jsx synchronously
+                    var scriptFile = new File($.fileName);
+                    var scriptFolder = scriptFile.parent;
+                    var mspScript = new File(scriptFolder + "/MSP1.jsx");
+                    
+                    if (mspScript.exists) {
+                        $.evalFile(mspScript);
+                        
+                        // Check results
+                        if ($.global.MSP_success) {
+                            logToFile("MSP_SUCCESS", "MSP1.jsx completed successfully");
+                            logToFile("MSP_OUTPUT", "Created " + $.global.MSP_outputPaths.length + " files");
+                            statusText.text = "[OK] Masked files generated. Placing images...";
+                        } else {
+                            logToFile("MSP_FAILED", "MSP1.jsx failed: " + $.global.MSP_errorMessage);
+                            statusText.text = "[ERROR] Masking failed: " + $.global.MSP_errorMessage;
+                        }
+                    } else {
+                        logToFile("MSP_ERROR", "MSP1.jsx not found in: " + scriptFolder.fsName);
+                        statusText.text = "[ERROR] MSP1.jsx not found";
+                    }
+                    
+                } catch (mspError) {
+                    logToFile("MSP_ERROR", "Error executing MSP1.jsx: " + mspError.toString());
+                    statusText.text = "[ERROR] " + mspError.toString();
+                }
+            } else {
+                logToFile("MSP_SKIP", "Skipping MSP1 - PatCol or PatBlk not selected");
+                statusText.text = "[INFO] Select PatCol and PatBlk to generate masked files";
+            }
+            
+            // Try to place synthesized Target PatCol at (2,2)
             logToFile("TARGET_START", "Starting Target PatCol placement");
             try {
                 // Get script folder path

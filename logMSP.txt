@@ -43,3 +43,39 @@
 [2025-05-25 11:51:01] Saving to: D:\EPS\Iter\UI2\Target\2d_PatBlk.eps
 [2025-05-25 11:51:12] Successfully created: 2d_PatBlk.eps
 [2025-05-25 11:51:12] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
+[2025-05-25 12:01:47] ===== MSP1.jsx STARTED =====
+[2025-05-25 12:01:47] Processing PatCol masking
+[2025-05-25 12:01:47] Pattern: D:\EPS\Iter\UI2\PatCol.eps
+[2025-05-25 12:01:47] Mask: D:\EPS\Iter\UI2\2d.eps
+[2025-05-25 12:02:02] Fetching CL + BL from mask document
+[2025-05-25 12:02:02] Found CL and BL groups
+[2025-05-25 12:02:02] Extracting pattern from PatCol file...
+[2025-05-25 12:02:04] Pattern copied to mask document
+[2025-05-25 12:02:04] Protected 0 disclaimer text items
+[2025-05-25 12:02:04] Scaling pattern to match CL height...
+[2025-05-25 12:02:04] Scaling uniformly by 0.7739
+[2025-05-25 12:02:04] Pattern scaled and centered
+[2025-05-25 12:02:04] Creating clipping mask...
+[2025-05-25 12:02:04] Clipping path created
+[2025-05-25 12:02:04] Assembling final Target group...
+[2025-05-25 12:02:04] Target group assembled + clipping applied
+[2025-05-25 12:02:04] Saving to: D:\EPS\Iter\UI2\Target\2d_PatCol.eps
+[2025-05-25 12:02:24] Successfully created: 2d_PatCol.eps
+[2025-05-25 12:02:24] Processing PatBlk masking
+[2025-05-25 12:02:24] Pattern: D:\EPS\Iter\UI2\PatBlk.eps
+[2025-05-25 12:02:24] Mask: D:\EPS\Iter\UI2\2d.eps
+[2025-05-25 12:02:28] Fetching CL + BL from mask document
+[2025-05-25 12:02:28] Found CL and BL groups
+[2025-05-25 12:02:29] Extracting pattern from PatBlk file...
+[2025-05-25 12:02:30] Pattern copied to mask document
+[2025-05-25 12:02:30] Protected 0 disclaimer text items
+[2025-05-25 12:02:30] Scaling pattern to match CL height...
+[2025-05-25 12:02:30] Scaling uniformly by 0.7739
+[2025-05-25 12:02:30] Pattern scaled and centered
+[2025-05-25 12:02:30] Creating clipping mask...
+[2025-05-25 12:02:30] Clipping path created
+[2025-05-25 12:02:30] Assembling final Target group...
+[2025-05-25 12:02:30] Target group assembled + clipping applied
+[2025-05-25 12:02:30] Saving to: D:\EPS\Iter\UI2\Target\2d_PatBlk.eps
+[2025-05-25 12:02:40] Successfully created: 2d_PatBlk.eps
+[2025-05-25 12:02:40] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====

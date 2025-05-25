@@ -28,7 +28,7 @@ var MSP_maskPath = $.global.MSP_maskPath;
         targetFolder.create();
     }
     
-    var logFile = new File(scriptFolder + "/logMSP.txt");
+    var logFile = new File(scriptFolder + "/log.txt");
     logFile.encoding = "UTF8";
     logFile.open("a");
     
@@ -247,9 +247,17 @@ var MSP_maskPath = $.global.MSP_maskPath;
             epsOpt.saveMultipleArtboards = false;
             docMask.saveAs(outFile, epsOpt);
             
-            // Close documents
-            docPattern.close(SaveOptions.DONOTSAVECHANGES);
-            docMask.close(SaveOptions.DONOTSAVECHANGES);
+            // Close documents without saving changes
+            try {
+                docPattern.close(SaveOptions.DONOTSAVECHANGES);
+            } catch(e) {
+                log("Warning: Could not close pattern document: " + e.message);
+            }
+            try {
+                docMask.close(SaveOptions.DONOTSAVECHANGES);
+            } catch(e) {
+                log("Warning: Could not close mask document: " + e.message);
+            }
             
             log("Successfully created: " + outputFilename);
             return outFile.fsName;
