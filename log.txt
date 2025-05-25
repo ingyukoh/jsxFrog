@@ -80,3 +80,455 @@
 [2025-05-25 12:06:06]   - 2d_PatCol.eps
 [2025-05-25 12:06:06]   - 2d_PatBlk.eps
 [2025-05-25 13:04:34] ===== testMSP.jsx COMPLETED =====
+[2025-05-25 13:09:18] ===== MSP1.jsx STARTED =====
+[2025-05-25 13:09:18] Processing PatCol masking
+[2025-05-25 13:09:18] Pattern: D:\EPS\Iter\UI2\PatCol.eps
+[2025-05-25 13:09:18] Mask: D:\EPS\Iter\UI2\2d.eps
+[2025-05-25 13:09:25] Fetching CL + BL from mask document
+[2025-05-25 13:09:25] Found CL and BL groups
+[2025-05-25 13:09:26] Extracting pattern from PatCol file...
+[2025-05-25 13:09:27] Pattern copied to mask document
+[2025-05-25 13:09:27] Protected 0 disclaimer text items
+[2025-05-25 13:09:27] Scaling pattern to match CL height...
+[2025-05-25 13:09:27] Scaling uniformly by 0.7739
+[2025-05-25 13:09:27] Pattern scaled and centered
+[2025-05-25 13:09:27] Creating clipping mask...
+[2025-05-25 13:09:27] Clipping path created
+[2025-05-25 13:09:27] Assembling final Target group...
+[2025-05-25 13:09:27] Target group assembled + clipping applied
+[2025-05-25 13:09:27] Saving to: D:\EPS\Iter\UI2\Target\2d_PatCol.eps
+[2025-05-25 13:09:44] Successfully created: 2d_PatCol.eps
+[2025-05-25 13:09:44] Processing PatBlk masking
+[2025-05-25 13:09:44] Pattern: D:\EPS\Iter\UI2\PatBlk.eps
+[2025-05-25 13:09:44] Mask: D:\EPS\Iter\UI2\2d.eps
+[2025-05-25 13:09:48] Fetching CL + BL from mask document
+[2025-05-25 13:09:48] Found CL and BL groups
+[2025-05-25 13:09:48] Extracting pattern from PatBlk file...
+[2025-05-25 13:09:50] Pattern copied to mask document
+[2025-05-25 13:09:50] Protected 0 disclaimer text items
+[2025-05-25 13:09:50] Scaling pattern to match CL height...
+[2025-05-25 13:09:50] Scaling uniformly by 0.7739
+[2025-05-25 13:09:50] Pattern scaled and centered
+[2025-05-25 13:09:50] Creating clipping mask...
+[2025-05-25 13:09:50] Clipping path created
+[2025-05-25 13:09:50] Assembling final Target group...
+[2025-05-25 13:09:50] Target group assembled + clipping applied
+[2025-05-25 13:09:50] Saving to: D:\EPS\Iter\UI2\Target\2d_PatBlk.eps
+[2025-05-25 13:09:59] Successfully created: 2d_PatBlk.eps
+[2025-05-25 13:09:59] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
+[2025-05-25 13:10:55] ===== MSP1.jsx STARTED =====
+[2025-05-25 13:10:55] Processing PatCol masking
+[2025-05-25 13:10:55] Pattern: D:\EPS\Iter\UI2\PatCol.eps
+[2025-05-25 13:10:55] Mask: D:\EPS\Iter\UI2\2d.eps
+[2025-05-25 13:11:02] Fetching CL + BL from mask document
+[2025-05-25 13:11:02] Found CL and BL groups
+[2025-05-25 13:11:02] Extracting pattern from PatCol file...
+[2025-05-25 13:11:03] Pattern copied to mask document
+[2025-05-25 13:11:03] ERROR in processMasking: undefined은(는) 개체가 아닙니다.
+[2025-05-25 13:11:03] ===== MSP1.jsx FAILED: undefined은(는) 개체가 아닙니다. =====
+[2025-05-25 13:27:04] ===== MSP1.jsx STARTED =====
+[2025-05-25 13:27:04] Processing PatCol masking
+[2025-05-25 13:27:04] Pattern: D:\EPS\Iter\UI2\PatCol.eps
+[2025-05-25 13:27:04] Mask: D:\EPS\Iter\UI2\2d.eps
+[2025-05-25 13:27:13] Fetching CL + BL from mask document
+[2025-05-25 13:27:13] Found CL and BL groups
+[2025-05-25 13:27:13] Extracting pattern from PatCol file...
+[2025-05-25 13:27:14] Pattern copied to mask document
+[2025-05-25 13:27:14] Protected 0 disclaimer text items
+[2025-05-25 13:27:14] Scaling pattern to match CL height...
+[2025-05-25 13:27:14] Scaling uniformly by 0.7739
+[2025-05-25 13:27:14] Pattern scaled and centered
+[2025-05-25 13:27:14] Creating clipping mask...
+[2025-05-25 13:27:14] Clipping path created
+[2025-05-25 13:27:14] Assembling final Target group...
+[2025-05-25 13:27:14] Target group assembled + clipping applied
+[2025-05-25 13:27:14] Saving to: D:\EPS\Iter\UI2\Target\2d_PatCol.eps
+[2025-05-25 13:27:31] Successfully created: 2d_PatCol.eps
+[2025-05-25 13:27:31] Processing PatBlk masking
+[2025-05-25 13:27:31] Pattern: D:\EPS\Iter\UI2\PatBlk.eps
+[2025-05-25 13:27:31] Mask: D:\EPS\Iter\UI2\2d.eps
+[2025-05-25 13:27:35] Fetching CL + BL from mask document
+[2025-05-25 13:27:35] Found CL and BL groups
+[2025-05-25 13:27:35] Extracting pattern from PatBlk file...
+[2025-05-25 13:27:36] Pattern copied to mask document
+[2025-05-25 13:27:36] Protected 0 disclaimer text items
+[2025-05-25 13:27:36] Scaling pattern to match CL height...
+[2025-05-25 13:27:36] Scaling uniformly by 0.7739
+[2025-05-25 13:27:36] Pattern scaled and centered
+[2025-05-25 13:27:36] Creating clipping mask...
+[2025-05-25 13:27:36] Clipping path created
+[2025-05-25 13:27:36] Assembling final Target group...
+[2025-05-25 13:27:36] Target group assembled + clipping applied
+[2025-05-25 13:27:36] Saving to: D:\EPS\Iter\UI2\Target\2d_PatBlk.eps
+[2025-05-25 13:27:45] Successfully created: 2d_PatBlk.eps
+[2025-05-25 13:27:45] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
+[2025-05-25 13:28:03] ===== MSP1.jsx STARTED =====
+[2025-05-25 13:28:03] Processing PatCol masking
+[2025-05-25 13:28:03] Pattern: D:\EPS\Iter\UI2\PatCol.eps
+[2025-05-25 13:28:03] Mask: D:\EPS\Iter\UI2\2d.eps
+[2025-05-25 13:28:08] Fetching CL + BL from mask document
+[2025-05-25 13:28:08] Found CL and BL groups
+[2025-05-25 13:28:08] Extracting pattern from PatCol file...
+[2025-05-25 13:28:10] Pattern copied to mask document
+[2025-05-25 13:28:10] Protected 0 disclaimer text items
+[2025-05-25 13:28:10] Scaling pattern to match CL height...
+[2025-05-25 13:28:10] Scaling uniformly by 0.7739
+[2025-05-25 13:28:10] Pattern scaled and centered
+[2025-05-25 13:28:10] Creating clipping mask...
+[2025-05-25 13:28:10] Clipping path created
+[2025-05-25 13:28:10] Assembling final Target group...
+[2025-05-25 13:28:10] Target group assembled + clipping applied
+[2025-05-25 13:28:10] Saving to: D:\EPS\Iter\UI2\Target\2d_PatCol.eps
+[2025-05-25 13:28:27] Successfully created: 2d_PatCol.eps
+[2025-05-25 13:28:27] Processing PatBlk masking
+[2025-05-25 13:28:27] Pattern: D:\EPS\Iter\UI2\PatBlk.eps
+[2025-05-25 13:28:27] Mask: D:\EPS\Iter\UI2\2d.eps
+[2025-05-25 13:28:31] Fetching CL + BL from mask document
+[2025-05-25 13:28:31] Found CL and BL groups
+[2025-05-25 13:28:31] Extracting pattern from PatBlk file...
+[2025-05-25 13:28:33] Pattern copied to mask document
+[2025-05-25 13:28:33] Protected 0 disclaimer text items
+[2025-05-25 13:28:33] Scaling pattern to match CL height...
+[2025-05-25 13:28:33] Scaling uniformly by 0.7739
+[2025-05-25 13:28:33] Pattern scaled and centered
+[2025-05-25 13:28:33] Creating clipping mask...
+[2025-05-25 13:28:33] Clipping path created
+[2025-05-25 13:28:33] Assembling final Target group...
+[2025-05-25 13:28:33] Target group assembled + clipping applied
+[2025-05-25 13:28:33] Saving to: D:\EPS\Iter\UI2\Target\2d_PatBlk.eps
+[2025-05-25 13:28:43] Successfully created: 2d_PatBlk.eps
+[2025-05-25 13:28:43] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
+[2025-05-25 13:35:20] ===== MSP1.jsx STARTED =====
+[2025-05-25 13:35:20] Processing PatCol masking
+[2025-05-25 13:35:20] Pattern: D:\EPS\Iter\UI2\PatCol.eps
+[2025-05-25 13:35:20] Mask: D:\EPS\Iter\UI2\2d.eps
+[2025-05-25 13:35:31] Fetching CL + BL from mask document
+[2025-05-25 13:35:31] Found CL and BL groups
+[2025-05-25 13:35:32] Extracting pattern from PatCol file...
+[2025-05-25 13:35:33] Pattern copied to mask document
+[2025-05-25 13:35:33] Protected 0 disclaimer text items
+[2025-05-25 13:35:33] Scaling pattern to match CL height...
+[2025-05-25 13:35:33] Scaling uniformly by 0.7739
+[2025-05-25 13:35:33] Pattern scaled and centered
+[2025-05-25 13:35:33] Creating clipping mask...
+[2025-05-25 13:35:33] Clipping path created
+[2025-05-25 13:35:33] Assembling final Target group...
+[2025-05-25 13:35:33] Target group assembled + clipping applied
+[2025-05-25 13:35:33] Saving to: D:\EPS\Iter\UI2\Target\2d_PatCol.eps
+[2025-05-25 13:35:51] Successfully created: 2d_PatCol.eps
+[2025-05-25 13:35:51] Processing PatBlk masking
+[2025-05-25 13:35:51] Pattern: D:\EPS\Iter\UI2\PatBlk.eps
+[2025-05-25 13:35:51] Mask: D:\EPS\Iter\UI2\2d.eps
+[2025-05-25 13:35:55] Fetching CL + BL from mask document
+[2025-05-25 13:35:55] Found CL and BL groups
+[2025-05-25 13:35:55] Extracting pattern from PatBlk file...
+[2025-05-25 13:35:56] Pattern copied to mask document
+[2025-05-25 13:35:56] Protected 0 disclaimer text items
+[2025-05-25 13:35:56] Scaling pattern to match CL height...
+[2025-05-25 13:35:56] Scaling uniformly by 0.7739
+[2025-05-25 13:35:56] Pattern scaled and centered
+[2025-05-25 13:35:56] Creating clipping mask...
+[2025-05-25 13:35:56] Clipping path created
+[2025-05-25 13:35:56] Assembling final Target group...
+[2025-05-25 13:35:56] Target group assembled + clipping applied
+[2025-05-25 13:35:56] Saving to: D:\EPS\Iter\UI2\Target\2d_PatBlk.eps
+[2025-05-25 13:36:05] Successfully created: 2d_PatBlk.eps
+[2025-05-25 13:36:05] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
+[2025-05-25 13:36:26] ===== MSP1.jsx STARTED =====
+[2025-05-25 13:36:26] Processing PatCol masking
+[2025-05-25 13:36:26] Pattern: D:\EPS\Iter\UI2\PatCol.eps
+[2025-05-25 13:36:26] Mask: D:\EPS\Iter\UI2\2db.eps
+[2025-05-25 13:36:34] Fetching CL + BL from mask document
+[2025-05-25 13:36:34] Found CL and BL groups
+[2025-05-25 13:36:35] Extracting pattern from PatCol file...
+[2025-05-25 13:36:36] Pattern copied to mask document
+[2025-05-25 13:36:36] Protected 0 disclaimer text items
+[2025-05-25 13:36:36] Scaling pattern to match CL height...
+[2025-05-25 13:36:36] Scaling uniformly by 0.7739
+[2025-05-25 13:36:36] Pattern scaled and centered
+[2025-05-25 13:36:36] Creating clipping mask...
+[2025-05-25 13:36:36] Clipping path created
+[2025-05-25 13:36:36] Assembling final Target group...
+[2025-05-25 13:36:36] Target group assembled + clipping applied
+[2025-05-25 13:36:36] Saving to: D:\EPS\Iter\UI2\Target\2db_PatCol.eps
+[2025-05-25 13:36:54] Successfully created: 2db_PatCol.eps
+[2025-05-25 13:36:54] Processing PatBlk masking
+[2025-05-25 13:36:54] Pattern: D:\EPS\Iter\UI2\PatBlk.eps
+[2025-05-25 13:36:54] Mask: D:\EPS\Iter\UI2\2db.eps
+[2025-05-25 13:36:59] Fetching CL + BL from mask document
+[2025-05-25 13:36:59] Found CL and BL groups
+[2025-05-25 13:37:00] Extracting pattern from PatBlk file...
+[2025-05-25 13:37:02] Pattern copied to mask document
+[2025-05-25 13:37:02] Protected 0 disclaimer text items
+[2025-05-25 13:37:02] Scaling pattern to match CL height...
+[2025-05-25 13:37:02] Scaling uniformly by 0.7739
+[2025-05-25 13:37:02] Pattern scaled and centered
+[2025-05-25 13:37:02] Creating clipping mask...
+[2025-05-25 13:37:02] Clipping path created
+[2025-05-25 13:37:02] Assembling final Target group...
+[2025-05-25 13:37:02] Target group assembled + clipping applied
+[2025-05-25 13:37:02] Saving to: D:\EPS\Iter\UI2\Target\2db_PatBlk.eps
+[2025-05-25 13:37:13] Successfully created: 2db_PatBlk.eps
+[2025-05-25 13:37:13] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
+[2025-05-25 13:48:19] ===== MSP1.jsx STARTED =====
+[2025-05-25 13:48:19] Processing PatCol masking
+[2025-05-25 13:48:19] Pattern: D:\EPS\Iter\UI2\PatCol.eps
+[2025-05-25 13:48:19] Mask: D:\EPS\Iter\UI2\2d.eps
+[2025-05-25 13:48:28] Fetching CL + BL from mask document
+[2025-05-25 13:48:28] Found CL and BL groups
+[2025-05-25 13:48:28] Extracting pattern from PatCol file...
+[2025-05-25 13:48:30] Pattern copied to mask document
+[2025-05-25 13:48:30] Protected 0 disclaimer text items
+[2025-05-25 13:48:30] Scaling pattern to match CL height...
+[2025-05-25 13:48:30] Scaling uniformly by 0.7739
+[2025-05-25 13:48:30] Pattern scaled and centered
+[2025-05-25 13:48:30] Creating clipping mask...
+[2025-05-25 13:48:30] Clipping path created
+[2025-05-25 13:48:30] Assembling final Target group...
+[2025-05-25 13:48:30] Target group assembled + clipping applied
+[2025-05-25 13:48:30] Saving to: D:\EPS\Iter\UI2\Target\2d_PatCol.eps
+[2025-05-25 13:48:46] Successfully created: 2d_PatCol.eps
+[2025-05-25 13:48:46] Processing PatBlk masking
+[2025-05-25 13:48:46] Pattern: D:\EPS\Iter\UI2\PatBlk.eps
+[2025-05-25 13:48:46] Mask: D:\EPS\Iter\UI2\2d.eps
+[2025-05-25 13:48:50] Fetching CL + BL from mask document
+[2025-05-25 13:48:50] Found CL and BL groups
+[2025-05-25 13:48:50] Extracting pattern from PatBlk file...
+[2025-05-25 13:48:51] Pattern copied to mask document
+[2025-05-25 13:48:51] Protected 0 disclaimer text items
+[2025-05-25 13:48:51] Scaling pattern to match CL height...
+[2025-05-25 13:48:51] Scaling uniformly by 0.7739
+[2025-05-25 13:48:51] Pattern scaled and centered
+[2025-05-25 13:48:51] Creating clipping mask...
+[2025-05-25 13:48:51] Clipping path created
+[2025-05-25 13:48:51] Assembling final Target group...
+[2025-05-25 13:48:51] Target group assembled + clipping applied
+[2025-05-25 13:48:51] Saving to: D:\EPS\Iter\UI2\Target\2d_PatBlk.eps
+[2025-05-25 13:48:59] Successfully created: 2d_PatBlk.eps
+[2025-05-25 13:48:59] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
+[2025-05-25 13:49:30] ===== MSP1.jsx STARTED =====
+[2025-05-25 13:49:30] Processing PatCol masking
+[2025-05-25 13:49:30] Pattern: D:\EPS\Iter\UI2\PatCol.eps
+[2025-05-25 13:49:30] Mask: D:\EPS\Iter\UI2\2db.eps
+[2025-05-25 13:49:38] Fetching CL + BL from mask document
+[2025-05-25 13:49:38] Found CL and BL groups
+[2025-05-25 13:49:38] Extracting pattern from PatCol file...
+[2025-05-25 13:49:40] Pattern copied to mask document
+[2025-05-25 13:49:40] Protected 0 disclaimer text items
+[2025-05-25 13:49:40] Scaling pattern to match CL height...
+[2025-05-25 13:49:40] Scaling uniformly by 0.7739
+[2025-05-25 13:49:40] Pattern scaled and centered
+[2025-05-25 13:49:40] Creating clipping mask...
+[2025-05-25 13:49:40] Clipping path created
+[2025-05-25 13:49:40] Assembling final Target group...
+[2025-05-25 13:49:40] Target group assembled + clipping applied
+[2025-05-25 13:49:40] Saving to: D:\EPS\Iter\UI2\Target\2db_PatCol.eps
+[2025-05-25 13:49:55] Successfully created: 2db_PatCol.eps
+[2025-05-25 13:49:55] Processing PatBlk masking
+[2025-05-25 13:49:55] Pattern: D:\EPS\Iter\UI2\PatBlk.eps
+[2025-05-25 13:49:55] Mask: D:\EPS\Iter\UI2\2db.eps
+[2025-05-25 13:50:00] Fetching CL + BL from mask document
+[2025-05-25 13:50:00] Found CL and BL groups
+[2025-05-25 13:50:00] Extracting pattern from PatBlk file...
+[2025-05-25 13:50:02] Pattern copied to mask document
+[2025-05-25 13:50:02] Protected 0 disclaimer text items
+[2025-05-25 13:50:02] Scaling pattern to match CL height...
+[2025-05-25 13:50:02] Scaling uniformly by 0.7739
+[2025-05-25 13:50:02] Pattern scaled and centered
+[2025-05-25 13:50:02] Creating clipping mask...
+[2025-05-25 13:50:02] Clipping path created
+[2025-05-25 13:50:02] Assembling final Target group...
+[2025-05-25 13:50:02] Target group assembled + clipping applied
+[2025-05-25 13:50:02] Saving to: D:\EPS\Iter\UI2\Target\2db_PatBlk.eps
+[2025-05-25 13:50:10] Successfully created: 2db_PatBlk.eps
+[2025-05-25 13:50:10] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
+[2025-05-25 13:50:35] ===== MSP1.jsx STARTED =====
+[2025-05-25 13:50:35] Processing PatCol masking
+[2025-05-25 13:50:35] Pattern: D:\EPS\Iter\UI2\PatCol.eps
+[2025-05-25 13:50:35] Mask: D:\EPS\Iter\UI2\2dc.eps
+[2025-05-25 13:50:42] Fetching CL + BL from mask document
+[2025-05-25 13:50:42] Found CL and BL groups
+[2025-05-25 13:50:42] Extracting pattern from PatCol file...
+[2025-05-25 13:50:44] Pattern copied to mask document
+[2025-05-25 13:50:44] Protected 0 disclaimer text items
+[2025-05-25 13:50:44] Scaling pattern to match CL height...
+[2025-05-25 13:50:44] Scaling uniformly by 0.7739
+[2025-05-25 13:50:44] Pattern scaled and centered
+[2025-05-25 13:50:44] Creating clipping mask...
+[2025-05-25 13:50:44] Clipping path created
+[2025-05-25 13:50:44] Assembling final Target group...
+[2025-05-25 13:50:44] Target group assembled + clipping applied
+[2025-05-25 13:50:44] Saving to: D:\EPS\Iter\UI2\Target\2dc_PatCol.eps
+[2025-05-25 13:50:59] Successfully created: 2dc_PatCol.eps
+[2025-05-25 13:50:59] Processing PatBlk masking
+[2025-05-25 13:50:59] Pattern: D:\EPS\Iter\UI2\PatBlk.eps
+[2025-05-25 13:50:59] Mask: D:\EPS\Iter\UI2\2dc.eps
+[2025-05-25 13:51:02] Fetching CL + BL from mask document
+[2025-05-25 13:51:02] Found CL and BL groups
+[2025-05-25 13:51:03] Extracting pattern from PatBlk file...
+[2025-05-25 13:51:04] Pattern copied to mask document
+[2025-05-25 13:51:04] Protected 0 disclaimer text items
+[2025-05-25 13:51:04] Scaling pattern to match CL height...
+[2025-05-25 13:51:04] Scaling uniformly by 0.7739
+[2025-05-25 13:51:04] Pattern scaled and centered
+[2025-05-25 13:51:04] Creating clipping mask...
+[2025-05-25 13:51:04] Clipping path created
+[2025-05-25 13:51:04] Assembling final Target group...
+[2025-05-25 13:51:04] Target group assembled + clipping applied
+[2025-05-25 13:51:04] Saving to: D:\EPS\Iter\UI2\Target\2dc_PatBlk.eps
+[2025-05-25 13:51:13] Successfully created: 2dc_PatBlk.eps
+[2025-05-25 13:51:13] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
+[2025-05-25 14:10:10] ===== MSP1.jsx STARTED =====
+[2025-05-25 14:10:10] Processing PatCol masking
+[2025-05-25 14:10:10] Pattern: D:\EPS\Iter\UI2\PatCol.eps
+[2025-05-25 14:10:10] Mask: D:\EPS\Iter\UI2\2d.eps
+[2025-05-25 14:10:21] Fetching CL + BL from mask document
+[2025-05-25 14:10:21] Found CL and BL groups
+[2025-05-25 14:10:21] Extracting pattern from PatCol file...
+[2025-05-25 14:10:23] Pattern copied to mask document
+[2025-05-25 14:10:23] Protected 0 disclaimer text items
+[2025-05-25 14:10:23] Scaling pattern to match CL height...
+[2025-05-25 14:10:23] Scaling uniformly by 0.7739
+[2025-05-25 14:10:23] Pattern scaled and centered
+[2025-05-25 14:10:23] Creating clipping mask...
+[2025-05-25 14:10:23] Clipping path created
+[2025-05-25 14:10:23] Assembling final Target group...
+[2025-05-25 14:10:23] Target group assembled + clipping applied
+[2025-05-25 14:10:23] Saving to: D:\EPS\Iter\UI2\Target\2d_PatCol.eps
+[2025-05-25 14:10:45] Successfully created: 2d_PatCol.eps
+[2025-05-25 14:10:45] Processing PatBlk masking
+[2025-05-25 14:10:45] Pattern: D:\EPS\Iter\UI2\PatBlk.eps
+[2025-05-25 14:10:45] Mask: D:\EPS\Iter\UI2\2d.eps
+[2025-05-25 14:10:50] Fetching CL + BL from mask document
+[2025-05-25 14:10:50] Found CL and BL groups
+[2025-05-25 14:10:50] Extracting pattern from PatBlk file...
+[2025-05-25 14:10:52] Pattern copied to mask document
+[2025-05-25 14:10:52] Protected 0 disclaimer text items
+[2025-05-25 14:10:52] Scaling pattern to match CL height...
+[2025-05-25 14:10:52] Scaling uniformly by 0.7739
+[2025-05-25 14:10:52] Pattern scaled and centered
+[2025-05-25 14:10:52] Creating clipping mask...
+[2025-05-25 14:10:52] Clipping path created
+[2025-05-25 14:10:52] Assembling final Target group...
+[2025-05-25 14:10:52] Target group assembled + clipping applied
+[2025-05-25 14:10:52] Saving to: D:\EPS\Iter\UI2\Target\2d_PatBlk.eps
+[2025-05-25 14:11:01] Successfully created: 2d_PatBlk.eps
+[2025-05-25 14:11:01] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
+[2025-05-25 14:11:22] ===== MSP1.jsx STARTED =====
+[2025-05-25 14:11:22] Processing PatCol masking
+[2025-05-25 14:11:22] Pattern: D:\EPS\Iter\UI2\PatCol.eps
+[2025-05-25 14:11:22] Mask: D:\EPS\Iter\UI2\2db.eps
+[2025-05-25 14:11:30] Fetching CL + BL from mask document
+[2025-05-25 14:11:30] Found CL and BL groups
+[2025-05-25 14:11:30] Extracting pattern from PatCol file...
+[2025-05-25 14:11:31] Pattern copied to mask document
+[2025-05-25 14:11:31] Protected 0 disclaimer text items
+[2025-05-25 14:11:31] Scaling pattern to match CL height...
+[2025-05-25 14:11:31] Scaling uniformly by 0.7739
+[2025-05-25 14:11:31] Pattern scaled and centered
+[2025-05-25 14:11:31] Creating clipping mask...
+[2025-05-25 14:11:31] Clipping path created
+[2025-05-25 14:11:31] Assembling final Target group...
+[2025-05-25 14:11:31] Target group assembled + clipping applied
+[2025-05-25 14:11:31] Saving to: D:\EPS\Iter\UI2\Target\2db_PatCol.eps
+[2025-05-25 14:11:46] Successfully created: 2db_PatCol.eps
+[2025-05-25 14:11:46] Processing PatBlk masking
+[2025-05-25 14:11:46] Pattern: D:\EPS\Iter\UI2\PatBlk.eps
+[2025-05-25 14:11:46] Mask: D:\EPS\Iter\UI2\2db.eps
+[2025-05-25 14:11:50] Fetching CL + BL from mask document
+[2025-05-25 14:11:50] Found CL and BL groups
+[2025-05-25 14:11:50] Extracting pattern from PatBlk file...
+[2025-05-25 14:11:52] Pattern copied to mask document
+[2025-05-25 14:11:52] Protected 0 disclaimer text items
+[2025-05-25 14:11:52] Scaling pattern to match CL height...
+[2025-05-25 14:11:52] Scaling uniformly by 0.7739
+[2025-05-25 14:11:52] Pattern scaled and centered
+[2025-05-25 14:11:52] Creating clipping mask...
+[2025-05-25 14:11:52] Clipping path created
+[2025-05-25 14:11:52] Assembling final Target group...
+[2025-05-25 14:11:52] Target group assembled + clipping applied
+[2025-05-25 14:11:52] Saving to: D:\EPS\Iter\UI2\Target\2db_PatBlk.eps
+[2025-05-25 14:12:01] Successfully created: 2db_PatBlk.eps
+[2025-05-25 14:12:01] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
+[2025-05-25 14:12:15] ===== MSP1.jsx STARTED =====
+[2025-05-25 14:12:15] Processing PatCol masking
+[2025-05-25 14:12:15] Pattern: D:\EPS\Iter\UI2\PatCol.eps
+[2025-05-25 14:12:15] Mask: D:\EPS\Iter\UI2\2dc.eps
+[2025-05-25 14:12:23] Fetching CL + BL from mask document
+[2025-05-25 14:12:23] Found CL and BL groups
+[2025-05-25 14:12:23] Extracting pattern from PatCol file...
+[2025-05-25 14:12:24] Pattern copied to mask document
+[2025-05-25 14:12:24] Protected 0 disclaimer text items
+[2025-05-25 14:12:24] Scaling pattern to match CL height...
+[2025-05-25 14:12:24] Scaling uniformly by 0.7739
+[2025-05-25 14:12:24] Pattern scaled and centered
+[2025-05-25 14:12:24] Creating clipping mask...
+[2025-05-25 14:12:24] Clipping path created
+[2025-05-25 14:12:24] Assembling final Target group...
+[2025-05-25 14:12:24] Target group assembled + clipping applied
+[2025-05-25 14:12:24] Saving to: D:\EPS\Iter\UI2\Target\2dc_PatCol.eps
+[2025-05-25 14:12:40] Successfully created: 2dc_PatCol.eps
+[2025-05-25 14:12:40] Processing PatBlk masking
+[2025-05-25 14:12:40] Pattern: D:\EPS\Iter\UI2\PatBlk.eps
+[2025-05-25 14:12:40] Mask: D:\EPS\Iter\UI2\2dc.eps
+[2025-05-25 14:12:44] Fetching CL + BL from mask document
+[2025-05-25 14:12:44] Found CL and BL groups
+[2025-05-25 14:12:44] Extracting pattern from PatBlk file...
+[2025-05-25 14:12:45] Pattern copied to mask document
+[2025-05-25 14:12:45] Protected 0 disclaimer text items
+[2025-05-25 14:12:45] Scaling pattern to match CL height...
+[2025-05-25 14:12:45] Scaling uniformly by 0.7739
+[2025-05-25 14:12:45] Pattern scaled and centered
+[2025-05-25 14:12:45] Creating clipping mask...
+[2025-05-25 14:12:45] Clipping path created
+[2025-05-25 14:12:45] Assembling final Target group...
+[2025-05-25 14:12:45] Target group assembled + clipping applied
+[2025-05-25 14:12:45] Saving to: D:\EPS\Iter\UI2\Target\2dc_PatBlk.eps
+[2025-05-25 14:12:54] Successfully created: 2dc_PatBlk.eps
+[2025-05-25 14:12:54] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
+[2025-05-25 14:34:05] ===== MSP1.jsx STARTED =====
+[2025-05-25 14:34:05] Processing PatCol masking
+[2025-05-25 14:34:05] Pattern: D:\EPS\Iter\UI2\PatCol.eps
+[2025-05-25 14:34:05] Mask: D:\EPS\Iter\UI2\2d.eps
+[2025-05-25 14:34:13] Fetching CL + BL from mask document
+[2025-05-25 14:34:13] Found CL and BL groups
+[2025-05-25 14:34:13] Extracting pattern from PatCol file...
+[2025-05-25 14:34:14] Pattern copied to mask document
+[2025-05-25 14:34:14] ERROR in processMasking: undefined은(는) 개체가 아닙니다.
+[2025-05-25 14:34:14] ===== MSP1.jsx FAILED: undefined은(는) 개체가 아닙니다. =====
+[2025-05-25 14:35:15] ===== MSP1.jsx STARTED =====
+[2025-05-25 14:35:15] Processing PatCol masking
+[2025-05-25 14:35:15] Pattern: D:\EPS\Iter\UI2\PatCol.eps
+[2025-05-25 14:35:15] Mask: D:\EPS\Iter\UI2\2db.eps
+[2025-05-25 14:35:20] Fetching CL + BL from mask document
+[2025-05-25 14:35:20] Found CL and BL groups
+[2025-05-25 14:35:21] Extracting pattern from PatCol file...
+[2025-05-25 14:35:22] Pattern copied to mask document
+[2025-05-25 14:35:22] Protected 0 disclaimer text items
+[2025-05-25 14:35:22] Scaling pattern to match CL height...
+[2025-05-25 14:35:22] Scaling uniformly by 0.7739
+[2025-05-25 14:35:22] Pattern scaled and centered
+[2025-05-25 14:35:22] Creating clipping mask...
+[2025-05-25 14:35:22] Clipping path created
+[2025-05-25 14:35:22] Assembling final Target group...
+[2025-05-25 14:35:22] Target group assembled + clipping applied
+[2025-05-25 14:35:22] Saving to: D:\EPS\Iter\UI2\Target\2db_PatCol.eps
+[2025-05-25 14:35:36] Successfully created: 2db_PatCol.eps
+[2025-05-25 14:35:36] Processing PatBlk masking
+[2025-05-25 14:35:36] Pattern: D:\EPS\Iter\UI2\PatBlk.eps
+[2025-05-25 14:35:36] Mask: D:\EPS\Iter\UI2\2db.eps
+[2025-05-25 14:35:42] Fetching CL + BL from mask document
+[2025-05-25 14:35:42] Found CL and BL groups
+[2025-05-25 14:35:42] Extracting pattern from PatBlk file...
+[2025-05-25 14:35:43] Pattern copied to mask document
+[2025-05-25 14:35:43] Protected 0 disclaimer text items
+[2025-05-25 14:35:43] Scaling pattern to match CL height...
+[2025-05-25 14:35:43] Scaling uniformly by 0.7739
+[2025-05-25 14:35:43] Pattern scaled and centered
+[2025-05-25 14:35:43] Creating clipping mask...
+[2025-05-25 14:35:43] Clipping path created
+[2025-05-25 14:35:43] Assembling final Target group...
+[2025-05-25 14:35:43] Target group assembled + clipping applied
+[2025-05-25 14:35:43] Saving to: D:\EPS\Iter\UI2\Target\2db_PatBlk.eps
+[2025-05-25 14:35:54] Successfully created: 2db_PatBlk.eps
+[2025-05-25 14:35:54] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
