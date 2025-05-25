@@ -30,3 +30,344 @@
 [2025-05-24 14:21:38.671] UPDATE_SYNTH - Updating synthesized names for column 4
 [2025-05-24 14:21:38.800] SYNTH_NAME - Column 4 Masked PatCol: s25ultra_PatCol.eps
 [2025-05-24 14:21:38.881] SYNTH_NAME - Column 4 Masked PatBlk: s25ultra_PatBlk.eps
+[2025-05-24 15:41:22.766] BUTTON_CLICK - Close button clicked
+[2025-05-24 15:41:22.831] SCRIPT_END - cmd8.jsx ending
+[2025-05-24 15:41:23.899] DIALOG_SHOWN - Dialog displayed to user
+[TEST] cmEpOp4_test.jsx started
+[老夸老, 5岿 25 2025 09:40:50] [SCRIPT_INIT] cmEpOp4e.jsx starting - early init
+[老夸老, 5岿 25 2025 09:40:50] [SCRIPT_START] cmEpOp4e.jsx starting - main execution
+[老夸老, 5岿 25 2025 09:41:00] [DOCUMENT_CREATED] New document created: 1000x1000
+[老夸老, 5岿 25 2025 09:41:00] [LAYERS_CREATED] Grid Guides and Artwork layers created
+[老夸老, 5岿 25 2025 09:41:00] [GRID_CALCULATED] Grid layout calculated - Cell size: 150x300
+[老夸老, 5岿 25 2025 09:41:00] [GRID_POSITIONS] Col1: 300, Col2: 550
+[老夸老, 5岿 25 2025 09:41:00] [GRID_POSITIONS] Row1: 1000, Row2: 650, Row3: 300
+[老夸老, 5岿 25 2025 09:41:00] [GRID_DRAWN] Grid guides and labels added
+[老夸老, 5岿 25 2025 09:41:00] [UI_CREATED] Column 1 (Pattern Col/Blk) created
+[老夸老, 5岿 25 2025 09:41:00] [UI_CREATED] Column 2 (2d BluePrint) created
+[老夸老, 5岿 25 2025 09:41:00] [UI_CREATED] Bottom section (2d BluePrint #2 and #3) created
+[老夸老, 5岿 25 2025 09:41:00] [UI_CREATED] Control buttons created
+[老夸老, 5岿 25 2025 09:41:00] [DIALOG_SHOW] Showing dialog
+[老夸老, 5岿 25 2025 09:41:19] [BUTTON_CLICK] Pattern Col button clicked
+[老夸老, 5岿 25 2025 09:41:26] [FILE_SELECTED] Pattern Col: D:\EPS\Iter\UI\PatCol.eps
+[老夸老, 5岿 25 2025 09:41:26] [IMAGE_PLACED] Pattern Col placed in document
+[老夸老, 5岿 25 2025 09:41:26] [IMAGE_RESIZED] Pattern Col resized: 150.0 x 300.0 (scale: 52.9%)
+[老夸老, 5岿 25 2025 09:41:26] [IMAGE_POSITIONED] Pattern Col positioned at (1,1): (300, 1000)
+[老夸老, 5岿 25 2025 09:41:26] [VISIBILITY] Pattern Col - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 09:41:26] [TEXT_ADDED] Label added for Pattern Col: PatCol.eps
+[老夸老, 5岿 25 2025 09:41:28] [DOCUMENT_UPDATED] Document refreshed and zoomed to fit
+[老夸老, 5岿 25 2025 09:41:31] [BUTTON_CLICK] Pattern Blk button clicked
+[老夸老, 5岿 25 2025 09:41:38] [FILE_SELECTED] Pattern Blk: D:\EPS\Iter\UI\PatBlk.eps
+[老夸老, 5岿 25 2025 09:41:38] [IMAGE_PLACED] Pattern Blk placed in document
+[老夸老, 5岿 25 2025 09:41:38] [IMAGE_RESIZED] Pattern Blk resized: 150.0 x 300.0 (scale: 52.9%)
+[老夸老, 5岿 25 2025 09:41:38] [IMAGE_POSITIONED] Pattern Blk positioned at (2,1): (300, 650)
+[老夸老, 5岿 25 2025 09:41:38] [VISIBILITY] Pattern Blk - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 09:41:38] [TEXT_ADDED] Label added for Pattern Blk: PatBlk.eps
+[老夸老, 5岿 25 2025 09:41:39] [DOCUMENT_UPDATED] Document refreshed and zoomed to fit
+[老夸老, 5岿 25 2025 09:41:45] [BUTTON_CLICK] 2d BluePrint button #1 clicked
+[老夸老, 5岿 25 2025 09:41:51] [FILE_SELECTED] 2d BluePrint #1: D:\EPS\Iter\UI\s25.eps
+[老夸老, 5岿 25 2025 09:41:51] [IMAGE_PLACED] 2d BluePrint placed in document
+[老夸老, 5岿 25 2025 09:41:51] [IMAGE_RESIZED] 2d BluePrint resized: 143.8 x 300.0 (scale: 72.1%)
+[老夸老, 5岿 25 2025 09:41:51] [IMAGE_POSITIONED] 2d BluePrint positioned at (1,2): (550, 1000)
+[老夸老, 5岿 25 2025 09:41:51] [VISIBILITY] 2d BluePrint - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 09:41:51] [TEXT_ADDED] Label added for 2d BluePrint: s25.eps
+[老夸老, 5岿 25 2025 09:41:52] [DOCUMENT_UPDATED] Document refreshed and zoomed to fit
+[老夸老, 5岿 25 2025 09:41:52] [TARGET_START] Starting Target PatCol placement
+[老夸老, 5岿 25 2025 09:41:52] [TARGET_PATH] Script folder: D:\EPS\Iter\UI
+[老夸老, 5岿 25 2025 09:41:52] [TARGET_PATH] Target folder: D:\EPS\Iter\UI\Target
+[老夸老, 5岿 25 2025 09:41:52] [TARGET_PATH] Looking for: D:\EPS\Iter\UI\Target\s25_PatCol.eps
+[老夸老, 5岿 25 2025 09:41:52] [TARGET_EXISTS] Target folder exists: true
+[老夸老, 5岿 25 2025 09:41:52] [TARGET_EXISTS] Target file exists: true
+[老夸老, 5岿 25 2025 09:41:52] [TARGET_FOUND] Target file found: s25_PatCol.eps
+[老夸老, 5岿 25 2025 09:41:52] [IMAGE_PLACED] Target PatCol placed: s25_PatCol.eps
+[老夸老, 5岿 25 2025 09:41:52] [IMAGE_RESIZED] Target PatCol resized: 141.9 x 300.0 (scale: 72.9%)
+[老夸老, 5岿 25 2025 09:41:52] [IMAGE_POSITIONED] Target PatCol positioned at (2,2): (550, 650)
+[老夸老, 5岿 25 2025 09:41:52] [VISIBILITY] Target PatCol - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 09:41:52] [TEXT_ADDED] Label added for Target PatCol: s25_PatCol.eps
+[老夸老, 5岿 25 2025 09:41:53] [TARGET_SUCCESS] Target PatCol placed successfully
+[老夸老, 5岿 25 2025 09:44:12] [BUTTON_CLICK] OK button clicked
+[老夸老, 5岿 25 2025 09:44:12] [DIALOG_CLOSE] Dialog closed with OK
+[老夸老, 5岿 25 2025 09:44:12] [FINAL_STATUS] PatCol: PatCol.eps
+[老夸老, 5岿 25 2025 09:44:12] [FINAL_STATUS] PatBlk: PatBlk.eps
+[老夸老, 5岿 25 2025 09:44:12] [FINAL_STATUS] BluePrint: s25.eps
+[老夸老, 5岿 25 2025 09:44:12] [FINAL_STATUS] BluePrint2: none
+[老夸老, 5岿 25 2025 09:44:12] [FINAL_STATUS] BluePrint3: none
+[老夸老, 5岿 25 2025 09:44:13] [SCRIPT_END] cmEpOp4e.jsx completed
+[老夸老, 5岿 25 2025 09:48:04] [SCRIPT_INIT] cmEpOp5.jsx starting - early init
+[老夸老, 5岿 25 2025 09:48:04] [SCRIPT_START] cmEpOp5.jsx starting - main execution
+[老夸老, 5岿 25 2025 09:48:11] [DOCUMENT_CREATED] New document created: 1000x1000
+[老夸老, 5岿 25 2025 09:48:11] [LAYERS_CREATED] Grid Guides and Artwork layers created
+[老夸老, 5岿 25 2025 09:48:11] [GRID_CALCULATED] Grid layout calculated - Cell size: 150x300
+[老夸老, 5岿 25 2025 09:48:11] [GRID_POSITIONS] Col1: 300, Col2: 550
+[老夸老, 5岿 25 2025 09:48:11] [GRID_POSITIONS] Row1: 1000, Row2: 650, Row3: 300
+[老夸老, 5岿 25 2025 09:48:11] [GRID_DRAWN] Grid guides and labels added
+[老夸老, 5岿 25 2025 09:48:11] [UI_CREATED] Column 1 (Pattern Col/Blk) created
+[老夸老, 5岿 25 2025 09:48:11] [UI_CREATED] Column 2 (2d BluePrint) created
+[老夸老, 5岿 25 2025 09:48:11] [UI_CREATED] Bottom section (2d BluePrint #2 and #3) created
+[老夸老, 5岿 25 2025 09:48:11] [UI_CREATED] Control buttons created
+[老夸老, 5岿 25 2025 09:48:11] [DIALOG_SHOW] Showing dialog
+[老夸老, 5岿 25 2025 09:48:16] [BUTTON_CLICK] Pattern Col button clicked
+[老夸老, 5岿 25 2025 09:48:24] [FILE_SELECTED] Pattern Col: D:\EPS\Iter\UI\PatCol.eps
+[老夸老, 5岿 25 2025 09:48:24] [IMAGE_PLACED] Pattern Col placed in document
+[老夸老, 5岿 25 2025 09:48:24] [IMAGE_RESIZED] Pattern Col resized: 150.0 x 300.0 (scale: 52.9%)
+[老夸老, 5岿 25 2025 09:48:24] [IMAGE_POSITIONED] Pattern Col positioned at (1,1): (300, 1000)
+[老夸老, 5岿 25 2025 09:48:24] [VISIBILITY] Pattern Col - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 09:48:24] [TEXT_ADDED] Label added for Pattern Col: PatCol.eps
+[老夸老, 5岿 25 2025 09:48:26] [DOCUMENT_UPDATED] Document refreshed and zoomed to fit
+[老夸老, 5岿 25 2025 09:48:28] [BUTTON_CLICK] Pattern Blk button clicked
+[老夸老, 5岿 25 2025 09:48:35] [FILE_SELECTED] Pattern Blk: D:\EPS\Iter\UI\PatBlk.eps
+[老夸老, 5岿 25 2025 09:48:35] [IMAGE_PLACED] Pattern Blk placed in document
+[老夸老, 5岿 25 2025 09:48:35] [IMAGE_RESIZED] Pattern Blk resized: 150.0 x 300.0 (scale: 52.9%)
+[老夸老, 5岿 25 2025 09:48:35] [IMAGE_POSITIONED] Pattern Blk positioned at (2,1): (300, 650)
+[老夸老, 5岿 25 2025 09:48:35] [VISIBILITY] Pattern Blk - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 09:48:35] [TEXT_ADDED] Label added for Pattern Blk: PatBlk.eps
+[老夸老, 5岿 25 2025 09:48:36] [DOCUMENT_UPDATED] Document refreshed and zoomed to fit
+[老夸老, 5岿 25 2025 09:48:38] [BUTTON_CLICK] 2d BluePrint button #1 clicked
+[老夸老, 5岿 25 2025 09:48:45] [FILE_SELECTED] 2d BluePrint #1: D:\EPS\Iter\UI\s25.eps
+[老夸老, 5岿 25 2025 09:48:45] [IMAGE_PLACED] 2d BluePrint placed in document
+[老夸老, 5岿 25 2025 09:48:45] [IMAGE_RESIZED] 2d BluePrint resized: 143.8 x 300.0 (scale: 72.1%)
+[老夸老, 5岿 25 2025 09:48:45] [IMAGE_POSITIONED] 2d BluePrint positioned at (1,2): (550, 1000)
+[老夸老, 5岿 25 2025 09:48:45] [VISIBILITY] 2d BluePrint - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 09:48:45] [TEXT_ADDED] Label added for 2d BluePrint: s25.eps
+[老夸老, 5岿 25 2025 09:48:46] [DOCUMENT_UPDATED] Document refreshed and zoomed to fit
+[老夸老, 5岿 25 2025 09:48:46] [TARGET_START] Starting Target PatCol placement
+[老夸老, 5岿 25 2025 09:48:46] [TARGET_PATH] Script folder: D:\EPS\Iter\UI
+[老夸老, 5岿 25 2025 09:48:46] [TARGET_PATH] Target folder: D:\EPS\Iter\UI\Target
+[老夸老, 5岿 25 2025 09:48:46] [TARGET_PATH] Looking for: D:\EPS\Iter\UI\Target\s25_PatCol.eps
+[老夸老, 5岿 25 2025 09:48:46] [TARGET_EXISTS] Target folder exists: true
+[老夸老, 5岿 25 2025 09:48:46] [TARGET_EXISTS] Target file exists: true
+[老夸老, 5岿 25 2025 09:48:46] [TARGET_FOUND] Target file found: s25_PatCol.eps
+[老夸老, 5岿 25 2025 09:48:46] [IMAGE_PLACED] Target PatCol placed: s25_PatCol.eps
+[老夸老, 5岿 25 2025 09:48:46] [IMAGE_RESIZED] Target PatCol resized: 141.9 x 300.0 (scale: 72.9%)
+[老夸老, 5岿 25 2025 09:48:46] [IMAGE_POSITIONED] Target PatCol positioned at (2,2): (550, 650)
+[老夸老, 5岿 25 2025 09:48:46] [VISIBILITY] Target PatCol - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 09:48:46] [TEXT_ADDED] Label added for Target PatCol: s25_PatCol.eps
+[老夸老, 5岿 25 2025 09:48:47] [TARGET_SUCCESS] Target PatCol placed successfully
+[老夸老, 5岿 25 2025 09:48:47] [TARGET_BLK_START] Starting Target PatBlk placement
+[老夸老, 5岿 25 2025 09:48:47] [TARGET_BLK_PATH] Looking for: D:\EPS\Iter\UI\Target\s25_PatBlk.eps
+[老夸老, 5岿 25 2025 09:48:48] [TARGET_BLK_EXISTS] Target PatBlk file exists: true
+[老夸老, 5岿 25 2025 09:48:48] [TARGET_BLK_FOUND] Target PatBlk file found: s25_PatBlk.eps
+[老夸老, 5岿 25 2025 09:48:48] [IMAGE_PLACED] Target PatBlk placed: s25_PatBlk.eps
+[老夸老, 5岿 25 2025 09:48:48] [IMAGE_RESIZED] Target PatBlk resized: 141.9 x 300.0 (scale: 72.9%)
+[老夸老, 5岿 25 2025 09:48:48] [IMAGE_POSITIONED] Target PatBlk positioned at (3,2): (550, 300)
+[老夸老, 5岿 25 2025 09:48:48] [VISIBILITY] Target PatBlk - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 09:48:48] [TEXT_ADDED] Label added for Target PatBlk: s25_PatBlk.eps
+[老夸老, 5岿 25 2025 09:48:49] [TARGET_BLK_SUCCESS] Target PatBlk placed successfully
+[老夸老, 5岿 25 2025 09:57:32] [BUTTON_CLICK] OK button clicked
+[老夸老, 5岿 25 2025 09:57:32] [DIALOG_CLOSE] Dialog closed with OK
+[老夸老, 5岿 25 2025 09:57:32] [FINAL_STATUS] PatCol: PatCol.eps
+[老夸老, 5岿 25 2025 09:57:32] [FINAL_STATUS] PatBlk: PatBlk.eps
+[老夸老, 5岿 25 2025 09:57:32] [FINAL_STATUS] BluePrint: s25.eps
+[老夸老, 5岿 25 2025 09:57:32] [FINAL_STATUS] BluePrint2: none
+[老夸老, 5岿 25 2025 09:57:32] [FINAL_STATUS] BluePrint3: none
+[老夸老, 5岿 25 2025 09:57:33] [SCRIPT_END] cmEpOp5.jsx completed
+[老夸老, 5岿 25 2025 09:58:12] [SCRIPT_INIT] cmEpOp6.jsx starting - early init
+[老夸老, 5岿 25 2025 09:58:12] [SCRIPT_START] cmEpOp6.jsx starting - main execution
+[老夸老, 5岿 25 2025 09:58:19] [DOCUMENT_CREATED] New document created: 1000x1000
+[老夸老, 5岿 25 2025 09:58:19] [LAYERS_CREATED] Grid Guides and Artwork layers created
+[老夸老, 5岿 25 2025 09:58:20] [GRID_CALCULATED] Grid layout calculated - Cell size: 150x300
+[老夸老, 5岿 25 2025 09:58:20] [GRID_POSITIONS] Col1: 175, Col2: 425, Col3: 675
+[老夸老, 5岿 25 2025 09:58:20] [GRID_POSITIONS] Row1: 1000, Row2: 650, Row3: 300
+[老夸老, 5岿 25 2025 09:58:20] [GRID_DRAWN] Grid guides and labels added
+[老夸老, 5岿 25 2025 09:58:20] [UI_CREATED] Column 1 (Pattern Col/Blk) created
+[老夸老, 5岿 25 2025 09:58:20] [UI_CREATED] Column 2 (2d BluePrint) created
+[老夸老, 5岿 25 2025 09:58:20] [UI_CREATED] Bottom section (2d BluePrint #2 and #3) created
+[老夸老, 5岿 25 2025 09:58:20] [UI_CREATED] Control buttons created
+[老夸老, 5岿 25 2025 09:58:20] [DIALOG_SHOW] Showing dialog
+[老夸老, 5岿 25 2025 09:58:27] [BUTTON_CLICK] Pattern Col button clicked
+[老夸老, 5岿 25 2025 09:58:33] [FILE_SELECTED] Pattern Col: D:\EPS\Iter\UI\PatCol.eps
+[老夸老, 5岿 25 2025 09:58:33] [IMAGE_PLACED] Pattern Col placed in document
+[老夸老, 5岿 25 2025 09:58:33] [IMAGE_RESIZED] Pattern Col resized: 150.0 x 300.0 (scale: 52.9%)
+[老夸老, 5岿 25 2025 09:58:33] [IMAGE_POSITIONED] Pattern Col positioned at (1,1): (175, 1000)
+[老夸老, 5岿 25 2025 09:58:33] [VISIBILITY] Pattern Col - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 09:58:33] [TEXT_ADDED] Label added for Pattern Col: PatCol.eps
+[老夸老, 5岿 25 2025 09:58:35] [DOCUMENT_UPDATED] Document refreshed and zoomed to fit
+[老夸老, 5岿 25 2025 09:58:36] [BUTTON_CLICK] Pattern Blk button clicked
+[老夸老, 5岿 25 2025 09:58:45] [FILE_SELECTED] Pattern Blk: D:\EPS\Iter\UI\PatBlk.eps
+[老夸老, 5岿 25 2025 09:58:45] [IMAGE_PLACED] Pattern Blk placed in document
+[老夸老, 5岿 25 2025 09:58:45] [IMAGE_RESIZED] Pattern Blk resized: 150.0 x 300.0 (scale: 52.9%)
+[老夸老, 5岿 25 2025 09:58:45] [IMAGE_POSITIONED] Pattern Blk positioned at (2,1): (175, 650)
+[老夸老, 5岿 25 2025 09:58:45] [VISIBILITY] Pattern Blk - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 09:58:45] [TEXT_ADDED] Label added for Pattern Blk: PatBlk.eps
+[老夸老, 5岿 25 2025 09:58:46] [DOCUMENT_UPDATED] Document refreshed and zoomed to fit
+[老夸老, 5岿 25 2025 09:58:47] [BUTTON_CLICK] 2d BluePrint button #1 clicked
+[老夸老, 5岿 25 2025 09:58:55] [FILE_SELECTED] 2d BluePrint #1: D:\EPS\Iter\UI\s25.eps
+[老夸老, 5岿 25 2025 09:58:56] [IMAGE_PLACED] 2d BluePrint placed in document
+[老夸老, 5岿 25 2025 09:58:56] [IMAGE_RESIZED] 2d BluePrint resized: 143.8 x 300.0 (scale: 72.1%)
+[老夸老, 5岿 25 2025 09:58:56] [IMAGE_POSITIONED] 2d BluePrint positioned at (1,2): (425, 1000)
+[老夸老, 5岿 25 2025 09:58:56] [VISIBILITY] 2d BluePrint - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 09:58:56] [TEXT_ADDED] Label added for 2d BluePrint: s25.eps
+[老夸老, 5岿 25 2025 09:58:56] [DOCUMENT_UPDATED] Document refreshed and zoomed to fit
+[老夸老, 5岿 25 2025 09:58:56] [TARGET_START] Starting Target PatCol placement
+[老夸老, 5岿 25 2025 09:58:56] [TARGET_PATH] Script folder: D:\EPS\Iter\UI
+[老夸老, 5岿 25 2025 09:58:56] [TARGET_PATH] Target folder: D:\EPS\Iter\UI\Target
+[老夸老, 5岿 25 2025 09:58:56] [TARGET_PATH] Looking for: D:\EPS\Iter\UI\Target\s25_PatCol.eps
+[老夸老, 5岿 25 2025 09:58:56] [TARGET_EXISTS] Target folder exists: true
+[老夸老, 5岿 25 2025 09:58:56] [TARGET_EXISTS] Target file exists: true
+[老夸老, 5岿 25 2025 09:58:56] [TARGET_FOUND] Target file found: s25_PatCol.eps
+[老夸老, 5岿 25 2025 09:58:56] [IMAGE_PLACED] Target PatCol placed: s25_PatCol.eps
+[老夸老, 5岿 25 2025 09:58:56] [IMAGE_RESIZED] Target PatCol resized: 141.9 x 300.0 (scale: 72.9%)
+[老夸老, 5岿 25 2025 09:58:56] [IMAGE_POSITIONED] Target PatCol positioned at (2,2): (425, 650)
+[老夸老, 5岿 25 2025 09:58:56] [VISIBILITY] Target PatCol - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 09:58:56] [TEXT_ADDED] Label added for Target PatCol: s25_PatCol.eps
+[老夸老, 5岿 25 2025 09:58:57] [TARGET_SUCCESS] Target PatCol placed successfully
+[老夸老, 5岿 25 2025 09:58:57] [TARGET_BLK_START] Starting Target PatBlk placement
+[老夸老, 5岿 25 2025 09:58:58] [TARGET_BLK_PATH] Looking for: D:\EPS\Iter\UI\Target\s25_PatBlk.eps
+[老夸老, 5岿 25 2025 09:58:58] [TARGET_BLK_EXISTS] Target PatBlk file exists: true
+[老夸老, 5岿 25 2025 09:58:58] [TARGET_BLK_FOUND] Target PatBlk file found: s25_PatBlk.eps
+[老夸老, 5岿 25 2025 09:58:58] [IMAGE_PLACED] Target PatBlk placed: s25_PatBlk.eps
+[老夸老, 5岿 25 2025 09:58:58] [IMAGE_RESIZED] Target PatBlk resized: 141.9 x 300.0 (scale: 72.9%)
+[老夸老, 5岿 25 2025 09:58:58] [IMAGE_POSITIONED] Target PatBlk positioned at (3,2): (425, 300)
+[老夸老, 5岿 25 2025 09:58:58] [VISIBILITY] Target PatBlk - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 09:58:58] [TEXT_ADDED] Label added for Target PatBlk: s25_PatBlk.eps
+[老夸老, 5岿 25 2025 09:58:59] [TARGET_BLK_SUCCESS] Target PatBlk placed successfully
+[老夸老, 5岿 25 2025 09:59:02] [BUTTON_CLICK] 2d BluePrint button #2 clicked
+[老夸老, 5岿 25 2025 09:59:10] [FILE_SELECTED] 2d BluePrint #2: D:\EPS\Iter\UI\s25plus.eps
+[老夸老, 5岿 25 2025 09:59:10] [IMAGE_PLACED] 2d BluePrint #2 placed in document
+[老夸老, 5岿 25 2025 09:59:10] [IMAGE_RESIZED] 2d BluePrint #2 resized: 143.4 x 300.0 (scale: 66.8%)
+[老夸老, 5岿 25 2025 09:59:10] [IMAGE_POSITIONED] 2d BluePrint #2 positioned at (1,3): (675, 1000)
+[老夸老, 5岿 25 2025 09:59:10] [VISIBILITY] 2d BluePrint #2 - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 09:59:10] [TEXT_ADDED] Label added for 2d BluePrint #2: s25plus.eps
+[老夸老, 5岿 25 2025 09:59:10] [DOCUMENT_UPDATED] Document refreshed and zoomed to fit
+[老夸老, 5岿 25 2025 09:59:10] [TARGET2_START] Starting Target #2 placement
+[老夸老, 5岿 25 2025 09:59:11] [TARGET2_PATH] Looking for PatCol: D:\EPS\Iter\UI\Target\s25plus_PatCol.eps
+[老夸老, 5岿 25 2025 09:59:11] [TARGET2_PATH] Looking for PatBlk: D:\EPS\Iter\UI\Target\s25plus_PatBlk.eps
+[老夸老, 5岿 25 2025 09:59:11] [TARGET2_PATCOL_FOUND] Target PatCol #2 file found: s25plus_PatCol.eps
+[老夸老, 5岿 25 2025 09:59:11] [IMAGE_PLACED] Target PatCol #2 placed: s25plus_PatCol.eps
+[老夸老, 5岿 25 2025 09:59:11] [IMAGE_RESIZED] Target PatCol #2 resized: 141.9 x 300.0 (scale: 72.9%)
+[老夸老, 5岿 25 2025 09:59:11] [IMAGE_POSITIONED] Target PatCol #2 positioned at (2,3): (675, 650)
+[老夸老, 5岿 25 2025 09:59:11] [VISIBILITY] Target PatCol #2 - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 09:59:11] [TEXT_ADDED] Label added for Target PatCol #2: s25plus_PatCol.eps
+[老夸老, 5岿 25 2025 09:59:11] [TARGET2_PATCOL_SUCCESS] Target PatCol #2 placed successfully
+[老夸老, 5岿 25 2025 09:59:11] [TARGET2_PATBLK_FOUND] Target PatBlk #2 file found: s25plus_PatBlk.eps
+[老夸老, 5岿 25 2025 09:59:11] [IMAGE_PLACED] Target PatBlk #2 placed: s25plus_PatBlk.eps
+[老夸老, 5岿 25 2025 09:59:11] [IMAGE_RESIZED] Target PatBlk #2 resized: 141.9 x 300.0 (scale: 72.9%)
+[老夸老, 5岿 25 2025 09:59:11] [IMAGE_POSITIONED] Target PatBlk #2 positioned at (3,3): (675, 300)
+[老夸老, 5岿 25 2025 09:59:11] [VISIBILITY] Target PatBlk #2 - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 09:59:11] [TEXT_ADDED] Label added for Target PatBlk #2: s25plus_PatBlk.eps
+[老夸老, 5岿 25 2025 09:59:11] [TARGET2_PATBLK_SUCCESS] Target PatBlk #2 placed successfully
+[老夸老, 5岿 25 2025 10:09:14] [BUTTON_CLICK] OK button clicked
+[老夸老, 5岿 25 2025 10:09:15] [DIALOG_CLOSE] Dialog closed with OK
+[老夸老, 5岿 25 2025 10:09:15] [FINAL_STATUS] PatCol: PatCol.eps
+[老夸老, 5岿 25 2025 10:09:15] [FINAL_STATUS] PatBlk: PatBlk.eps
+[老夸老, 5岿 25 2025 10:09:15] [FINAL_STATUS] BluePrint: s25.eps
+[老夸老, 5岿 25 2025 10:09:15] [FINAL_STATUS] BluePrint2: s25plus.eps
+[老夸老, 5岿 25 2025 10:09:15] [FINAL_STATUS] BluePrint3: none
+[老夸老, 5岿 25 2025 10:09:15] [SCRIPT_END] cmEpOp6.jsx completed
+[老夸老, 5岿 25 2025 10:09:59] [SCRIPT_INIT] cmEpOp7.jsx starting - early init
+[老夸老, 5岿 25 2025 10:09:59] [SCRIPT_START] cmEpOp7.jsx starting - main execution
+[老夸老, 5岿 25 2025 10:10:06] [DOCUMENT_CREATED] New document created: 1000x1000
+[老夸老, 5岿 25 2025 10:10:06] [LAYERS_CREATED] Grid Guides and Artwork layers created
+[老夸老, 5岿 25 2025 10:10:06] [GRID_CALCULATED] Grid layout calculated - Cell size: 150x300
+[老夸老, 5岿 25 2025 10:10:06] [GRID_POSITIONS] Col1: 50, Col2: 300, Col3: 550, Col4: 800
+[老夸老, 5岿 25 2025 10:10:06] [GRID_POSITIONS] Row1: 1000, Row2: 650, Row3: 300
+[老夸老, 5岿 25 2025 10:10:06] [GRID_DRAWN] Grid guides and labels added
+[老夸老, 5岿 25 2025 10:10:07] [UI_CREATED] Column 1 (Pattern Col/Blk) created
+[老夸老, 5岿 25 2025 10:10:07] [UI_CREATED] Column 2 (2d BluePrint) created
+[老夸老, 5岿 25 2025 10:10:07] [UI_CREATED] Bottom section (2d BluePrint #2 and #3) created
+[老夸老, 5岿 25 2025 10:10:07] [UI_CREATED] Control buttons created
+[老夸老, 5岿 25 2025 10:10:07] [DIALOG_SHOW] Showing dialog
+[老夸老, 5岿 25 2025 10:10:14] [BUTTON_CLICK] Pattern Col button clicked
+[老夸老, 5岿 25 2025 10:10:21] [FILE_SELECTED] Pattern Col: D:\EPS\Iter\UI\PatCol.eps
+[老夸老, 5岿 25 2025 10:10:21] [IMAGE_PLACED] Pattern Col placed in document
+[老夸老, 5岿 25 2025 10:10:21] [IMAGE_RESIZED] Pattern Col resized: 150.0 x 300.0 (scale: 52.9%)
+[老夸老, 5岿 25 2025 10:10:21] [IMAGE_POSITIONED] Pattern Col positioned at (1,1): (50, 1000)
+[老夸老, 5岿 25 2025 10:10:21] [VISIBILITY] Pattern Col - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 10:10:21] [TEXT_ADDED] Label added for Pattern Col: PatCol.eps
+[老夸老, 5岿 25 2025 10:10:23] [DOCUMENT_UPDATED] Document refreshed and zoomed to fit
+[老夸老, 5岿 25 2025 10:10:25] [BUTTON_CLICK] Pattern Blk button clicked
+[老夸老, 5岿 25 2025 10:10:32] [FILE_SELECTED] Pattern Blk: D:\EPS\Iter\UI\PatBlk.eps
+[老夸老, 5岿 25 2025 10:10:32] [IMAGE_PLACED] Pattern Blk placed in document
+[老夸老, 5岿 25 2025 10:10:32] [IMAGE_RESIZED] Pattern Blk resized: 150.0 x 300.0 (scale: 52.9%)
+[老夸老, 5岿 25 2025 10:10:32] [IMAGE_POSITIONED] Pattern Blk positioned at (2,1): (50, 650)
+[老夸老, 5岿 25 2025 10:10:32] [VISIBILITY] Pattern Blk - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 10:10:32] [TEXT_ADDED] Label added for Pattern Blk: PatBlk.eps
+[老夸老, 5岿 25 2025 10:10:33] [DOCUMENT_UPDATED] Document refreshed and zoomed to fit
+[老夸老, 5岿 25 2025 10:10:34] [BUTTON_CLICK] 2d BluePrint button #1 clicked
+[老夸老, 5岿 25 2025 10:10:42] [FILE_SELECTED] 2d BluePrint #1: D:\EPS\Iter\UI\s25.eps
+[老夸老, 5岿 25 2025 10:10:42] [IMAGE_PLACED] 2d BluePrint placed in document
+[老夸老, 5岿 25 2025 10:10:43] [IMAGE_RESIZED] 2d BluePrint resized: 143.8 x 300.0 (scale: 72.1%)
+[老夸老, 5岿 25 2025 10:10:43] [IMAGE_POSITIONED] 2d BluePrint positioned at (1,2): (300, 1000)
+[老夸老, 5岿 25 2025 10:10:43] [VISIBILITY] 2d BluePrint - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 10:10:43] [TEXT_ADDED] Label added for 2d BluePrint: s25.eps
+[老夸老, 5岿 25 2025 10:10:43] [DOCUMENT_UPDATED] Document refreshed and zoomed to fit
+[老夸老, 5岿 25 2025 10:10:43] [TARGET_START] Starting Target PatCol placement
+[老夸老, 5岿 25 2025 10:10:43] [TARGET_PATH] Script folder: D:\EPS\Iter\UI
+[老夸老, 5岿 25 2025 10:10:43] [TARGET_PATH] Target folder: D:\EPS\Iter\UI\Target
+[老夸老, 5岿 25 2025 10:10:43] [TARGET_PATH] Looking for: D:\EPS\Iter\UI\Target\s25_PatCol.eps
+[老夸老, 5岿 25 2025 10:10:43] [TARGET_EXISTS] Target folder exists: true
+[老夸老, 5岿 25 2025 10:10:43] [TARGET_EXISTS] Target file exists: true
+[老夸老, 5岿 25 2025 10:10:43] [TARGET_FOUND] Target file found: s25_PatCol.eps
+[老夸老, 5岿 25 2025 10:10:43] [IMAGE_PLACED] Target PatCol placed: s25_PatCol.eps
+[老夸老, 5岿 25 2025 10:10:43] [IMAGE_RESIZED] Target PatCol resized: 141.9 x 300.0 (scale: 72.9%)
+[老夸老, 5岿 25 2025 10:10:43] [IMAGE_POSITIONED] Target PatCol positioned at (2,2): (300, 650)
+[老夸老, 5岿 25 2025 10:10:43] [VISIBILITY] Target PatCol - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 10:10:44] [TEXT_ADDED] Label added for Target PatCol: s25_PatCol.eps
+[老夸老, 5岿 25 2025 10:10:45] [TARGET_SUCCESS] Target PatCol placed successfully
+[老夸老, 5岿 25 2025 10:10:45] [TARGET_BLK_START] Starting Target PatBlk placement
+[老夸老, 5岿 25 2025 10:10:45] [TARGET_BLK_PATH] Looking for: D:\EPS\Iter\UI\Target\s25_PatBlk.eps
+[老夸老, 5岿 25 2025 10:10:45] [TARGET_BLK_EXISTS] Target PatBlk file exists: true
+[老夸老, 5岿 25 2025 10:10:45] [TARGET_BLK_FOUND] Target PatBlk file found: s25_PatBlk.eps
+[老夸老, 5岿 25 2025 10:10:45] [IMAGE_PLACED] Target PatBlk placed: s25_PatBlk.eps
+[老夸老, 5岿 25 2025 10:10:45] [IMAGE_RESIZED] Target PatBlk resized: 141.9 x 300.0 (scale: 72.9%)
+[老夸老, 5岿 25 2025 10:10:45] [IMAGE_POSITIONED] Target PatBlk positioned at (3,2): (300, 300)
+[老夸老, 5岿 25 2025 10:10:45] [VISIBILITY] Target PatBlk - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 10:10:45] [TEXT_ADDED] Label added for Target PatBlk: s25_PatBlk.eps
+[老夸老, 5岿 25 2025 10:10:46] [TARGET_BLK_SUCCESS] Target PatBlk placed successfully
+[老夸老, 5岿 25 2025 10:10:50] [BUTTON_CLICK] 2d BluePrint button #2 clicked
+[老夸老, 5岿 25 2025 10:10:58] [FILE_SELECTED] 2d BluePrint #2: D:\EPS\Iter\UI\s25plus.eps
+[老夸老, 5岿 25 2025 10:10:58] [IMAGE_PLACED] 2d BluePrint #2 placed in document
+[老夸老, 5岿 25 2025 10:10:58] [IMAGE_RESIZED] 2d BluePrint #2 resized: 143.4 x 300.0 (scale: 66.8%)
+[老夸老, 5岿 25 2025 10:10:58] [IMAGE_POSITIONED] 2d BluePrint #2 positioned at (1,3): (550, 1000)
+[老夸老, 5岿 25 2025 10:10:58] [VISIBILITY] 2d BluePrint #2 - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 10:10:58] [TEXT_ADDED] Label added for 2d BluePrint #2: s25plus.eps
+[老夸老, 5岿 25 2025 10:10:59] [DOCUMENT_UPDATED] Document refreshed and zoomed to fit
+[老夸老, 5岿 25 2025 10:10:59] [TARGET2_START] Starting Target #2 placement
+[老夸老, 5岿 25 2025 10:10:59] [TARGET2_PATH] Looking for PatCol: D:\EPS\Iter\UI\Target\s25plus_PatCol.eps
+[老夸老, 5岿 25 2025 10:10:59] [TARGET2_PATH] Looking for PatBlk: D:\EPS\Iter\UI\Target\s25plus_PatBlk.eps
+[老夸老, 5岿 25 2025 10:10:59] [TARGET2_PATCOL_FOUND] Target PatCol #2 file found: s25plus_PatCol.eps
+[老夸老, 5岿 25 2025 10:10:59] [IMAGE_PLACED] Target PatCol #2 placed: s25plus_PatCol.eps
+[老夸老, 5岿 25 2025 10:10:59] [IMAGE_RESIZED] Target PatCol #2 resized: 141.9 x 300.0 (scale: 72.9%)
+[老夸老, 5岿 25 2025 10:10:59] [IMAGE_POSITIONED] Target PatCol #2 positioned at (2,3): (550, 650)
+[老夸老, 5岿 25 2025 10:10:59] [VISIBILITY] Target PatCol #2 - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 10:10:59] [TEXT_ADDED] Label added for Target PatCol #2: s25plus_PatCol.eps
+[老夸老, 5岿 25 2025 10:10:59] [TARGET2_PATCOL_SUCCESS] Target PatCol #2 placed successfully
+[老夸老, 5岿 25 2025 10:10:59] [TARGET2_PATBLK_FOUND] Target PatBlk #2 file found: s25plus_PatBlk.eps
+[老夸老, 5岿 25 2025 10:10:59] [IMAGE_PLACED] Target PatBlk #2 placed: s25plus_PatBlk.eps
+[老夸老, 5岿 25 2025 10:10:59] [IMAGE_RESIZED] Target PatBlk #2 resized: 141.9 x 300.0 (scale: 72.9%)
+[老夸老, 5岿 25 2025 10:10:59] [IMAGE_POSITIONED] Target PatBlk #2 positioned at (3,3): (550, 300)
+[老夸老, 5岿 25 2025 10:10:59] [VISIBILITY] Target PatBlk #2 - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 10:10:59] [TEXT_ADDED] Label added for Target PatBlk #2: s25plus_PatBlk.eps
+[老夸老, 5岿 25 2025 10:10:59] [TARGET2_PATBLK_SUCCESS] Target PatBlk #2 placed successfully
+[老夸老, 5岿 25 2025 10:11:07] [BUTTON_CLICK] 2d BluePrint button #3 clicked
+[老夸老, 5岿 25 2025 10:11:14] [FILE_SELECTED] 2d BluePrint #3: D:\EPS\Iter\UI\s25ultra.eps
+[老夸老, 5岿 25 2025 10:11:14] [IMAGE_PLACED] 2d BluePrint #3 placed in document
+[老夸老, 5岿 25 2025 10:11:14] [IMAGE_RESIZED] 2d BluePrint #3 resized: 143.0 x 300.0 (scale: 65.0%)
+[老夸老, 5岿 25 2025 10:11:15] [IMAGE_POSITIONED] 2d BluePrint #3 positioned at (1,4): (800, 1000)
+[老夸老, 5岿 25 2025 10:11:15] [VISIBILITY] 2d BluePrint #3 - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 10:11:15] [TEXT_ADDED] Label added for 2d BluePrint #3: s25ultra.eps
+[老夸老, 5岿 25 2025 10:11:15] [DOCUMENT_UPDATED] Document refreshed and zoomed to fit
+[老夸老, 5岿 25 2025 10:11:15] [TARGET3_START] Starting Target #3 placement
+[老夸老, 5岿 25 2025 10:11:15] [TARGET3_PATH] Looking for PatCol: D:\EPS\Iter\UI\Target\s25ultra_PatCol.eps
+[老夸老, 5岿 25 2025 10:11:15] [TARGET3_PATH] Looking for PatBlk: D:\EPS\Iter\UI\Target\s25ultra_PatBlk.eps
+[老夸老, 5岿 25 2025 10:11:15] [TARGET3_PATCOL_FOUND] Target PatCol #3 file found: s25ultra_PatCol.eps
+[老夸老, 5岿 25 2025 10:11:15] [IMAGE_PLACED] Target PatCol #3 placed: s25ultra_PatCol.eps
+[老夸老, 5岿 25 2025 10:11:15] [IMAGE_RESIZED] Target PatCol #3 resized: 141.9 x 300.0 (scale: 72.9%)
+[老夸老, 5岿 25 2025 10:11:15] [IMAGE_POSITIONED] Target PatCol #3 positioned at (2,4): (800, 650)
+[老夸老, 5岿 25 2025 10:11:15] [VISIBILITY] Target PatCol #3 - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 10:11:15] [TEXT_ADDED] Label added for Target PatCol #3: s25ultra_PatCol.eps
+[老夸老, 5岿 25 2025 10:11:16] [TARGET3_PATCOL_SUCCESS] Target PatCol #3 placed successfully
+[老夸老, 5岿 25 2025 10:11:16] [TARGET3_PATBLK_FOUND] Target PatBlk #3 file found: s25ultra_PatBlk.eps
+[老夸老, 5岿 25 2025 10:11:16] [IMAGE_PLACED] Target PatBlk #3 placed: s25ultra_PatBlk.eps
+[老夸老, 5岿 25 2025 10:11:16] [IMAGE_RESIZED] Target PatBlk #3 resized: 141.9 x 300.0 (scale: 72.9%)
+[老夸老, 5岿 25 2025 10:11:16] [IMAGE_POSITIONED] Target PatBlk #3 positioned at (3,4): (800, 300)
+[老夸老, 5岿 25 2025 10:11:16] [VISIBILITY] Target PatBlk #3 - Layer visible: true, Item hidden: false
+[老夸老, 5岿 25 2025 10:11:16] [TEXT_ADDED] Label added for Target PatBlk #3: s25ultra_PatBlk.eps
+[老夸老, 5岿 25 2025 10:11:16] [TARGET3_PATBLK_SUCCESS] Target PatBlk #3 placed successfully
+[老夸老, 5岿 25 2025 10:11:35] [BUTTON_CLICK] OK button clicked
+[老夸老, 5岿 25 2025 10:11:35] [DIALOG_CLOSE] Dialog closed with OK
+[老夸老, 5岿 25 2025 10:11:35] [FINAL_STATUS] PatCol: PatCol.eps
+[老夸老, 5岿 25 2025 10:11:35] [FINAL_STATUS] PatBlk: PatBlk.eps
+[老夸老, 5岿 25 2025 10:11:35] [FINAL_STATUS] BluePrint: s25.eps
+[老夸老, 5岿 25 2025 10:11:35] [FINAL_STATUS] BluePrint2: s25plus.eps
+[老夸老, 5岿 25 2025 10:11:35] [FINAL_STATUS] BluePrint3: s25ultra.eps
+[老夸老, 5岿 25 2025 10:11:36] [SCRIPT_END] cmEpOp7.jsx completed

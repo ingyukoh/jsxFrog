@@ -1,3 +1,0 @@
-Test log file created at: Sat May 24 2025 09:46:55 GMT+0900
-Script file: D:\EPS\Iter\UI\eps7b_test.jsx
-Script folder: D:\EPS\Iter\UI
