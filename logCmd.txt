@@ -779,3 +779,70 @@
 [금요일, 5월 30 2025 15:49:07] [FINAL_STATUS] BluePrint2: none
 [금요일, 5월 30 2025 15:49:07] [FINAL_STATUS] BluePrint3: none
 [금요일, 5월 30 2025 15:49:08] [SCRIPT_END] cmEpOp7.jsx completed
+[금요일, 5월 30 2025 18:34:13] [SCRIPT_INIT] mskPat3_advanced.jsx starting - early init
+[금요일, 5월 30 2025 18:34:13] [SCRIPT_START] mskPat3_advanced.jsx starting - main execution
+[금요일, 5월 30 2025 18:34:16] [DOCUMENT_CREATED] New document created: 1000x1000
+[금요일, 5월 30 2025 18:34:16] [LAYERS_CREATED] Grid Guides and Artwork layers created
+[금요일, 5월 30 2025 18:34:16] [GRID_CALCULATED] Grid layout calculated - Cell size: 150x300
+[금요일, 5월 30 2025 18:34:16] [GRID_CREATED] Grid guides and labels created
+[금요일, 5월 30 2025 18:34:16] [UI_CREATED] Column 1 (Pattern Col/Blk) created
+[금요일, 5월 30 2025 18:34:17] [UI_CREATED] Column 2 (2d BluePrint) created
+[금요일, 5월 30 2025 18:34:17] [UI_CREATED] Bottom section (2d BluePrint #2 and #3) created
+[금요일, 5월 30 2025 18:34:17] [UI_CREATED] Control buttons created
+[금요일, 5월 30 2025 18:34:17] [DIALOG_SHOW] Showing dialog to user
+[금요일, 5월 30 2025 18:34:43] [BUTTON_CLICK] Pattern Col button clicked
+[금요일, 5월 30 2025 18:34:54] [FILE_SELECTED] Pattern Col: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
+[금요일, 5월 30 2025 18:34:55] [IMAGE_PLACED] Pattern Col placed at (1,1) and scaled to 67.2133356771577%
+[금요일, 5월 30 2025 18:34:55] [VISIBILITY] Pattern Col - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 18:34:55] [IMAGE_PLACED] Pattern Col successfully placed and centered
+[금요일, 5월 30 2025 18:34:58] [BUTTON_CLICK] Pattern Blk button clicked
+[금요일, 5월 30 2025 18:35:03] [FILE_SELECTED] Pattern Blk: D:\EPS\Iter\UI4\MolancanoDemo\FrogBlk.eps
+[금요일, 5월 30 2025 18:35:03] [IMAGE_PLACED] Pattern Blk placed at (2,1) and scaled to 67.2133356771577%
+[금요일, 5월 30 2025 18:35:03] [VISIBILITY] Pattern Blk - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 18:35:04] [IMAGE_PLACED] Pattern Blk successfully placed and centered
+[금요일, 5월 30 2025 18:35:09] [BUTTON_CLICK] 2d BluePrint button clicked
+[금요일, 5월 30 2025 18:35:18] [FILE_SELECTED] 2d BluePrint: D:\EPS\Iter\UI4\2dFold\2d.eps
+[금요일, 5월 30 2025 18:35:19] [IMAGE_PLACED] 2d BluePrint placed at (1,2) and scaled to 67.5769128712626%
+[금요일, 5월 30 2025 18:35:19] [VISIBILITY] 2d BluePrint - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 18:35:19] [MSP_START] Starting masking for blueprint #1
+[금요일, 5월 30 2025 18:35:19] [MSP_METHOD] Using masking method: hybrid
+[금요일, 5월 30 2025 18:35:19] [MSP_PARAMS] PatCol: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
+[금요일, 5월 30 2025 18:35:19] [MSP_PARAMS] PatBlk: D:\EPS\Iter\UI4\MolancanoDemo\FrogBlk.eps
+[금요일, 5월 30 2025 18:35:19] [MSP_PARAMS] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
+[금요일, 5월 30 2025 18:35:19] [MSP_SCRIPT] Using script: MSP1_hybrid.jsx
+[금요일, 5월 30 2025 18:35:48] [MSP_FAILED] MSP1_hybrid.jsx failed: The top item in the group must be a path item to create a mask
+[금요일, 5월 30 2025 18:42:38] [BUTTON_CLICK] OK button clicked
+[금요일, 5월 30 2025 18:42:38] [DIALOG_CLOSED] User clicked OK
+[금요일, 5월 30 2025 18:42:39] [SCRIPT_END] mskPat3_advanced.jsx completed
+[금요일, 5월 30 2025 18:44:05] [SCRIPT_INIT] mskPat3_advanced.jsx starting - early init
+[금요일, 5월 30 2025 18:44:05] [SCRIPT_START] mskPat3_advanced.jsx starting - main execution
+[금요일, 5월 30 2025 18:44:07] [DOCUMENT_CREATED] New document created: 1000x1000
+[금요일, 5월 30 2025 18:44:08] [LAYERS_CREATED] Grid Guides and Artwork layers created
+[금요일, 5월 30 2025 18:44:08] [GRID_CALCULATED] Grid layout calculated - Cell size: 150x300
+[금요일, 5월 30 2025 18:44:08] [GRID_CREATED] Grid guides and labels created
+[금요일, 5월 30 2025 18:44:08] [UI_CREATED] Column 1 (Pattern Col/Blk) created
+[금요일, 5월 30 2025 18:44:08] [UI_CREATED] Column 2 (2d BluePrint) created
+[금요일, 5월 30 2025 18:44:08] [UI_CREATED] Bottom section (2d BluePrint #2 and #3) created
+[금요일, 5월 30 2025 18:44:08] [UI_CREATED] Control buttons created
+[금요일, 5월 30 2025 18:44:08] [DIALOG_SHOW] Showing dialog to user
+[금요일, 5월 30 2025 18:44:12] [BUTTON_CLICK] Pattern Col button clicked
+[금요일, 5월 30 2025 18:44:24] [FILE_SELECTED] Pattern Col: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
+[금요일, 5월 30 2025 18:44:34] [IMAGE_PLACED] Pattern Col placed at (1,1) and scaled to 67.2133356771577%
+[금요일, 5월 30 2025 18:44:34] [VISIBILITY] Pattern Col - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 18:44:35] [IMAGE_PLACED] Pattern Col successfully placed and centered
+[금요일, 5월 30 2025 18:44:38] [BUTTON_CLICK] Pattern Blk button clicked
+[금요일, 5월 30 2025 18:44:47] [FILE_SELECTED] Pattern Blk: D:\EPS\Iter\UI4\MolancanoDemo\FrogBlk.eps
+[금요일, 5월 30 2025 18:44:47] [IMAGE_PLACED] Pattern Blk placed at (2,1) and scaled to 67.2133356771577%
+[금요일, 5월 30 2025 18:44:47] [VISIBILITY] Pattern Blk - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 18:44:48] [IMAGE_PLACED] Pattern Blk successfully placed and centered
+[금요일, 5월 30 2025 18:44:50] [BUTTON_CLICK] 2d BluePrint button clicked
+[금요일, 5월 30 2025 18:44:59] [FILE_SELECTED] 2d BluePrint: D:\EPS\Iter\UI4\2dFold\2d.eps
+[금요일, 5월 30 2025 18:45:02] [IMAGE_PLACED] 2d BluePrint placed at (1,2) and scaled to 67.5769128712626%
+[금요일, 5월 30 2025 18:45:02] [VISIBILITY] 2d BluePrint - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 18:45:02] [MSP_START] Starting masking for blueprint #1
+[금요일, 5월 30 2025 18:45:02] [MSP_METHOD] Using masking method: hybrid
+[금요일, 5월 30 2025 18:45:03] [MSP_PARAMS] PatCol: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
+[금요일, 5월 30 2025 18:45:03] [MSP_PARAMS] PatBlk: D:\EPS\Iter\UI4\MolancanoDemo\FrogBlk.eps
+[금요일, 5월 30 2025 18:45:03] [MSP_PARAMS] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
+[금요일, 5월 30 2025 18:45:03] [MSP_SCRIPT] Using script: MSP1_hybrid.jsx
+[금요일, 5월 30 2025 18:45:04] [MSP_FAILED] MSP1_hybrid.jsx failed: Mask layer must contain at least CL + BL groups.

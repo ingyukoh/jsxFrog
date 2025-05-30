@@ -68,9 +68,10 @@ function unlockDeep(it) { // Recursively unlock items
 ### Current Active Scripts
 - **cmEpOp7.jsx**: Main dialog-based tool with 4-column grid layout and Target file placement
 - **cmd8.jsx**: Dialog component for pattern file selection
-- **masked2.jsx**: Fast automated masking without dialogs (loads 2d.eps and PatCol.eps automatically)
+- **MSP1.jsx**: Parameterized masking script that takes pattern and blueprint files as input
+- **testMSP.jsx**: Test driver for MSP1.jsx with hardcoded paths
 
-### Dialog Scripts (dial*.jsx, cmEp*.jsx)
+### Dialog Scripts (cmEp*.jsx, cmd*.jsx)
 User interface scripts with file selection dialogs. Pattern:
 - Create ScriptUI dialog with columns
 - Add file selection buttons for patterns and blueprints
@@ -78,7 +79,7 @@ User interface scripts with file selection dialogs. Pattern:
 - Generate document on confirmation
 - Log all actions to logCmd.txt with structured tags
 
-### Grid Layout System (Updated)
+### Grid Layout System
 - **4-column grid** (3 rows, 4 columns) in cmEpOp7.jsx
 - Standard positions:
   - Row 1: Y=280mm, Row 2: Y=155mm, Row 3: Y=30mm
@@ -89,27 +90,16 @@ User interface scripts with file selection dialogs. Pattern:
 ## File Organization
 
 ```
-/                 # Root directory (D:\EPS\Iter\UI2)
-  PatCol.eps      # Base color pattern file
-  PatBlk.eps      # Base black pattern file
-  PatCol.png      # PNG version of color pattern
-  s25.eps         # Galaxy S25 blueprint
-  s25plus.eps     # Galaxy S25+ blueprint  
-  s25ultra.eps    # Galaxy S25 Ultra blueprint
-  targ.eps        # Target pattern template
-
-/Target/          # Device-specific synthesized patterns
-  s25_PatCol.eps
-  s25_PatBlk.eps
-  s25plus_*.eps
-  s25ultra_*.eps
-  targG.eps       # Target generic file
-
-/Dlg/            # Dialog examples and command scripts
-  cmd8.jsx       # Pattern file selection dialog
-  logCmd.txt     # Dialog action logs
-
-/screenshot/     # UI reference images for debugging
+/                    # Root directory (/mnt/d/EPS/Iter/UI4)
+├── 2dFold/         # Blueprint files for 2d variants
+├── CL/             # Galaxy device blueprints
+├── PattFold/       # Base pattern files
+│   ├── PatCol.eps  # Color pattern
+│   └── PatBlk.eps  # Black pattern
+├── TargFold/       # Target templates
+├── Target/         # Output directory for synthesized patterns
+├── Dlg/           # Dialog examples and logs
+└── screenshot/    # UI reference images
 ```
 
 ## Development Workflow
@@ -128,14 +118,24 @@ User interface scripts with file selection dialogs. Pattern:
 ### Common Issues and Solutions
 - **Silent script failures**: Add `alert("Script starting")` at very beginning
 - **Dialog not showing**: Check ScriptUI hierarchy and `.show()` call
-- **File not found**: Use absolute paths (`D:\EPS\Iter\UI2\...`)
+- **File not found**: Use absolute paths (`/mnt/d/EPS/Iter/UI4/...`)
 - **Locked items**: Use `unlockDeep()` function before operations
 - **Copy/paste issues**: Ensure `app.activeDocument` is set correctly
+
+## Masking Workflow (MSP1.jsx)
+
+The masking process:
+1. Takes pattern file and blueprint file as parameters
+2. Opens both files and extracts CL/BL groups from blueprint
+3. Scales pattern to match blueprint dimensions
+4. Creates clipping mask using blueprint outline
+5. Preserves disclaimer text if present
+6. Saves result to Target folder with synthesized name
 
 ## Target Devices and Patterns
 
 - **Pattern files**: PatCol.eps (color), PatBlk.eps (black) - base patterns with trim marks
-- **BluePrint files**: s25.eps, s25plus.eps, s25ultra.eps - device-specific overlays
+- **Blueprint files**: Device-specific overlays in 2dFold/ and CL/ directories
 - **Target files**: Pre-synthesized patterns in /Target/ directory
 - **Synthesized naming**: `{blueprint}_{pattern}.eps` (e.g., s25_PatCol.eps)
 - **Masking workflow**: Pattern is masked by blueprint's CL (case line) and BL (bleed line) groups

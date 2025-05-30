@@ -965,3 +965,28 @@
 [2025-05-30 15:48:18] Saving to: D:\EPS\Iter\UI4\Target\2d_PatBlk.eps
 [2025-05-30 15:48:24] Successfully created: 2d_PatBlk.eps
 [2025-05-30 15:48:24] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
+[2025-05-30 18:35:19] ===== MSP1_hybrid.jsx STARTED =====
+[2025-05-30 18:35:19] Processing PatCol masking (Hybrid mode)
+[2025-05-30 18:35:19] Pattern: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
+[2025-05-30 18:35:19] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
+[2025-05-30 18:35:19] Preserve strokes: true
+[2025-05-30 18:35:23] Fetching CL + BL from mask document
+[2025-05-30 18:35:23] Found CL and BL groups
+[2025-05-30 18:35:24] Pasted pattern into mask document
+[2025-05-30 18:35:24] Scaling uniformly by 1.0738
+[2025-05-30 18:35:24] Pattern scaled and centered
+[2025-05-30 18:35:24] Creating hybrid clipping mask...
+[2025-05-30 18:35:24] Collecting paths for stroke preservation...
+[2025-05-30 18:35:48] Successfully created compound path
+[2025-05-30 18:35:48] Clipping path configured
+[2025-05-30 18:35:48] Assembling final Target group...
+[2025-05-30 18:35:48] ERROR in processMasking: The top item in the group must be a path item to create a mask
+[2025-05-30 18:35:48] ===== MSP1_hybrid.jsx FAILED: The top item in the group must be a path item to create a mask =====
+[2025-05-30 18:45:03] ===== MSP1_hybrid.jsx STARTED =====
+[2025-05-30 18:45:03] Processing PatCol masking (Hybrid mode)
+[2025-05-30 18:45:03] Pattern: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
+[2025-05-30 18:45:03] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
+[2025-05-30 18:45:03] Preserve strokes: true
+[2025-05-30 18:45:04] Fetching CL + BL from mask document
+[2025-05-30 18:45:04] ERROR in processMasking: Mask layer must contain at least CL + BL groups.
+[2025-05-30 18:45:04] ===== MSP1_hybrid.jsx FAILED: Mask layer must contain at least CL + BL groups. =====
