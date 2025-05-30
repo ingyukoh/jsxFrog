@@ -174,11 +174,14 @@ var MSP_maskPath = $.global.MSP_maskPath;
             dupSource.selected = true;
             app.executeMenuCommand('compoundPath');
             
-            // The dupSource is now a CompoundPathItem
-            var clipPath = dupSource;
+            // The compound path is now in the selection
+            var clipPath = app.selection[0];
+            if (!clipPath || clipPath.typename !== "CompoundPathItem") {
+                throw new Error("Failed to create compound path from mask");
+            }
+            
             clipPath.filled = false;
             clipPath.stroked = false;
-            clipPath.clipping = true;
             
             log("Compound clipping path created");
             
@@ -189,9 +192,12 @@ var MSP_maskPath = $.global.MSP_maskPath;
             var targG = tgtLayer.groupItems.add();
             tgtLayer.visible = true;
             
-            // Add items to group in correct order
-            clipPath.move(targG, ElementPlacement.PLACEATBEGINNING);
+            // First add the pattern group to the target group
             patGroup.move(targG, ElementPlacement.PLACEATEND);
+            
+            // Then add the clipping path on top
+            clipPath.move(targG, ElementPlacement.PLACEATBEGINNING);
+            clipPath.clipping = true;
             
             // Add disclaimers back
             for (var d = 0; d < disclaimers.length; d++) {

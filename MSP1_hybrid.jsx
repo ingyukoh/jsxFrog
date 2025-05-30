@@ -278,20 +278,9 @@ var MSP_preserveStrokes = $.global.MSP_preserveStrokes;
             tgtLayer.visible = true;
             
             // Add items to group in correct order
+            // IMPORTANT: Pattern must be added first, then clipping path on top
+            patGroup.move(targG, ElementPlacement.PLACEATBEGINNING);
             clipPath.move(targG, ElementPlacement.PLACEATBEGINNING);
-            patGroup.move(targG, ElementPlacement.PLACEATEND);
-            
-            // Add stroke outlines if preserving strokes
-            if (MSP_preserveStrokes && strokeOutlines.length > 0) {
-                var strokeGroup = targG.groupItems.add();
-                strokeGroup.name = "Preserved Strokes";
-                for (var s = 0; s < strokeOutlines.length; s++) {
-                    if (strokeOutlines[s].isValid) {
-                        strokeOutlines[s].move(strokeGroup, ElementPlacement.PLACEATBEGINNING);
-                    }
-                }
-                log("Added " + strokeOutlines.length + " stroke outlines");
-            }
             
             // Add disclaimers back
             for (var d = 0; d < disclaimers.length; d++) {
@@ -302,6 +291,18 @@ var MSP_preserveStrokes = $.global.MSP_preserveStrokes;
             
             // Apply clipping
             targG.clipped = true;
+            
+            // Add stroke outlines AFTER clipping is applied
+            if (MSP_preserveStrokes && strokeOutlines.length > 0) {
+                var strokeGroup = targG.groupItems.add();
+                strokeGroup.name = "Preserved Strokes";
+                for (var s = 0; s < strokeOutlines.length; s++) {
+                    if (strokeOutlines[s].isValid) {
+                        strokeOutlines[s].move(strokeGroup, ElementPlacement.PLACEATBEGINNING);
+                    }
+                }
+                log("Added " + strokeOutlines.length + " stroke outlines");
+            }
             log("Target group assembled + clipping applied");
             
             // Hide old layer

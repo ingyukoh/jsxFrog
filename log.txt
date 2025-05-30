@@ -990,3 +990,130 @@
 [2025-05-30 18:45:04] Fetching CL + BL from mask document
 [2025-05-30 18:45:04] ERROR in processMasking: Mask layer must contain at least CL + BL groups.
 [2025-05-30 18:45:04] ===== MSP1_hybrid.jsx FAILED: Mask layer must contain at least CL + BL groups. =====
+[2025-05-30 19:13:52] ===== MSP1.jsx STARTED =====
+[2025-05-30 19:13:52] Processing PatCol masking
+[2025-05-30 19:13:52] Pattern: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
+[2025-05-30 19:13:52] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
+[2025-05-30 19:14:13] Fetching CL + BL from mask document
+[2025-05-30 19:14:13] Found CL and BL groups
+[2025-05-30 19:14:13] Extracting pattern from PatCol file...
+[2025-05-30 19:14:15] Pattern copied to mask document
+[2025-05-30 19:14:15] Protected 0 disclaimer text items
+[2025-05-30 19:14:15] Scaling pattern to match CL height...
+[2025-05-30 19:14:15] Scaling uniformly by 0.9973
+[2025-05-30 19:14:15] Pattern scaled and centered
+[2025-05-30 19:14:15] Creating clipping mask...
+[2025-05-30 19:14:15] Clipping path created
+[2025-05-30 19:14:15] Assembling final Target group...
+[2025-05-30 19:14:15] Target group assembled + clipping applied
+[2025-05-30 19:14:15] Saving to: D:\EPS\Iter\UI4\Target\2d_PatCol.eps
+[2025-05-30 19:14:22] Successfully created: 2d_PatCol.eps
+[2025-05-30 19:14:22] Processing PatBlk masking
+[2025-05-30 19:14:22] Pattern: D:\EPS\Iter\UI4\MolancanoDemo\FrogBlk.eps
+[2025-05-30 19:14:22] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
+[2025-05-30 19:14:34] Fetching CL + BL from mask document
+[2025-05-30 19:14:34] Found CL and BL groups
+[2025-05-30 19:14:35] Extracting pattern from PatBlk file...
+[2025-05-30 19:14:37] Pattern copied to mask document
+[2025-05-30 19:14:37] Protected 0 disclaimer text items
+[2025-05-30 19:14:37] Scaling pattern to match CL height...
+[2025-05-30 19:14:37] Scaling uniformly by 0.9973
+[2025-05-30 19:14:37] Pattern scaled and centered
+[2025-05-30 19:14:37] Creating clipping mask...
+[2025-05-30 19:14:37] Clipping path created
+[2025-05-30 19:14:37] Assembling final Target group...
+[2025-05-30 19:14:37] Target group assembled + clipping applied
+[2025-05-30 19:14:37] Saving to: D:\EPS\Iter\UI4\Target\2d_PatBlk.eps
+[2025-05-30 19:14:43] Successfully created: 2d_PatBlk.eps
+[2025-05-30 19:14:43] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
+[2025-05-30 21:49:52] ===== MSP1_stroke.jsx STARTED =====
+[2025-05-30 21:49:52] Processing PatCol masking
+[2025-05-30 21:49:52] Pattern: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
+[2025-05-30 21:49:52] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
+[2025-05-30 21:50:12] Fetching CL + BL from mask document
+[2025-05-30 21:50:12] Found CL and BL groups
+[2025-05-30 21:50:12] Extracting pattern from PatCol file...
+[2025-05-30 21:50:14] Pattern copied to mask document
+[2025-05-30 21:50:14] Protected 0 disclaimer text items
+[2025-05-30 21:50:14] Scaling pattern to match CL height...
+[2025-05-30 21:50:14] Scaling uniformly by 0.9973
+[2025-05-30 21:50:14] Pattern scaled and centered
+[2025-05-30 21:50:14] Creating clipping mask with preserved stroke...
+[2025-05-30 21:50:14] Clipping path created
+[2025-05-30 21:50:14] Assembling final Target group...
+[2025-05-30 21:50:14] Target group assembled + clipping applied
+[2025-05-30 21:50:14] Saving to: D:\EPS\Iter\UI4\Target\2d_PatCol.eps
+[2025-05-30 21:50:22] Successfully created: 2d_PatCol.eps
+[2025-05-30 21:50:22] Processing PatBlk masking
+[2025-05-30 21:50:22] Pattern: D:\EPS\Iter\UI4\MolancanoDemo\FrogBlk.eps
+[2025-05-30 21:50:22] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
+[2025-05-30 21:50:39] Fetching CL + BL from mask document
+[2025-05-30 21:50:39] Found CL and BL groups
+[2025-05-30 21:50:39] Extracting pattern from PatBlk file...
+[2025-05-30 21:50:41] Pattern copied to mask document
+[2025-05-30 21:50:41] Protected 0 disclaimer text items
+[2025-05-30 21:50:41] Scaling pattern to match CL height...
+[2025-05-30 21:50:41] Scaling uniformly by 0.9973
+[2025-05-30 21:50:41] Pattern scaled and centered
+[2025-05-30 21:50:41] Creating clipping mask with preserved stroke...
+[2025-05-30 21:50:41] Clipping path created
+[2025-05-30 21:50:41] Assembling final Target group...
+[2025-05-30 21:50:41] Target group assembled + clipping applied
+[2025-05-30 21:50:41] Saving to: D:\EPS\Iter\UI4\Target\2d_PatBlk.eps
+[2025-05-30 21:50:47] Successfully created: 2d_PatBlk.eps
+[2025-05-30 21:50:47] ===== MSP1_stroke.jsx COMPLETED SUCCESSFULLY =====
+[2025-05-30 22:00:58] ===== MSP1_compound.jsx STARTED =====
+[2025-05-30 22:00:58] Processing PatCol masking
+[2025-05-30 22:00:58] Pattern: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
+[2025-05-30 22:00:58] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
+[2025-05-30 22:01:07] Fetching CL + BL from mask document
+[2025-05-30 22:01:07] Found CL and BL groups
+[2025-05-30 22:01:07] Extracting pattern from PatCol file...
+[2025-05-30 22:01:09] Pattern copied to mask document
+[2025-05-30 22:01:09] Protected 0 disclaimer text items
+[2025-05-30 22:01:09] Scaling pattern to match CL height...
+[2025-05-30 22:01:09] Scaling uniformly by 0.9973
+[2025-05-30 22:01:09] Pattern scaled and centered
+[2025-05-30 22:01:09] Creating compound path clipping mask...
+[2025-05-30 22:01:13] Compound clipping path created
+[2025-05-30 22:01:13] Assembling final Target group...
+[2025-05-30 22:01:13] ERROR in processMasking: The top item in the group must be a path item to create a mask
+[2025-05-30 22:01:13] ===== MSP1_compound.jsx FAILED: The top item in the group must be a path item to create a mask =====
+[2025-05-30 22:07:03] ===== MSP1_compound.jsx STARTED =====
+[2025-05-30 22:07:03] ===== MSP1_compound.jsx FAILED: Missing required parameters. PatCol: , PatBlk: , Mask:  =====
+[2025-05-30 22:10:02] ===== MSP1_compound.jsx STARTED =====
+[2025-05-30 22:10:02] Processing PatCol masking
+[2025-05-30 22:10:02] Pattern: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
+[2025-05-30 22:10:02] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
+[2025-05-30 22:10:10] Fetching CL + BL from mask document
+[2025-05-30 22:10:10] Found CL and BL groups
+[2025-05-30 22:10:11] Extracting pattern from PatCol file...
+[2025-05-30 22:10:12] Pattern copied to mask document
+[2025-05-30 22:10:12] Protected 0 disclaimer text items
+[2025-05-30 22:10:12] Scaling pattern to match CL height...
+[2025-05-30 22:10:12] Scaling uniformly by 0.9973
+[2025-05-30 22:10:12] Pattern scaled and centered
+[2025-05-30 22:10:12] Creating compound path clipping mask...
+[2025-05-30 22:10:17] ERROR in processMasking: Failed to create compound path from mask
+[2025-05-30 22:10:17] ===== MSP1_compound.jsx FAILED: Failed to create compound path from mask =====
+[2025-05-30 22:13:34] ===== MSP1_hybrid.jsx STARTED =====
+[2025-05-30 22:13:34] ===== MSP1_hybrid.jsx FAILED: Missing required parameters. PatCol: , PatBlk: , Mask:  =====
+[2025-05-30 22:14:21] ===== MSP1_hybrid.jsx STARTED =====
+[2025-05-30 22:14:21] ===== MSP1_hybrid.jsx FAILED: Missing required parameters. PatCol: , PatBlk: , Mask:  =====
+[2025-05-30 22:22:33] ===== MSP1_hybrid.jsx STARTED =====
+[2025-05-30 22:22:33] Processing PatCol masking (Hybrid mode)
+[2025-05-30 22:22:33] Pattern: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
+[2025-05-30 22:22:33] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
+[2025-05-30 22:22:33] Preserve strokes: true
+[2025-05-30 22:22:50] Fetching CL + BL from mask document
+[2025-05-30 22:22:50] Found CL and BL groups
+[2025-05-30 22:22:52] Pasted pattern into mask document
+[2025-05-30 22:22:52] Scaling uniformly by 1.0738
+[2025-05-30 22:22:52] Pattern scaled and centered
+[2025-05-30 22:22:52] Creating hybrid clipping mask...
+[2025-05-30 22:22:52] Collecting strokes before compound path creation...
+[2025-05-30 22:23:02] Successfully created compound path
+[2025-05-30 22:23:02] Clipping path configured (compound path: true)
+[2025-05-30 22:23:02] Assembling final Target group...
+[2025-05-30 22:23:02] ERROR in processMasking: The top item in the group must be a path item to create a mask
+[2025-05-30 22:23:02] ===== MSP1_hybrid.jsx FAILED: The top item in the group must be a path item to create a mask =====

@@ -846,3 +846,326 @@
 [금요일, 5월 30 2025 18:45:03] [MSP_PARAMS] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
 [금요일, 5월 30 2025 18:45:03] [MSP_SCRIPT] Using script: MSP1_hybrid.jsx
 [금요일, 5월 30 2025 18:45:04] [MSP_FAILED] MSP1_hybrid.jsx failed: Mask layer must contain at least CL + BL groups.
+[금요일, 5월 30 2025 18:47:27] [BUTTON_CLICK] OK button clicked
+[금요일, 5월 30 2025 18:47:27] [DIALOG_CLOSED] User clicked OK
+[금요일, 5월 30 2025 18:47:27] [SCRIPT_END] mskPat3_advanced.jsx completed
+[금요일, 5월 30 2025 19:13:07] [SCRIPT_INIT] cmEpOp7.jsx starting - early init
+[금요일, 5월 30 2025 19:13:07] [SCRIPT_START] cmEpOp7.jsx starting - main execution
+[금요일, 5월 30 2025 19:13:12] [DOCUMENT_CREATED] New document created: 1000x1000
+[금요일, 5월 30 2025 19:13:12] [LAYERS_CREATED] Grid Guides and Artwork layers created
+[금요일, 5월 30 2025 19:13:12] [GRID_CALCULATED] Grid layout calculated - Cell size: 150x300
+[금요일, 5월 30 2025 19:13:12] [GRID_POSITIONS] Col1: 50, Col2: 300, Col3: 550, Col4: 800
+[금요일, 5월 30 2025 19:13:12] [GRID_POSITIONS] Row1: 1000, Row2: 650, Row3: 300
+[금요일, 5월 30 2025 19:13:13] [GRID_DRAWN] Grid guides and labels added
+[금요일, 5월 30 2025 19:13:13] [UI_CREATED] Column 1 (Pattern Col/Blk) created
+[금요일, 5월 30 2025 19:13:13] [UI_CREATED] Column 2 (2d BluePrint) created
+[금요일, 5월 30 2025 19:13:13] [UI_CREATED] Bottom section (2d BluePrint #2 and #3) created
+[금요일, 5월 30 2025 19:13:13] [UI_CREATED] Control buttons created
+[금요일, 5월 30 2025 19:13:13] [DIALOG_SHOW] Showing dialog
+[금요일, 5월 30 2025 19:13:18] [BUTTON_CLICK] Pattern Col button clicked
+[금요일, 5월 30 2025 19:13:29] [FILE_SELECTED] Pattern Col: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
+[금요일, 5월 30 2025 19:13:29] [IMAGE_PLACED] Pattern Col placed in document
+[금요일, 5월 30 2025 19:13:29] [IMAGE_RESIZED] Pattern Col resized: 150.0 x 295.7 (scale: 67.2%)
+[금요일, 5월 30 2025 19:13:29] [IMAGE_POSITIONED] Pattern Col positioned at (1,1): (50, 1000)
+[금요일, 5월 30 2025 19:13:29] [VISIBILITY] Pattern Col - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 19:13:29] [TEXT_ADDED] Label added for Pattern Col: FrogCol.eps
+[금요일, 5월 30 2025 19:13:29] [DOCUMENT_UPDATED] Document refreshed and zoomed to fit
+[금요일, 5월 30 2025 19:13:31] [BUTTON_CLICK] Pattern Blk button clicked
+[금요일, 5월 30 2025 19:13:38] [FILE_SELECTED] Pattern Blk: D:\EPS\Iter\UI4\MolancanoDemo\FrogBlk.eps
+[금요일, 5월 30 2025 19:13:38] [IMAGE_PLACED] Pattern Blk placed in document
+[금요일, 5월 30 2025 19:13:38] [IMAGE_RESIZED] Pattern Blk resized: 150.0 x 295.7 (scale: 67.2%)
+[금요일, 5월 30 2025 19:13:38] [IMAGE_POSITIONED] Pattern Blk positioned at (2,1): (50, 650)
+[금요일, 5월 30 2025 19:13:38] [VISIBILITY] Pattern Blk - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 19:13:38] [TEXT_ADDED] Label added for Pattern Blk: FrogBlk.eps
+[금요일, 5월 30 2025 19:13:38] [DOCUMENT_UPDATED] Document refreshed and zoomed to fit
+[금요일, 5월 30 2025 19:13:42] [BUTTON_CLICK] 2d BluePrint button #1 clicked
+[금요일, 5월 30 2025 19:13:52] [FILE_SELECTED] 2d BluePrint #1: D:\EPS\Iter\UI4\2dFold\2d.eps
+[금요일, 5월 30 2025 19:13:52] [IMAGE_PLACED] 2d BluePrint placed in document
+[금요일, 5월 30 2025 19:13:52] [IMAGE_RESIZED] 2d BluePrint resized: 150.0 x 296.5 (scale: 67.6%)
+[금요일, 5월 30 2025 19:13:52] [IMAGE_POSITIONED] 2d BluePrint positioned at (1,2): (300, 1000)
+[금요일, 5월 30 2025 19:13:52] [VISIBILITY] 2d BluePrint - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 19:13:52] [TEXT_ADDED] Label added for 2d BluePrint: 2d.eps
+[금요일, 5월 30 2025 19:13:52] [DOCUMENT_UPDATED] Document refreshed and zoomed to fit
+[금요일, 5월 30 2025 19:13:52] [MSP_START] Starting MSP1.jsx execution
+[금요일, 5월 30 2025 19:13:52] [MSP_PARAMS] PatCol: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
+[금요일, 5월 30 2025 19:13:52] [MSP_PARAMS] PatBlk: D:\EPS\Iter\UI4\MolancanoDemo\FrogBlk.eps
+[금요일, 5월 30 2025 19:13:52] [MSP_PARAMS] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
+[금요일, 5월 30 2025 19:14:43] [MSP_SUCCESS] MSP1.jsx completed successfully
+[금요일, 5월 30 2025 19:14:43] [MSP_OUTPUT] Created 2 files
+[금요일, 5월 30 2025 19:14:43] [TARGET_START] Starting Target PatCol placement
+[금요일, 5월 30 2025 19:14:43] [TARGET_PATH] Script folder: D:\EPS\Iter\UI4
+[금요일, 5월 30 2025 19:14:43] [TARGET_PATH] Target folder: D:\EPS\Iter\UI4\Target
+[금요일, 5월 30 2025 19:14:43] [TARGET_PATH] Looking for: D:\EPS\Iter\UI4\Target\2d_PatCol.eps
+[금요일, 5월 30 2025 19:14:43] [TARGET_EXISTS] Target folder exists: true
+[금요일, 5월 30 2025 19:14:43] [TARGET_EXISTS] Target file exists: true
+[금요일, 5월 30 2025 19:14:43] [TARGET_FOUND] Target file found: 2d_PatCol.eps
+[금요일, 5월 30 2025 19:14:43] [IMAGE_PLACED] Target PatCol placed: 2d_PatCol.eps
+[금요일, 5월 30 2025 19:14:43] [IMAGE_RESIZED] Target PatCol resized: 141.9 x 300.0 (scale: 72.9%)
+[금요일, 5월 30 2025 19:14:43] [IMAGE_POSITIONED] Target PatCol positioned at (2,2): (300, 650)
+[금요일, 5월 30 2025 19:14:43] [VISIBILITY] Target PatCol - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 19:14:43] [TEXT_ADDED] Label added for Target PatCol: 2d_PatCol.eps
+[금요일, 5월 30 2025 19:14:43] [TARGET_SUCCESS] Target PatCol placed successfully
+[금요일, 5월 30 2025 19:14:43] [TARGET_BLK_START] Starting Target PatBlk placement
+[금요일, 5월 30 2025 19:14:43] [TARGET_BLK_PATH] Looking for: D:\EPS\Iter\UI4\Target\2d_PatBlk.eps
+[금요일, 5월 30 2025 19:14:43] [TARGET_BLK_EXISTS] Target PatBlk file exists: true
+[금요일, 5월 30 2025 19:14:43] [TARGET_BLK_FOUND] Target PatBlk file found: 2d_PatBlk.eps
+[금요일, 5월 30 2025 19:14:43] [IMAGE_PLACED] Target PatBlk placed: 2d_PatBlk.eps
+[금요일, 5월 30 2025 19:14:43] [IMAGE_RESIZED] Target PatBlk resized: 141.9 x 300.0 (scale: 72.9%)
+[금요일, 5월 30 2025 19:14:43] [IMAGE_POSITIONED] Target PatBlk positioned at (3,2): (300, 300)
+[금요일, 5월 30 2025 19:14:43] [VISIBILITY] Target PatBlk - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 19:14:43] [TEXT_ADDED] Label added for Target PatBlk: 2d_PatBlk.eps
+[금요일, 5월 30 2025 19:14:44] [TARGET_BLK_SUCCESS] Target PatBlk placed successfully
+[금요일, 5월 30 2025 21:48:18] [BUTTON_CLICK] OK button clicked
+[금요일, 5월 30 2025 21:48:18] [DIALOG_CLOSE] Dialog closed with OK
+[금요일, 5월 30 2025 21:48:18] [FINAL_STATUS] PatCol: FrogCol.eps
+[금요일, 5월 30 2025 21:48:18] [FINAL_STATUS] PatBlk: FrogBlk.eps
+[금요일, 5월 30 2025 21:48:18] [FINAL_STATUS] BluePrint: 2d.eps
+[금요일, 5월 30 2025 21:48:18] [FINAL_STATUS] BluePrint2: none
+[금요일, 5월 30 2025 21:48:18] [FINAL_STATUS] BluePrint3: none
+[금요일, 5월 30 2025 21:48:18] [SCRIPT_END] cmEpOp7.jsx completed
+[금요일, 5월 30 2025 21:49:00] [SCRIPT_INIT] cmEpOp7.jsx starting - early init
+[금요일, 5월 30 2025 21:49:00] [SCRIPT_START] cmEpOp7.jsx starting - main execution
+[금요일, 5월 30 2025 21:49:06] [DOCUMENT_CREATED] New document created: 1000x1000
+[금요일, 5월 30 2025 21:49:06] [LAYERS_CREATED] Grid Guides and Artwork layers created
+[금요일, 5월 30 2025 21:49:06] [GRID_CALCULATED] Grid layout calculated - Cell size: 150x300
+[금요일, 5월 30 2025 21:49:06] [GRID_POSITIONS] Col1: 50, Col2: 300, Col3: 550, Col4: 800
+[금요일, 5월 30 2025 21:49:06] [GRID_POSITIONS] Row1: 1000, Row2: 650, Row3: 300
+[금요일, 5월 30 2025 21:49:06] [GRID_DRAWN] Grid guides and labels added
+[금요일, 5월 30 2025 21:49:06] [UI_CREATED] Column 1 (Pattern Col/Blk) created
+[금요일, 5월 30 2025 21:49:06] [UI_CREATED] Column 2 (2d BluePrint) created
+[금요일, 5월 30 2025 21:49:06] [UI_CREATED] Bottom section (2d BluePrint #2 and #3) created
+[금요일, 5월 30 2025 21:49:06] [UI_CREATED] Control buttons created
+[금요일, 5월 30 2025 21:49:06] [DIALOG_SHOW] Showing dialog
+[금요일, 5월 30 2025 21:49:11] [BUTTON_CLICK] Pattern Col button clicked
+[금요일, 5월 30 2025 21:49:23] [FILE_SELECTED] Pattern Col: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
+[금요일, 5월 30 2025 21:49:23] [IMAGE_PLACED] Pattern Col placed in document
+[금요일, 5월 30 2025 21:49:23] [IMAGE_RESIZED] Pattern Col resized: 150.0 x 295.7 (scale: 67.2%)
+[금요일, 5월 30 2025 21:49:23] [IMAGE_POSITIONED] Pattern Col positioned at (1,1): (50, 1000)
+[금요일, 5월 30 2025 21:49:23] [VISIBILITY] Pattern Col - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 21:49:23] [TEXT_ADDED] Label added for Pattern Col: FrogCol.eps
+[금요일, 5월 30 2025 21:49:24] [DOCUMENT_UPDATED] Document refreshed and zoomed to fit
+[금요일, 5월 30 2025 21:49:27] [BUTTON_CLICK] Pattern Blk button clicked
+[금요일, 5월 30 2025 21:49:36] [FILE_SELECTED] Pattern Blk: D:\EPS\Iter\UI4\MolancanoDemo\FrogBlk.eps
+[금요일, 5월 30 2025 21:49:36] [IMAGE_PLACED] Pattern Blk placed in document
+[금요일, 5월 30 2025 21:49:36] [IMAGE_RESIZED] Pattern Blk resized: 150.0 x 295.7 (scale: 67.2%)
+[금요일, 5월 30 2025 21:49:36] [IMAGE_POSITIONED] Pattern Blk positioned at (2,1): (50, 650)
+[금요일, 5월 30 2025 21:49:36] [VISIBILITY] Pattern Blk - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 21:49:36] [TEXT_ADDED] Label added for Pattern Blk: FrogBlk.eps
+[금요일, 5월 30 2025 21:49:36] [DOCUMENT_UPDATED] Document refreshed and zoomed to fit
+[금요일, 5월 30 2025 21:49:40] [BUTTON_CLICK] 2d BluePrint button #1 clicked
+[금요일, 5월 30 2025 21:49:51] [FILE_SELECTED] 2d BluePrint #1: D:\EPS\Iter\UI4\2dFold\2d.eps
+[금요일, 5월 30 2025 21:49:51] [IMAGE_PLACED] 2d BluePrint placed in document
+[금요일, 5월 30 2025 21:49:51] [IMAGE_RESIZED] 2d BluePrint resized: 150.0 x 296.5 (scale: 67.6%)
+[금요일, 5월 30 2025 21:49:51] [IMAGE_POSITIONED] 2d BluePrint positioned at (1,2): (300, 1000)
+[금요일, 5월 30 2025 21:49:51] [VISIBILITY] 2d BluePrint - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 21:49:51] [TEXT_ADDED] Label added for 2d BluePrint: 2d.eps
+[금요일, 5월 30 2025 21:49:52] [DOCUMENT_UPDATED] Document refreshed and zoomed to fit
+[금요일, 5월 30 2025 21:49:52] [MSP_START] Starting MSP1_stroke.jsx execution
+[금요일, 5월 30 2025 21:49:52] [MSP_PARAMS] PatCol: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
+[금요일, 5월 30 2025 21:49:52] [MSP_PARAMS] PatBlk: D:\EPS\Iter\UI4\MolancanoDemo\FrogBlk.eps
+[금요일, 5월 30 2025 21:49:52] [MSP_PARAMS] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
+[금요일, 5월 30 2025 21:50:47] [MSP_SUCCESS] MSP1_stroke.jsx completed successfully
+[금요일, 5월 30 2025 21:50:47] [MSP_OUTPUT] Created 2 files
+[금요일, 5월 30 2025 21:50:47] [TARGET_START] Starting Target PatCol placement
+[금요일, 5월 30 2025 21:50:47] [TARGET_PATH] Script folder: D:\EPS\Iter\UI4
+[금요일, 5월 30 2025 21:50:47] [TARGET_PATH] Target folder: D:\EPS\Iter\UI4\Target
+[금요일, 5월 30 2025 21:50:47] [TARGET_PATH] Looking for: D:\EPS\Iter\UI4\Target\2d_PatCol.eps
+[금요일, 5월 30 2025 21:50:47] [TARGET_EXISTS] Target folder exists: true
+[금요일, 5월 30 2025 21:50:47] [TARGET_EXISTS] Target file exists: true
+[금요일, 5월 30 2025 21:50:47] [TARGET_FOUND] Target file found: 2d_PatCol.eps
+[금요일, 5월 30 2025 21:50:47] [IMAGE_PLACED] Target PatCol placed: 2d_PatCol.eps
+[금요일, 5월 30 2025 21:50:47] [IMAGE_RESIZED] Target PatCol resized: 141.9 x 300.0 (scale: 72.9%)
+[금요일, 5월 30 2025 21:50:47] [IMAGE_POSITIONED] Target PatCol positioned at (2,2): (300, 650)
+[금요일, 5월 30 2025 21:50:47] [VISIBILITY] Target PatCol - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 21:50:47] [TEXT_ADDED] Label added for Target PatCol: 2d_PatCol.eps
+[금요일, 5월 30 2025 21:50:47] [TARGET_SUCCESS] Target PatCol placed successfully
+[금요일, 5월 30 2025 21:50:47] [TARGET_BLK_START] Starting Target PatBlk placement
+[금요일, 5월 30 2025 21:50:47] [TARGET_BLK_PATH] Looking for: D:\EPS\Iter\UI4\Target\2d_PatBlk.eps
+[금요일, 5월 30 2025 21:50:47] [TARGET_BLK_EXISTS] Target PatBlk file exists: true
+[금요일, 5월 30 2025 21:50:47] [TARGET_BLK_FOUND] Target PatBlk file found: 2d_PatBlk.eps
+[금요일, 5월 30 2025 21:50:47] [IMAGE_PLACED] Target PatBlk placed: 2d_PatBlk.eps
+[금요일, 5월 30 2025 21:50:48] [IMAGE_RESIZED] Target PatBlk resized: 141.9 x 300.0 (scale: 72.9%)
+[금요일, 5월 30 2025 21:50:48] [IMAGE_POSITIONED] Target PatBlk positioned at (3,2): (300, 300)
+[금요일, 5월 30 2025 21:50:48] [VISIBILITY] Target PatBlk - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 21:50:48] [TEXT_ADDED] Label added for Target PatBlk: 2d_PatBlk.eps
+[금요일, 5월 30 2025 21:50:48] [TARGET_BLK_SUCCESS] Target PatBlk placed successfully
+[금요일, 5월 30 2025 21:51:11] [BUTTON_CLICK] OK button clicked
+[금요일, 5월 30 2025 21:51:11] [DIALOG_CLOSE] Dialog closed with OK
+[금요일, 5월 30 2025 21:51:11] [FINAL_STATUS] PatCol: FrogCol.eps
+[금요일, 5월 30 2025 21:51:11] [FINAL_STATUS] PatBlk: FrogBlk.eps
+[금요일, 5월 30 2025 21:51:11] [FINAL_STATUS] BluePrint: 2d.eps
+[금요일, 5월 30 2025 21:51:11] [FINAL_STATUS] BluePrint2: none
+[금요일, 5월 30 2025 21:51:11] [FINAL_STATUS] BluePrint3: none
+[금요일, 5월 30 2025 21:51:11] [SCRIPT_END] cmEpOp7.jsx completed
+[금요일, 5월 30 2025 22:00:04] [SCRIPT_INIT] cmEpOp7.jsx starting - early init
+[금요일, 5월 30 2025 22:00:04] [SCRIPT_START] cmEpOp7.jsx starting - main execution
+[금요일, 5월 30 2025 22:00:10] [DOCUMENT_CREATED] New document created: 1000x1000
+[금요일, 5월 30 2025 22:00:10] [LAYERS_CREATED] Grid Guides and Artwork layers created
+[금요일, 5월 30 2025 22:00:10] [GRID_CALCULATED] Grid layout calculated - Cell size: 150x300
+[금요일, 5월 30 2025 22:00:10] [GRID_POSITIONS] Col1: 50, Col2: 300, Col3: 550, Col4: 800
+[금요일, 5월 30 2025 22:00:10] [GRID_POSITIONS] Row1: 1000, Row2: 650, Row3: 300
+[금요일, 5월 30 2025 22:00:10] [GRID_DRAWN] Grid guides and labels added
+[금요일, 5월 30 2025 22:00:10] [UI_CREATED] Column 1 (Pattern Col/Blk) created
+[금요일, 5월 30 2025 22:00:10] [UI_CREATED] Column 2 (2d BluePrint) created
+[금요일, 5월 30 2025 22:00:10] [UI_CREATED] Bottom section (2d BluePrint #2 and #3) created
+[금요일, 5월 30 2025 22:00:10] [UI_CREATED] Control buttons created
+[금요일, 5월 30 2025 22:00:10] [DIALOG_SHOW] Showing dialog
+[금요일, 5월 30 2025 22:00:14] [BUTTON_CLICK] Pattern Col button clicked
+[금요일, 5월 30 2025 22:00:28] [FILE_SELECTED] Pattern Col: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
+[금요일, 5월 30 2025 22:00:28] [IMAGE_PLACED] Pattern Col placed in document
+[금요일, 5월 30 2025 22:00:28] [IMAGE_RESIZED] Pattern Col resized: 150.0 x 295.7 (scale: 67.2%)
+[금요일, 5월 30 2025 22:00:28] [IMAGE_POSITIONED] Pattern Col positioned at (1,1): (50, 1000)
+[금요일, 5월 30 2025 22:00:28] [VISIBILITY] Pattern Col - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 22:00:28] [TEXT_ADDED] Label added for Pattern Col: FrogCol.eps
+[금요일, 5월 30 2025 22:00:29] [DOCUMENT_UPDATED] Document refreshed and zoomed to fit
+[금요일, 5월 30 2025 22:00:31] [BUTTON_CLICK] Pattern Blk button clicked
+[금요일, 5월 30 2025 22:00:42] [FILE_SELECTED] Pattern Blk: D:\EPS\Iter\UI4\MolancanoDemo\FrogBlk.eps
+[금요일, 5월 30 2025 22:00:42] [IMAGE_PLACED] Pattern Blk placed in document
+[금요일, 5월 30 2025 22:00:42] [IMAGE_RESIZED] Pattern Blk resized: 150.0 x 295.7 (scale: 67.2%)
+[금요일, 5월 30 2025 22:00:42] [IMAGE_POSITIONED] Pattern Blk positioned at (2,1): (50, 650)
+[금요일, 5월 30 2025 22:00:42] [VISIBILITY] Pattern Blk - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 22:00:42] [TEXT_ADDED] Label added for Pattern Blk: FrogBlk.eps
+[금요일, 5월 30 2025 22:00:42] [DOCUMENT_UPDATED] Document refreshed and zoomed to fit
+[금요일, 5월 30 2025 22:00:46] [BUTTON_CLICK] 2d BluePrint button #1 clicked
+[금요일, 5월 30 2025 22:00:57] [FILE_SELECTED] 2d BluePrint #1: D:\EPS\Iter\UI4\2dFold\2d.eps
+[금요일, 5월 30 2025 22:00:57] [IMAGE_PLACED] 2d BluePrint placed in document
+[금요일, 5월 30 2025 22:00:57] [IMAGE_RESIZED] 2d BluePrint resized: 150.0 x 296.5 (scale: 67.6%)
+[금요일, 5월 30 2025 22:00:57] [IMAGE_POSITIONED] 2d BluePrint positioned at (1,2): (300, 1000)
+[금요일, 5월 30 2025 22:00:57] [VISIBILITY] 2d BluePrint - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 22:00:57] [TEXT_ADDED] Label added for 2d BluePrint: 2d.eps
+[금요일, 5월 30 2025 22:00:58] [DOCUMENT_UPDATED] Document refreshed and zoomed to fit
+[금요일, 5월 30 2025 22:00:58] [MSP_START] Starting MSP1_compound.jsx execution
+[금요일, 5월 30 2025 22:00:58] [MSP_PARAMS] PatCol: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
+[금요일, 5월 30 2025 22:00:58] [MSP_PARAMS] PatBlk: D:\EPS\Iter\UI4\MolancanoDemo\FrogBlk.eps
+[금요일, 5월 30 2025 22:00:58] [MSP_PARAMS] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
+[금요일, 5월 30 2025 22:01:13] [MSP_FAILED] MSP1_compound.jsx failed: The top item in the group must be a path item to create a mask
+[금요일, 5월 30 2025 22:01:13] [TARGET_START] Starting Target PatCol placement
+[금요일, 5월 30 2025 22:01:13] [TARGET_PATH] Script folder: D:\EPS\Iter\UI4
+[금요일, 5월 30 2025 22:01:13] [TARGET_PATH] Target folder: D:\EPS\Iter\UI4\Target
+[금요일, 5월 30 2025 22:01:13] [TARGET_PATH] Looking for: D:\EPS\Iter\UI4\Target\2d_PatCol.eps
+[금요일, 5월 30 2025 22:01:13] [TARGET_EXISTS] Target folder exists: true
+[금요일, 5월 30 2025 22:01:13] [TARGET_EXISTS] Target file exists: true
+[금요일, 5월 30 2025 22:01:13] [TARGET_FOUND] Target file found: 2d_PatCol.eps
+[금요일, 5월 30 2025 22:01:14] [IMAGE_PLACED] Target PatCol placed: 2d_PatCol.eps
+[금요일, 5월 30 2025 22:01:14] [IMAGE_RESIZED] Target PatCol resized: 141.9 x 300.0 (scale: 72.9%)
+[금요일, 5월 30 2025 22:01:15] [IMAGE_POSITIONED] Target PatCol positioned at (2,2): (300, 650)
+[금요일, 5월 30 2025 22:01:16] [VISIBILITY] Target PatCol - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 22:01:17] [TEXT_ADDED] Label added for Target PatCol: 2d_PatCol.eps
+[금요일, 5월 30 2025 22:01:17] [TARGET_SUCCESS] Target PatCol placed successfully
+[금요일, 5월 30 2025 22:01:17] [TARGET_BLK_START] Starting Target PatBlk placement
+[금요일, 5월 30 2025 22:01:17] [TARGET_BLK_PATH] Looking for: D:\EPS\Iter\UI4\Target\2d_PatBlk.eps
+[금요일, 5월 30 2025 22:01:17] [TARGET_BLK_EXISTS] Target PatBlk file exists: true
+[금요일, 5월 30 2025 22:01:17] [TARGET_BLK_FOUND] Target PatBlk file found: 2d_PatBlk.eps
+[금요일, 5월 30 2025 22:09:13] [SCRIPT_INIT] cmEpOp7.jsx starting - early init
+[금요일, 5월 30 2025 22:09:13] [SCRIPT_START] cmEpOp7.jsx starting - main execution
+[금요일, 5월 30 2025 22:09:20] [DOCUMENT_CREATED] New document created: 1000x1000
+[금요일, 5월 30 2025 22:09:20] [LAYERS_CREATED] Grid Guides and Artwork layers created
+[금요일, 5월 30 2025 22:09:20] [GRID_CALCULATED] Grid layout calculated - Cell size: 150x300
+[금요일, 5월 30 2025 22:09:20] [GRID_POSITIONS] Col1: 50, Col2: 300, Col3: 550, Col4: 800
+[금요일, 5월 30 2025 22:09:20] [GRID_POSITIONS] Row1: 1000, Row2: 650, Row3: 300
+[금요일, 5월 30 2025 22:09:20] [GRID_DRAWN] Grid guides and labels added
+[금요일, 5월 30 2025 22:09:20] [UI_CREATED] Column 1 (Pattern Col/Blk) created
+[금요일, 5월 30 2025 22:09:20] [UI_CREATED] Column 2 (2d BluePrint) created
+[금요일, 5월 30 2025 22:09:20] [UI_CREATED] Bottom section (2d BluePrint #2 and #3) created
+[금요일, 5월 30 2025 22:09:20] [UI_CREATED] Control buttons created
+[금요일, 5월 30 2025 22:09:20] [DIALOG_SHOW] Showing dialog
+[금요일, 5월 30 2025 22:09:25] [BUTTON_CLICK] Pattern Col button clicked
+[금요일, 5월 30 2025 22:09:37] [FILE_SELECTED] Pattern Col: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
+[금요일, 5월 30 2025 22:09:37] [IMAGE_PLACED] Pattern Col placed in document
+[금요일, 5월 30 2025 22:09:37] [IMAGE_RESIZED] Pattern Col resized: 150.0 x 295.7 (scale: 67.2%)
+[금요일, 5월 30 2025 22:09:37] [IMAGE_POSITIONED] Pattern Col positioned at (1,1): (50, 1000)
+[금요일, 5월 30 2025 22:09:37] [VISIBILITY] Pattern Col - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 22:09:37] [TEXT_ADDED] Label added for Pattern Col: FrogCol.eps
+[금요일, 5월 30 2025 22:09:38] [DOCUMENT_UPDATED] Document refreshed and zoomed to fit
+[금요일, 5월 30 2025 22:09:41] [BUTTON_CLICK] Pattern Blk button clicked
+[금요일, 5월 30 2025 22:09:48] [FILE_SELECTED] Pattern Blk: D:\EPS\Iter\UI4\MolancanoDemo\FrogBlk.eps
+[금요일, 5월 30 2025 22:09:48] [IMAGE_PLACED] Pattern Blk placed in document
+[금요일, 5월 30 2025 22:09:48] [IMAGE_RESIZED] Pattern Blk resized: 150.0 x 295.7 (scale: 67.2%)
+[금요일, 5월 30 2025 22:09:48] [IMAGE_POSITIONED] Pattern Blk positioned at (2,1): (50, 650)
+[금요일, 5월 30 2025 22:09:48] [VISIBILITY] Pattern Blk - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 22:09:48] [TEXT_ADDED] Label added for Pattern Blk: FrogBlk.eps
+[금요일, 5월 30 2025 22:09:48] [DOCUMENT_UPDATED] Document refreshed and zoomed to fit
+[금요일, 5월 30 2025 22:09:50] [BUTTON_CLICK] 2d BluePrint button #1 clicked
+[금요일, 5월 30 2025 22:10:02] [FILE_SELECTED] 2d BluePrint #1: D:\EPS\Iter\UI4\2dFold\2d.eps
+[금요일, 5월 30 2025 22:10:02] [IMAGE_PLACED] 2d BluePrint placed in document
+[금요일, 5월 30 2025 22:10:02] [IMAGE_RESIZED] 2d BluePrint resized: 150.0 x 296.5 (scale: 67.6%)
+[금요일, 5월 30 2025 22:10:02] [IMAGE_POSITIONED] 2d BluePrint positioned at (1,2): (300, 1000)
+[금요일, 5월 30 2025 22:10:02] [VISIBILITY] 2d BluePrint - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 22:10:02] [TEXT_ADDED] Label added for 2d BluePrint: 2d.eps
+[금요일, 5월 30 2025 22:10:02] [DOCUMENT_UPDATED] Document refreshed and zoomed to fit
+[금요일, 5월 30 2025 22:10:02] [MSP_START] Starting MSP1_compound.jsx execution
+[금요일, 5월 30 2025 22:10:02] [MSP_PARAMS] PatCol: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
+[금요일, 5월 30 2025 22:10:02] [MSP_PARAMS] PatBlk: D:\EPS\Iter\UI4\MolancanoDemo\FrogBlk.eps
+[금요일, 5월 30 2025 22:10:02] [MSP_PARAMS] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
+[금요일, 5월 30 2025 22:10:17] [MSP_FAILED] MSP1_compound.jsx failed: Failed to create compound path from mask
+[금요일, 5월 30 2025 22:10:17] [TARGET_START] Starting Target PatCol placement
+[금요일, 5월 30 2025 22:10:17] [TARGET_PATH] Script folder: D:\EPS\Iter\UI4
+[금요일, 5월 30 2025 22:10:17] [TARGET_PATH] Target folder: D:\EPS\Iter\UI4\Target
+[금요일, 5월 30 2025 22:10:17] [TARGET_PATH] Looking for: D:\EPS\Iter\UI4\Target\2d_PatCol.eps
+[금요일, 5월 30 2025 22:10:17] [TARGET_EXISTS] Target folder exists: true
+[금요일, 5월 30 2025 22:10:17] [TARGET_EXISTS] Target file exists: true
+[금요일, 5월 30 2025 22:10:17] [TARGET_FOUND] Target file found: 2d_PatCol.eps
+[금요일, 5월 30 2025 22:10:18] [IMAGE_PLACED] Target PatCol placed: 2d_PatCol.eps
+[금요일, 5월 30 2025 22:10:19] [IMAGE_RESIZED] Target PatCol resized: 141.9 x 300.0 (scale: 72.9%)
+[금요일, 5월 30 2025 22:10:19] [IMAGE_POSITIONED] Target PatCol positioned at (2,2): (300, 650)
+[금요일, 5월 30 2025 22:10:20] [VISIBILITY] Target PatCol - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 22:10:21] [TEXT_ADDED] Label added for Target PatCol: 2d_PatCol.eps
+[금요일, 5월 30 2025 22:10:21] [TARGET_SUCCESS] Target PatCol placed successfully
+[금요일, 5월 30 2025 22:10:21] [TARGET_BLK_START] Starting Target PatBlk placement
+[금요일, 5월 30 2025 22:10:21] [TARGET_BLK_PATH] Looking for: D:\EPS\Iter\UI4\Target\2d_PatBlk.eps
+[금요일, 5월 30 2025 22:10:21] [TARGET_BLK_EXISTS] Target PatBlk file exists: true
+[금요일, 5월 30 2025 22:10:21] [TARGET_BLK_FOUND] Target PatBlk file found: 2d_PatBlk.eps
+[금요일, 5월 30 2025 22:10:21] [IMAGE_PLACED] Target PatBlk placed: 2d_PatBlk.eps
+[금요일, 5월 30 2025 22:10:22] [IMAGE_RESIZED] Target PatBlk resized: 141.9 x 300.0 (scale: 72.9%)
+[금요일, 5월 30 2025 22:10:22] [IMAGE_POSITIONED] Target PatBlk positioned at (3,2): (300, 300)
+[금요일, 5월 30 2025 22:10:23] [VISIBILITY] Target PatBlk - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 22:10:25] [TEXT_ADDED] Label added for Target PatBlk: 2d_PatBlk.eps
+[금요일, 5월 30 2025 22:10:25] [TARGET_BLK_SUCCESS] Target PatBlk placed successfully
+[금요일, 5월 30 2025 22:10:43] [BUTTON_CLICK] OK button clicked
+[금요일, 5월 30 2025 22:10:43] [DIALOG_CLOSE] Dialog closed with OK
+[금요일, 5월 30 2025 22:10:43] [FINAL_STATUS] PatCol: FrogCol.eps
+[금요일, 5월 30 2025 22:10:43] [FINAL_STATUS] PatBlk: FrogBlk.eps
+[금요일, 5월 30 2025 22:10:43] [FINAL_STATUS] BluePrint: 2d.eps
+[금요일, 5월 30 2025 22:10:43] [FINAL_STATUS] BluePrint2: none
+[금요일, 5월 30 2025 22:10:43] [FINAL_STATUS] BluePrint3: none
+[금요일, 5월 30 2025 22:10:43] [SCRIPT_END] cmEpOp7.jsx completed
+[금요일, 5월 30 2025 22:21:11] [SCRIPT_INIT] mskPat3_advanced.jsx starting - early init
+[금요일, 5월 30 2025 22:21:11] [SCRIPT_START] mskPat3_advanced.jsx starting - main execution
+[금요일, 5월 30 2025 22:21:17] [DOCUMENT_CREATED] New document created: 1000x1000
+[금요일, 5월 30 2025 22:21:17] [LAYERS_CREATED] Grid Guides and Artwork layers created
+[금요일, 5월 30 2025 22:21:17] [GRID_CALCULATED] Grid layout calculated - Cell size: 150x300
+[금요일, 5월 30 2025 22:21:17] [GRID_CREATED] Grid guides and labels created
+[금요일, 5월 30 2025 22:21:17] [UI_CREATED] Column 1 (Pattern Col/Blk) created
+[금요일, 5월 30 2025 22:21:17] [UI_CREATED] Column 2 (2d BluePrint) created
+[금요일, 5월 30 2025 22:21:17] [UI_CREATED] Bottom section (2d BluePrint #2 and #3) created
+[금요일, 5월 30 2025 22:21:17] [UI_CREATED] Control buttons created
+[금요일, 5월 30 2025 22:21:17] [DIALOG_SHOW] Showing dialog to user
+[금요일, 5월 30 2025 22:21:59] [BUTTON_CLICK] Pattern Col button clicked
+[금요일, 5월 30 2025 22:22:08] [FILE_SELECTED] Pattern Col: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
+[금요일, 5월 30 2025 22:22:08] [IMAGE_PLACED] Pattern Col placed at (1,1) and scaled to 67.2133356771577%
+[금요일, 5월 30 2025 22:22:08] [VISIBILITY] Pattern Col - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 22:22:09] [IMAGE_PLACED] Pattern Col successfully placed and centered
+[금요일, 5월 30 2025 22:22:10] [BUTTON_CLICK] Pattern Blk button clicked
+[금요일, 5월 30 2025 22:22:16] [FILE_SELECTED] Pattern Blk: D:\EPS\Iter\UI4\MolancanoDemo\FrogBlk.eps
+[금요일, 5월 30 2025 22:22:17] [IMAGE_PLACED] Pattern Blk placed at (2,1) and scaled to 67.2133356771577%
+[금요일, 5월 30 2025 22:22:18] [VISIBILITY] Pattern Blk - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 22:22:18] [IMAGE_PLACED] Pattern Blk successfully placed and centered
+[금요일, 5월 30 2025 22:22:21] [BUTTON_CLICK] 2d BluePrint button clicked
+[금요일, 5월 30 2025 22:22:33] [FILE_SELECTED] 2d BluePrint: D:\EPS\Iter\UI4\2dFold\2d.eps
+[금요일, 5월 30 2025 22:22:33] [IMAGE_PLACED] 2d BluePrint placed at (1,2) and scaled to 67.5769128712626%
+[금요일, 5월 30 2025 22:22:33] [VISIBILITY] 2d BluePrint - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 22:22:33] [MSP_START] Starting masking for blueprint #1
+[금요일, 5월 30 2025 22:22:33] [MSP_METHOD] Using masking method: hybrid
+[금요일, 5월 30 2025 22:22:33] [MSP_PARAMS] PatCol: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
+[금요일, 5월 30 2025 22:22:33] [MSP_PARAMS] PatBlk: D:\EPS\Iter\UI4\MolancanoDemo\FrogBlk.eps
+[금요일, 5월 30 2025 22:22:33] [MSP_PARAMS] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
+[금요일, 5월 30 2025 22:22:33] [MSP_SCRIPT] Using script: MSP1_hybrid.jsx
+[금요일, 5월 30 2025 22:23:02] [MSP_FAILED] MSP1_hybrid.jsx failed: The top item in the group must be a path item to create a mask
+[금요일, 5월 30 2025 22:23:02] [TARGET_SEARCH] Looking for Target PatCol: D:\EPS\Iter\UI4\Target\2d_PatCol.eps
+[금요일, 5월 30 2025 22:23:02] [TARGET_EXISTS] File exists: true
+[금요일, 5월 30 2025 22:23:05] [VISIBILITY] Target PatCol - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 22:23:05] [TARGET_PLACED] Target PatCol placed at (2,2)
+[금요일, 5월 30 2025 22:23:05] [TARGET_SEARCH] Looking for Target PatBlk: D:\EPS\Iter\UI4\Target\2d_PatBlk.eps
+[금요일, 5월 30 2025 22:23:05] [TARGET_EXISTS] File exists: true
+[금요일, 5월 30 2025 22:23:07] [VISIBILITY] Target PatBlk - Layer visible: true, Item hidden: false
+[금요일, 5월 30 2025 22:23:07] [TARGET_PLACED] Target PatBlk placed at (3,2)

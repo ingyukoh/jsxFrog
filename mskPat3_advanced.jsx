@@ -684,11 +684,15 @@ blueprintButton.onClick = function() {
             
             // Execute MSP if PatCol and PatBlk are selected
             if (selectedPatCol && selectedPatBlk) {
-                if (executeMasking(selectedPatCol, selectedPatBlk, selectedBlueprint, 1)) {
+                var maskingSuccess = executeMasking(selectedPatCol, selectedPatBlk, selectedBlueprint, 1);
+                if (maskingSuccess) {
                     statusText.text = "[OK] Masked files generated. Placing images...";
-                    
-                    // Try to place synthesized Target PatCol at (2,2)
-                    try {
+                } else {
+                    statusText.text = "[WARNING] Masking failed, checking for existing files...";
+                }
+                
+                // Try to place synthesized Target files even if masking failed (they might exist from before)
+                try {
                         var scriptFile = new File($.fileName);
                         var scriptFolder = scriptFile.parent;
                         
@@ -696,6 +700,9 @@ blueprintButton.onClick = function() {
                         var targetFileName = blueprintName + "_PatCol.eps";
                         var targetFolder = new Folder(scriptFolder + "/Target");
                         var targetFile = new File(targetFolder + "/" + targetFileName);
+                        
+                        logToFile("TARGET_SEARCH", "Looking for Target PatCol: " + targetFile.fsName);
+                        logToFile("TARGET_EXISTS", "File exists: " + targetFile.exists);
                         
                         if (targetFile.exists) {
                             // Remove previous Target PatCol if exists
@@ -729,6 +736,9 @@ blueprintButton.onClick = function() {
                         // Try to place Target PatBlk at (3,2)
                         var targetBlkFileName = blueprintName + "_PatBlk.eps";
                         var targetBlkFile = new File(targetFolder + "/" + targetBlkFileName);
+                        
+                        logToFile("TARGET_SEARCH", "Looking for Target PatBlk: " + targetBlkFile.fsName);
+                        logToFile("TARGET_EXISTS", "File exists: " + targetBlkFile.exists);
                         
                         if (targetBlkFile.exists) {
                             // Remove previous Target PatBlk if exists
@@ -764,8 +774,8 @@ blueprintButton.onClick = function() {
                         
                     } catch (targetError) {
                         logToFile("TARGET_ERROR", "Error placing target files: " + targetError.toString());
+                        statusText.text = "[ERROR] Failed to place target files: " + targetError.toString();
                     }
-                }
             } else {
                 logToFile("MSP_SKIP", "Skipping MSP - PatCol or PatBlk not selected");
                 statusText.text = "[INFO] Select PatCol and PatBlk to generate masked files";
