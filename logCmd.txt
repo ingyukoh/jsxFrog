@@ -1169,3 +1169,6 @@
 [금요일, 5월 30 2025 22:23:05] [TARGET_EXISTS] File exists: true
 [금요일, 5월 30 2025 22:23:07] [VISIBILITY] Target PatBlk - Layer visible: true, Item hidden: false
 [금요일, 5월 30 2025 22:23:07] [TARGET_PLACED] Target PatBlk placed at (3,2)
+[토요일, 5월 31 2025 08:24:32] [BUTTON_CLICK] OK button clicked
+[토요일, 5월 31 2025 08:24:32] [DIALOG_CLOSED] User clicked OK
+[토요일, 5월 31 2025 08:24:32] [SCRIPT_END] mskPat3_advanced.jsx completed

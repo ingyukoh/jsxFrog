@@ -1,1119 +1,1664 @@
-[2025-5-25 11:27:10] Starting masked2.jsx - Fast development mode
-[2025-5-25 11:27:10] Found 2d.eps: D:\EPS\Iter\UI2\2d.eps
-[2025-5-25 11:27:20] Found PatCol.eps: D:\EPS\Iter\UI2\PatCol.eps
-[2025-5-25 11:27:25] Fetching CL + BL from 2D document
-[2025-5-25 11:27:25] Found CL and BL groups
-[2025-5-25 11:27:25] Step 1: Extracting pattern from PatCol file...
-[2025-5-25 11:27:27] Pattern copied from PatCol file to 2D document
-[2025-5-25 11:27:27] Protected 0 disclaimer text items
-[2025-5-25 11:27:27] Step 2: Scaling pattern to match CL height...
-[2025-5-25 11:27:27] Original dimensions: Width: 320.35 pts, Height: 566.93 pts
-[2025-5-25 11:27:27] Scaling uniformly by 0.7739 to match CL height (438.77 pts)
-[2025-5-25 11:27:27] Pattern scaled and centered
-[2025-5-25 11:27:27] Step 3: Creating clipping mask...
-[2025-5-25 11:27:27] Clipping path derived from largest path (80097 pts짼)
-[2025-5-25 11:27:27] Step 4: Assembling final Target group...
-[2025-5-25 11:27:27] Target group assembled + clipping applied
-[2025-5-25 11:27:27] Step 5: Saving final EPS file...
-[2025-5-25 11:27:43] WORKFLOW COMPLETE! Saved to: D:\EPS\Iter\UI2\targG.eps
-[2025-05-25 12:05:18] ===== MSP1.jsx STARTED =====
-[2025-05-25 12:05:18] Processing PatCol masking
-[2025-05-25 12:05:18] Pattern: D:\EPS\Iter\UI2\PatCol.eps
-[2025-05-25 12:05:18] Mask: D:\EPS\Iter\UI2\2d.eps
-[2025-05-25 12:05:29] Fetching CL + BL from mask document
-[2025-05-25 12:05:29] Found CL and BL groups
-[2025-05-25 12:05:29] Extracting pattern from PatCol file...
-[2025-05-25 12:05:31] Pattern copied to mask document
-[2025-05-25 12:05:31] Protected 0 disclaimer text items
-[2025-05-25 12:05:31] Scaling pattern to match CL height...
-[2025-05-25 12:05:31] Scaling uniformly by 0.7739
-[2025-05-25 12:05:31] Pattern scaled and centered
-[2025-05-25 12:05:31] Creating clipping mask...
-[2025-05-25 12:05:31] Clipping path created
-[2025-05-25 12:05:31] Assembling final Target group...
-[2025-05-25 12:05:31] Target group assembled + clipping applied
-[2025-05-25 12:05:31] Saving to: D:\EPS\Iter\UI2\Target\2d_PatCol.eps
-[2025-05-25 12:05:48] Successfully created: 2d_PatCol.eps
-[2025-05-25 12:05:48] Processing PatBlk masking
-[2025-05-25 12:05:48] Pattern: D:\EPS\Iter\UI2\PatBlk.eps
-[2025-05-25 12:05:48] Mask: D:\EPS\Iter\UI2\2d.eps
-[2025-05-25 12:05:53] Fetching CL + BL from mask document
-[2025-05-25 12:05:53] Found CL and BL groups
-[2025-05-25 12:05:53] Extracting pattern from PatBlk file...
-[2025-05-25 12:05:55] Pattern copied to mask document
-[2025-05-25 12:05:55] Protected 0 disclaimer text items
-[2025-05-25 12:05:55] Scaling pattern to match CL height...
-[2025-05-25 12:05:55] Scaling uniformly by 0.7739
-[2025-05-25 12:05:55] Pattern scaled and centered
-[2025-05-25 12:05:55] Creating clipping mask...
-[2025-05-25 12:05:55] Clipping path created
-[2025-05-25 12:05:55] Assembling final Target group...
-[2025-05-25 12:05:55] Target group assembled + clipping applied
-[2025-05-25 12:05:55] Saving to: D:\EPS\Iter\UI2\Target\2d_PatBlk.eps
-[2025-05-25 12:06:06] Successfully created: 2d_PatBlk.eps
-[2025-05-25 12:06:06] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
-[2025-05-25 12:05:18] ===== testMSP.jsx STARTED =====
-[2025-05-25 12:05:18] Script folder: /d/EPS/Iter/UI2
-[2025-05-25 12:05:18] Test paths:
-[2025-05-25 12:05:18]   PatCol: D:\EPS\Iter\UI2\PatCol.eps
-[2025-05-25 12:05:18]   PatBlk: D:\EPS\Iter\UI2\PatBlk.eps
-[2025-05-25 12:05:18]   Mask: D:\EPS\Iter\UI2\2d.eps
-[2025-05-25 12:05:18] All input files verified to exist
-[2025-05-25 12:05:18] Including MSP1.jsx...
-[2025-05-25 12:06:06] MSP1.jsx execution complete
-[2025-05-25 12:06:06] Success: true
-[2025-05-25 12:06:06] Error message: 
-[2025-05-25 12:06:06] Output paths: 2 files
-[2025-05-25 12:06:06] Output files created:
-[2025-05-25 12:06:06]   1: D:\EPS\Iter\UI2\Target\2d_PatCol.eps
-[2025-05-25 12:06:06]     Verified: File exists (size: 13335858 bytes)
-[2025-05-25 12:06:06]   2: D:\EPS\Iter\UI2\Target\2d_PatBlk.eps
-[2025-05-25 12:06:06]     Verified: File exists (size: 1787766 bytes)
-[2025-05-25 12:06:06] Target folder contents:
-[2025-05-25 12:06:06]   - targG.eps
-[2025-05-25 12:06:06]   - s25_PatCol.eps
-[2025-05-25 12:06:06]   - s25plus_PatCol.eps
-[2025-05-25 12:06:06]   - s25plus_PatBlk.eps
-[2025-05-25 12:06:06]   - s25ultra_PatCol.eps
-[2025-05-25 12:06:06]   - s25ultra_PatBlk.eps
-[2025-05-25 12:06:06]   - s25_PatBlk.eps
-[2025-05-25 12:06:06]   - 2d_PatCol.eps
-[2025-05-25 12:06:06]   - 2d_PatBlk.eps
-[2025-05-25 13:04:34] ===== testMSP.jsx COMPLETED =====
-[2025-05-25 13:09:18] ===== MSP1.jsx STARTED =====
-[2025-05-25 13:09:18] Processing PatCol masking
-[2025-05-25 13:09:18] Pattern: D:\EPS\Iter\UI2\PatCol.eps
-[2025-05-25 13:09:18] Mask: D:\EPS\Iter\UI2\2d.eps
-[2025-05-25 13:09:25] Fetching CL + BL from mask document
-[2025-05-25 13:09:25] Found CL and BL groups
-[2025-05-25 13:09:26] Extracting pattern from PatCol file...
-[2025-05-25 13:09:27] Pattern copied to mask document
-[2025-05-25 13:09:27] Protected 0 disclaimer text items
-[2025-05-25 13:09:27] Scaling pattern to match CL height...
-[2025-05-25 13:09:27] Scaling uniformly by 0.7739
-[2025-05-25 13:09:27] Pattern scaled and centered
-[2025-05-25 13:09:27] Creating clipping mask...
-[2025-05-25 13:09:27] Clipping path created
-[2025-05-25 13:09:27] Assembling final Target group...
-[2025-05-25 13:09:27] Target group assembled + clipping applied
-[2025-05-25 13:09:27] Saving to: D:\EPS\Iter\UI2\Target\2d_PatCol.eps
-[2025-05-25 13:09:44] Successfully created: 2d_PatCol.eps
-[2025-05-25 13:09:44] Processing PatBlk masking
-[2025-05-25 13:09:44] Pattern: D:\EPS\Iter\UI2\PatBlk.eps
-[2025-05-25 13:09:44] Mask: D:\EPS\Iter\UI2\2d.eps
-[2025-05-25 13:09:48] Fetching CL + BL from mask document
-[2025-05-25 13:09:48] Found CL and BL groups
-[2025-05-25 13:09:48] Extracting pattern from PatBlk file...
-[2025-05-25 13:09:50] Pattern copied to mask document
-[2025-05-25 13:09:50] Protected 0 disclaimer text items
-[2025-05-25 13:09:50] Scaling pattern to match CL height...
-[2025-05-25 13:09:50] Scaling uniformly by 0.7739
-[2025-05-25 13:09:50] Pattern scaled and centered
-[2025-05-25 13:09:50] Creating clipping mask...
-[2025-05-25 13:09:50] Clipping path created
-[2025-05-25 13:09:50] Assembling final Target group...
-[2025-05-25 13:09:50] Target group assembled + clipping applied
-[2025-05-25 13:09:50] Saving to: D:\EPS\Iter\UI2\Target\2d_PatBlk.eps
-[2025-05-25 13:09:59] Successfully created: 2d_PatBlk.eps
-[2025-05-25 13:09:59] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
-[2025-05-25 13:10:55] ===== MSP1.jsx STARTED =====
-[2025-05-25 13:10:55] Processing PatCol masking
-[2025-05-25 13:10:55] Pattern: D:\EPS\Iter\UI2\PatCol.eps
-[2025-05-25 13:10:55] Mask: D:\EPS\Iter\UI2\2d.eps
-[2025-05-25 13:11:02] Fetching CL + BL from mask document
-[2025-05-25 13:11:02] Found CL and BL groups
-[2025-05-25 13:11:02] Extracting pattern from PatCol file...
-[2025-05-25 13:11:03] Pattern copied to mask document
-[2025-05-25 13:11:03] ERROR in processMasking: undefined은(는) 개체가 아닙니다.
-[2025-05-25 13:11:03] ===== MSP1.jsx FAILED: undefined은(는) 개체가 아닙니다. =====
-[2025-05-25 13:27:04] ===== MSP1.jsx STARTED =====
-[2025-05-25 13:27:04] Processing PatCol masking
-[2025-05-25 13:27:04] Pattern: D:\EPS\Iter\UI2\PatCol.eps
-[2025-05-25 13:27:04] Mask: D:\EPS\Iter\UI2\2d.eps
-[2025-05-25 13:27:13] Fetching CL + BL from mask document
-[2025-05-25 13:27:13] Found CL and BL groups
-[2025-05-25 13:27:13] Extracting pattern from PatCol file...
-[2025-05-25 13:27:14] Pattern copied to mask document
-[2025-05-25 13:27:14] Protected 0 disclaimer text items
-[2025-05-25 13:27:14] Scaling pattern to match CL height...
-[2025-05-25 13:27:14] Scaling uniformly by 0.7739
-[2025-05-25 13:27:14] Pattern scaled and centered
-[2025-05-25 13:27:14] Creating clipping mask...
-[2025-05-25 13:27:14] Clipping path created
-[2025-05-25 13:27:14] Assembling final Target group...
-[2025-05-25 13:27:14] Target group assembled + clipping applied
-[2025-05-25 13:27:14] Saving to: D:\EPS\Iter\UI2\Target\2d_PatCol.eps
-[2025-05-25 13:27:31] Successfully created: 2d_PatCol.eps
-[2025-05-25 13:27:31] Processing PatBlk masking
-[2025-05-25 13:27:31] Pattern: D:\EPS\Iter\UI2\PatBlk.eps
-[2025-05-25 13:27:31] Mask: D:\EPS\Iter\UI2\2d.eps
-[2025-05-25 13:27:35] Fetching CL + BL from mask document
-[2025-05-25 13:27:35] Found CL and BL groups
-[2025-05-25 13:27:35] Extracting pattern from PatBlk file...
-[2025-05-25 13:27:36] Pattern copied to mask document
-[2025-05-25 13:27:36] Protected 0 disclaimer text items
-[2025-05-25 13:27:36] Scaling pattern to match CL height...
-[2025-05-25 13:27:36] Scaling uniformly by 0.7739
-[2025-05-25 13:27:36] Pattern scaled and centered
-[2025-05-25 13:27:36] Creating clipping mask...
-[2025-05-25 13:27:36] Clipping path created
-[2025-05-25 13:27:36] Assembling final Target group...
-[2025-05-25 13:27:36] Target group assembled + clipping applied
-[2025-05-25 13:27:36] Saving to: D:\EPS\Iter\UI2\Target\2d_PatBlk.eps
-[2025-05-25 13:27:45] Successfully created: 2d_PatBlk.eps
-[2025-05-25 13:27:45] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
-[2025-05-25 13:28:03] ===== MSP1.jsx STARTED =====
-[2025-05-25 13:28:03] Processing PatCol masking
-[2025-05-25 13:28:03] Pattern: D:\EPS\Iter\UI2\PatCol.eps
-[2025-05-25 13:28:03] Mask: D:\EPS\Iter\UI2\2d.eps
-[2025-05-25 13:28:08] Fetching CL + BL from mask document
-[2025-05-25 13:28:08] Found CL and BL groups
-[2025-05-25 13:28:08] Extracting pattern from PatCol file...
-[2025-05-25 13:28:10] Pattern copied to mask document
-[2025-05-25 13:28:10] Protected 0 disclaimer text items
-[2025-05-25 13:28:10] Scaling pattern to match CL height...
-[2025-05-25 13:28:10] Scaling uniformly by 0.7739
-[2025-05-25 13:28:10] Pattern scaled and centered
-[2025-05-25 13:28:10] Creating clipping mask...
-[2025-05-25 13:28:10] Clipping path created
-[2025-05-25 13:28:10] Assembling final Target group...
-[2025-05-25 13:28:10] Target group assembled + clipping applied
-[2025-05-25 13:28:10] Saving to: D:\EPS\Iter\UI2\Target\2d_PatCol.eps
-[2025-05-25 13:28:27] Successfully created: 2d_PatCol.eps
-[2025-05-25 13:28:27] Processing PatBlk masking
-[2025-05-25 13:28:27] Pattern: D:\EPS\Iter\UI2\PatBlk.eps
-[2025-05-25 13:28:27] Mask: D:\EPS\Iter\UI2\2d.eps
-[2025-05-25 13:28:31] Fetching CL + BL from mask document
-[2025-05-25 13:28:31] Found CL and BL groups
-[2025-05-25 13:28:31] Extracting pattern from PatBlk file...
-[2025-05-25 13:28:33] Pattern copied to mask document
-[2025-05-25 13:28:33] Protected 0 disclaimer text items
-[2025-05-25 13:28:33] Scaling pattern to match CL height...
-[2025-05-25 13:28:33] Scaling uniformly by 0.7739
-[2025-05-25 13:28:33] Pattern scaled and centered
-[2025-05-25 13:28:33] Creating clipping mask...
-[2025-05-25 13:28:33] Clipping path created
-[2025-05-25 13:28:33] Assembling final Target group...
-[2025-05-25 13:28:33] Target group assembled + clipping applied
-[2025-05-25 13:28:33] Saving to: D:\EPS\Iter\UI2\Target\2d_PatBlk.eps
-[2025-05-25 13:28:43] Successfully created: 2d_PatBlk.eps
-[2025-05-25 13:28:43] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
-[2025-05-25 13:35:20] ===== MSP1.jsx STARTED =====
-[2025-05-25 13:35:20] Processing PatCol masking
-[2025-05-25 13:35:20] Pattern: D:\EPS\Iter\UI2\PatCol.eps
-[2025-05-25 13:35:20] Mask: D:\EPS\Iter\UI2\2d.eps
-[2025-05-25 13:35:31] Fetching CL + BL from mask document
-[2025-05-25 13:35:31] Found CL and BL groups
-[2025-05-25 13:35:32] Extracting pattern from PatCol file...
-[2025-05-25 13:35:33] Pattern copied to mask document
-[2025-05-25 13:35:33] Protected 0 disclaimer text items
-[2025-05-25 13:35:33] Scaling pattern to match CL height...
-[2025-05-25 13:35:33] Scaling uniformly by 0.7739
-[2025-05-25 13:35:33] Pattern scaled and centered
-[2025-05-25 13:35:33] Creating clipping mask...
-[2025-05-25 13:35:33] Clipping path created
-[2025-05-25 13:35:33] Assembling final Target group...
-[2025-05-25 13:35:33] Target group assembled + clipping applied
-[2025-05-25 13:35:33] Saving to: D:\EPS\Iter\UI2\Target\2d_PatCol.eps
-[2025-05-25 13:35:51] Successfully created: 2d_PatCol.eps
-[2025-05-25 13:35:51] Processing PatBlk masking
-[2025-05-25 13:35:51] Pattern: D:\EPS\Iter\UI2\PatBlk.eps
-[2025-05-25 13:35:51] Mask: D:\EPS\Iter\UI2\2d.eps
-[2025-05-25 13:35:55] Fetching CL + BL from mask document
-[2025-05-25 13:35:55] Found CL and BL groups
-[2025-05-25 13:35:55] Extracting pattern from PatBlk file...
-[2025-05-25 13:35:56] Pattern copied to mask document
-[2025-05-25 13:35:56] Protected 0 disclaimer text items
-[2025-05-25 13:35:56] Scaling pattern to match CL height...
-[2025-05-25 13:35:56] Scaling uniformly by 0.7739
-[2025-05-25 13:35:56] Pattern scaled and centered
-[2025-05-25 13:35:56] Creating clipping mask...
-[2025-05-25 13:35:56] Clipping path created
-[2025-05-25 13:35:56] Assembling final Target group...
-[2025-05-25 13:35:56] Target group assembled + clipping applied
-[2025-05-25 13:35:56] Saving to: D:\EPS\Iter\UI2\Target\2d_PatBlk.eps
-[2025-05-25 13:36:05] Successfully created: 2d_PatBlk.eps
-[2025-05-25 13:36:05] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
-[2025-05-25 13:36:26] ===== MSP1.jsx STARTED =====
-[2025-05-25 13:36:26] Processing PatCol masking
-[2025-05-25 13:36:26] Pattern: D:\EPS\Iter\UI2\PatCol.eps
-[2025-05-25 13:36:26] Mask: D:\EPS\Iter\UI2\2db.eps
-[2025-05-25 13:36:34] Fetching CL + BL from mask document
-[2025-05-25 13:36:34] Found CL and BL groups
-[2025-05-25 13:36:35] Extracting pattern from PatCol file...
-[2025-05-25 13:36:36] Pattern copied to mask document
-[2025-05-25 13:36:36] Protected 0 disclaimer text items
-[2025-05-25 13:36:36] Scaling pattern to match CL height...
-[2025-05-25 13:36:36] Scaling uniformly by 0.7739
-[2025-05-25 13:36:36] Pattern scaled and centered
-[2025-05-25 13:36:36] Creating clipping mask...
-[2025-05-25 13:36:36] Clipping path created
-[2025-05-25 13:36:36] Assembling final Target group...
-[2025-05-25 13:36:36] Target group assembled + clipping applied
-[2025-05-25 13:36:36] Saving to: D:\EPS\Iter\UI2\Target\2db_PatCol.eps
-[2025-05-25 13:36:54] Successfully created: 2db_PatCol.eps
-[2025-05-25 13:36:54] Processing PatBlk masking
-[2025-05-25 13:36:54] Pattern: D:\EPS\Iter\UI2\PatBlk.eps
-[2025-05-25 13:36:54] Mask: D:\EPS\Iter\UI2\2db.eps
-[2025-05-25 13:36:59] Fetching CL + BL from mask document
-[2025-05-25 13:36:59] Found CL and BL groups
-[2025-05-25 13:37:00] Extracting pattern from PatBlk file...
-[2025-05-25 13:37:02] Pattern copied to mask document
-[2025-05-25 13:37:02] Protected 0 disclaimer text items
-[2025-05-25 13:37:02] Scaling pattern to match CL height...
-[2025-05-25 13:37:02] Scaling uniformly by 0.7739
-[2025-05-25 13:37:02] Pattern scaled and centered
-[2025-05-25 13:37:02] Creating clipping mask...
-[2025-05-25 13:37:02] Clipping path created
-[2025-05-25 13:37:02] Assembling final Target group...
-[2025-05-25 13:37:02] Target group assembled + clipping applied
-[2025-05-25 13:37:02] Saving to: D:\EPS\Iter\UI2\Target\2db_PatBlk.eps
-[2025-05-25 13:37:13] Successfully created: 2db_PatBlk.eps
-[2025-05-25 13:37:13] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
-[2025-05-25 13:48:19] ===== MSP1.jsx STARTED =====
-[2025-05-25 13:48:19] Processing PatCol masking
-[2025-05-25 13:48:19] Pattern: D:\EPS\Iter\UI2\PatCol.eps
-[2025-05-25 13:48:19] Mask: D:\EPS\Iter\UI2\2d.eps
-[2025-05-25 13:48:28] Fetching CL + BL from mask document
-[2025-05-25 13:48:28] Found CL and BL groups
-[2025-05-25 13:48:28] Extracting pattern from PatCol file...
-[2025-05-25 13:48:30] Pattern copied to mask document
-[2025-05-25 13:48:30] Protected 0 disclaimer text items
-[2025-05-25 13:48:30] Scaling pattern to match CL height...
-[2025-05-25 13:48:30] Scaling uniformly by 0.7739
-[2025-05-25 13:48:30] Pattern scaled and centered
-[2025-05-25 13:48:30] Creating clipping mask...
-[2025-05-25 13:48:30] Clipping path created
-[2025-05-25 13:48:30] Assembling final Target group...
-[2025-05-25 13:48:30] Target group assembled + clipping applied
-[2025-05-25 13:48:30] Saving to: D:\EPS\Iter\UI2\Target\2d_PatCol.eps
-[2025-05-25 13:48:46] Successfully created: 2d_PatCol.eps
-[2025-05-25 13:48:46] Processing PatBlk masking
-[2025-05-25 13:48:46] Pattern: D:\EPS\Iter\UI2\PatBlk.eps
-[2025-05-25 13:48:46] Mask: D:\EPS\Iter\UI2\2d.eps
-[2025-05-25 13:48:50] Fetching CL + BL from mask document
-[2025-05-25 13:48:50] Found CL and BL groups
-[2025-05-25 13:48:50] Extracting pattern from PatBlk file...
-[2025-05-25 13:48:51] Pattern copied to mask document
-[2025-05-25 13:48:51] Protected 0 disclaimer text items
-[2025-05-25 13:48:51] Scaling pattern to match CL height...
-[2025-05-25 13:48:51] Scaling uniformly by 0.7739
-[2025-05-25 13:48:51] Pattern scaled and centered
-[2025-05-25 13:48:51] Creating clipping mask...
-[2025-05-25 13:48:51] Clipping path created
-[2025-05-25 13:48:51] Assembling final Target group...
-[2025-05-25 13:48:51] Target group assembled + clipping applied
-[2025-05-25 13:48:51] Saving to: D:\EPS\Iter\UI2\Target\2d_PatBlk.eps
-[2025-05-25 13:48:59] Successfully created: 2d_PatBlk.eps
-[2025-05-25 13:48:59] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
-[2025-05-25 13:49:30] ===== MSP1.jsx STARTED =====
-[2025-05-25 13:49:30] Processing PatCol masking
-[2025-05-25 13:49:30] Pattern: D:\EPS\Iter\UI2\PatCol.eps
-[2025-05-25 13:49:30] Mask: D:\EPS\Iter\UI2\2db.eps
-[2025-05-25 13:49:38] Fetching CL + BL from mask document
-[2025-05-25 13:49:38] Found CL and BL groups
-[2025-05-25 13:49:38] Extracting pattern from PatCol file...
-[2025-05-25 13:49:40] Pattern copied to mask document
-[2025-05-25 13:49:40] Protected 0 disclaimer text items
-[2025-05-25 13:49:40] Scaling pattern to match CL height...
-[2025-05-25 13:49:40] Scaling uniformly by 0.7739
-[2025-05-25 13:49:40] Pattern scaled and centered
-[2025-05-25 13:49:40] Creating clipping mask...
-[2025-05-25 13:49:40] Clipping path created
-[2025-05-25 13:49:40] Assembling final Target group...
-[2025-05-25 13:49:40] Target group assembled + clipping applied
-[2025-05-25 13:49:40] Saving to: D:\EPS\Iter\UI2\Target\2db_PatCol.eps
-[2025-05-25 13:49:55] Successfully created: 2db_PatCol.eps
-[2025-05-25 13:49:55] Processing PatBlk masking
-[2025-05-25 13:49:55] Pattern: D:\EPS\Iter\UI2\PatBlk.eps
-[2025-05-25 13:49:55] Mask: D:\EPS\Iter\UI2\2db.eps
-[2025-05-25 13:50:00] Fetching CL + BL from mask document
-[2025-05-25 13:50:00] Found CL and BL groups
-[2025-05-25 13:50:00] Extracting pattern from PatBlk file...
-[2025-05-25 13:50:02] Pattern copied to mask document
-[2025-05-25 13:50:02] Protected 0 disclaimer text items
-[2025-05-25 13:50:02] Scaling pattern to match CL height...
-[2025-05-25 13:50:02] Scaling uniformly by 0.7739
-[2025-05-25 13:50:02] Pattern scaled and centered
-[2025-05-25 13:50:02] Creating clipping mask...
-[2025-05-25 13:50:02] Clipping path created
-[2025-05-25 13:50:02] Assembling final Target group...
-[2025-05-25 13:50:02] Target group assembled + clipping applied
-[2025-05-25 13:50:02] Saving to: D:\EPS\Iter\UI2\Target\2db_PatBlk.eps
-[2025-05-25 13:50:10] Successfully created: 2db_PatBlk.eps
-[2025-05-25 13:50:10] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
-[2025-05-25 13:50:35] ===== MSP1.jsx STARTED =====
-[2025-05-25 13:50:35] Processing PatCol masking
-[2025-05-25 13:50:35] Pattern: D:\EPS\Iter\UI2\PatCol.eps
-[2025-05-25 13:50:35] Mask: D:\EPS\Iter\UI2\2dc.eps
-[2025-05-25 13:50:42] Fetching CL + BL from mask document
-[2025-05-25 13:50:42] Found CL and BL groups
-[2025-05-25 13:50:42] Extracting pattern from PatCol file...
-[2025-05-25 13:50:44] Pattern copied to mask document
-[2025-05-25 13:50:44] Protected 0 disclaimer text items
-[2025-05-25 13:50:44] Scaling pattern to match CL height...
-[2025-05-25 13:50:44] Scaling uniformly by 0.7739
-[2025-05-25 13:50:44] Pattern scaled and centered
-[2025-05-25 13:50:44] Creating clipping mask...
-[2025-05-25 13:50:44] Clipping path created
-[2025-05-25 13:50:44] Assembling final Target group...
-[2025-05-25 13:50:44] Target group assembled + clipping applied
-[2025-05-25 13:50:44] Saving to: D:\EPS\Iter\UI2\Target\2dc_PatCol.eps
-[2025-05-25 13:50:59] Successfully created: 2dc_PatCol.eps
-[2025-05-25 13:50:59] Processing PatBlk masking
-[2025-05-25 13:50:59] Pattern: D:\EPS\Iter\UI2\PatBlk.eps
-[2025-05-25 13:50:59] Mask: D:\EPS\Iter\UI2\2dc.eps
-[2025-05-25 13:51:02] Fetching CL + BL from mask document
-[2025-05-25 13:51:02] Found CL and BL groups
-[2025-05-25 13:51:03] Extracting pattern from PatBlk file...
-[2025-05-25 13:51:04] Pattern copied to mask document
-[2025-05-25 13:51:04] Protected 0 disclaimer text items
-[2025-05-25 13:51:04] Scaling pattern to match CL height...
-[2025-05-25 13:51:04] Scaling uniformly by 0.7739
-[2025-05-25 13:51:04] Pattern scaled and centered
-[2025-05-25 13:51:04] Creating clipping mask...
-[2025-05-25 13:51:04] Clipping path created
-[2025-05-25 13:51:04] Assembling final Target group...
-[2025-05-25 13:51:04] Target group assembled + clipping applied
-[2025-05-25 13:51:04] Saving to: D:\EPS\Iter\UI2\Target\2dc_PatBlk.eps
-[2025-05-25 13:51:13] Successfully created: 2dc_PatBlk.eps
-[2025-05-25 13:51:13] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
-[2025-05-25 14:10:10] ===== MSP1.jsx STARTED =====
-[2025-05-25 14:10:10] Processing PatCol masking
-[2025-05-25 14:10:10] Pattern: D:\EPS\Iter\UI2\PatCol.eps
-[2025-05-25 14:10:10] Mask: D:\EPS\Iter\UI2\2d.eps
-[2025-05-25 14:10:21] Fetching CL + BL from mask document
-[2025-05-25 14:10:21] Found CL and BL groups
-[2025-05-25 14:10:21] Extracting pattern from PatCol file...
-[2025-05-25 14:10:23] Pattern copied to mask document
-[2025-05-25 14:10:23] Protected 0 disclaimer text items
-[2025-05-25 14:10:23] Scaling pattern to match CL height...
-[2025-05-25 14:10:23] Scaling uniformly by 0.7739
-[2025-05-25 14:10:23] Pattern scaled and centered
-[2025-05-25 14:10:23] Creating clipping mask...
-[2025-05-25 14:10:23] Clipping path created
-[2025-05-25 14:10:23] Assembling final Target group...
-[2025-05-25 14:10:23] Target group assembled + clipping applied
-[2025-05-25 14:10:23] Saving to: D:\EPS\Iter\UI2\Target\2d_PatCol.eps
-[2025-05-25 14:10:45] Successfully created: 2d_PatCol.eps
-[2025-05-25 14:10:45] Processing PatBlk masking
-[2025-05-25 14:10:45] Pattern: D:\EPS\Iter\UI2\PatBlk.eps
-[2025-05-25 14:10:45] Mask: D:\EPS\Iter\UI2\2d.eps
-[2025-05-25 14:10:50] Fetching CL + BL from mask document
-[2025-05-25 14:10:50] Found CL and BL groups
-[2025-05-25 14:10:50] Extracting pattern from PatBlk file...
-[2025-05-25 14:10:52] Pattern copied to mask document
-[2025-05-25 14:10:52] Protected 0 disclaimer text items
-[2025-05-25 14:10:52] Scaling pattern to match CL height...
-[2025-05-25 14:10:52] Scaling uniformly by 0.7739
-[2025-05-25 14:10:52] Pattern scaled and centered
-[2025-05-25 14:10:52] Creating clipping mask...
-[2025-05-25 14:10:52] Clipping path created
-[2025-05-25 14:10:52] Assembling final Target group...
-[2025-05-25 14:10:52] Target group assembled + clipping applied
-[2025-05-25 14:10:52] Saving to: D:\EPS\Iter\UI2\Target\2d_PatBlk.eps
-[2025-05-25 14:11:01] Successfully created: 2d_PatBlk.eps
-[2025-05-25 14:11:01] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
-[2025-05-25 14:11:22] ===== MSP1.jsx STARTED =====
-[2025-05-25 14:11:22] Processing PatCol masking
-[2025-05-25 14:11:22] Pattern: D:\EPS\Iter\UI2\PatCol.eps
-[2025-05-25 14:11:22] Mask: D:\EPS\Iter\UI2\2db.eps
-[2025-05-25 14:11:30] Fetching CL + BL from mask document
-[2025-05-25 14:11:30] Found CL and BL groups
-[2025-05-25 14:11:30] Extracting pattern from PatCol file...
-[2025-05-25 14:11:31] Pattern copied to mask document
-[2025-05-25 14:11:31] Protected 0 disclaimer text items
-[2025-05-25 14:11:31] Scaling pattern to match CL height...
-[2025-05-25 14:11:31] Scaling uniformly by 0.7739
-[2025-05-25 14:11:31] Pattern scaled and centered
-[2025-05-25 14:11:31] Creating clipping mask...
-[2025-05-25 14:11:31] Clipping path created
-[2025-05-25 14:11:31] Assembling final Target group...
-[2025-05-25 14:11:31] Target group assembled + clipping applied
-[2025-05-25 14:11:31] Saving to: D:\EPS\Iter\UI2\Target\2db_PatCol.eps
-[2025-05-25 14:11:46] Successfully created: 2db_PatCol.eps
-[2025-05-25 14:11:46] Processing PatBlk masking
-[2025-05-25 14:11:46] Pattern: D:\EPS\Iter\UI2\PatBlk.eps
-[2025-05-25 14:11:46] Mask: D:\EPS\Iter\UI2\2db.eps
-[2025-05-25 14:11:50] Fetching CL + BL from mask document
-[2025-05-25 14:11:50] Found CL and BL groups
-[2025-05-25 14:11:50] Extracting pattern from PatBlk file...
-[2025-05-25 14:11:52] Pattern copied to mask document
-[2025-05-25 14:11:52] Protected 0 disclaimer text items
-[2025-05-25 14:11:52] Scaling pattern to match CL height...
-[2025-05-25 14:11:52] Scaling uniformly by 0.7739
-[2025-05-25 14:11:52] Pattern scaled and centered
-[2025-05-25 14:11:52] Creating clipping mask...
-[2025-05-25 14:11:52] Clipping path created
-[2025-05-25 14:11:52] Assembling final Target group...
-[2025-05-25 14:11:52] Target group assembled + clipping applied
-[2025-05-25 14:11:52] Saving to: D:\EPS\Iter\UI2\Target\2db_PatBlk.eps
-[2025-05-25 14:12:01] Successfully created: 2db_PatBlk.eps
-[2025-05-25 14:12:01] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
-[2025-05-25 14:12:15] ===== MSP1.jsx STARTED =====
-[2025-05-25 14:12:15] Processing PatCol masking
-[2025-05-25 14:12:15] Pattern: D:\EPS\Iter\UI2\PatCol.eps
-[2025-05-25 14:12:15] Mask: D:\EPS\Iter\UI2\2dc.eps
-[2025-05-25 14:12:23] Fetching CL + BL from mask document
-[2025-05-25 14:12:23] Found CL and BL groups
-[2025-05-25 14:12:23] Extracting pattern from PatCol file...
-[2025-05-25 14:12:24] Pattern copied to mask document
-[2025-05-25 14:12:24] Protected 0 disclaimer text items
-[2025-05-25 14:12:24] Scaling pattern to match CL height...
-[2025-05-25 14:12:24] Scaling uniformly by 0.7739
-[2025-05-25 14:12:24] Pattern scaled and centered
-[2025-05-25 14:12:24] Creating clipping mask...
-[2025-05-25 14:12:24] Clipping path created
-[2025-05-25 14:12:24] Assembling final Target group...
-[2025-05-25 14:12:24] Target group assembled + clipping applied
-[2025-05-25 14:12:24] Saving to: D:\EPS\Iter\UI2\Target\2dc_PatCol.eps
-[2025-05-25 14:12:40] Successfully created: 2dc_PatCol.eps
-[2025-05-25 14:12:40] Processing PatBlk masking
-[2025-05-25 14:12:40] Pattern: D:\EPS\Iter\UI2\PatBlk.eps
-[2025-05-25 14:12:40] Mask: D:\EPS\Iter\UI2\2dc.eps
-[2025-05-25 14:12:44] Fetching CL + BL from mask document
-[2025-05-25 14:12:44] Found CL and BL groups
-[2025-05-25 14:12:44] Extracting pattern from PatBlk file...
-[2025-05-25 14:12:45] Pattern copied to mask document
-[2025-05-25 14:12:45] Protected 0 disclaimer text items
-[2025-05-25 14:12:45] Scaling pattern to match CL height...
-[2025-05-25 14:12:45] Scaling uniformly by 0.7739
-[2025-05-25 14:12:45] Pattern scaled and centered
-[2025-05-25 14:12:45] Creating clipping mask...
-[2025-05-25 14:12:45] Clipping path created
-[2025-05-25 14:12:45] Assembling final Target group...
-[2025-05-25 14:12:45] Target group assembled + clipping applied
-[2025-05-25 14:12:45] Saving to: D:\EPS\Iter\UI2\Target\2dc_PatBlk.eps
-[2025-05-25 14:12:54] Successfully created: 2dc_PatBlk.eps
-[2025-05-25 14:12:54] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
-[2025-05-25 14:34:05] ===== MSP1.jsx STARTED =====
-[2025-05-25 14:34:05] Processing PatCol masking
-[2025-05-25 14:34:05] Pattern: D:\EPS\Iter\UI2\PatCol.eps
-[2025-05-25 14:34:05] Mask: D:\EPS\Iter\UI2\2d.eps
-[2025-05-25 14:34:13] Fetching CL + BL from mask document
-[2025-05-25 14:34:13] Found CL and BL groups
-[2025-05-25 14:34:13] Extracting pattern from PatCol file...
-[2025-05-25 14:34:14] Pattern copied to mask document
-[2025-05-25 14:34:14] ERROR in processMasking: undefined은(는) 개체가 아닙니다.
-[2025-05-25 14:34:14] ===== MSP1.jsx FAILED: undefined은(는) 개체가 아닙니다. =====
-[2025-05-25 14:35:15] ===== MSP1.jsx STARTED =====
-[2025-05-25 14:35:15] Processing PatCol masking
-[2025-05-25 14:35:15] Pattern: D:\EPS\Iter\UI2\PatCol.eps
-[2025-05-25 14:35:15] Mask: D:\EPS\Iter\UI2\2db.eps
-[2025-05-25 14:35:20] Fetching CL + BL from mask document
-[2025-05-25 14:35:20] Found CL and BL groups
-[2025-05-25 14:35:21] Extracting pattern from PatCol file...
-[2025-05-25 14:35:22] Pattern copied to mask document
-[2025-05-25 14:35:22] Protected 0 disclaimer text items
-[2025-05-25 14:35:22] Scaling pattern to match CL height...
-[2025-05-25 14:35:22] Scaling uniformly by 0.7739
-[2025-05-25 14:35:22] Pattern scaled and centered
-[2025-05-25 14:35:22] Creating clipping mask...
-[2025-05-25 14:35:22] Clipping path created
-[2025-05-25 14:35:22] Assembling final Target group...
-[2025-05-25 14:35:22] Target group assembled + clipping applied
-[2025-05-25 14:35:22] Saving to: D:\EPS\Iter\UI2\Target\2db_PatCol.eps
-[2025-05-25 14:35:36] Successfully created: 2db_PatCol.eps
-[2025-05-25 14:35:36] Processing PatBlk masking
-[2025-05-25 14:35:36] Pattern: D:\EPS\Iter\UI2\PatBlk.eps
-[2025-05-25 14:35:36] Mask: D:\EPS\Iter\UI2\2db.eps
-[2025-05-25 14:35:42] Fetching CL + BL from mask document
-[2025-05-25 14:35:42] Found CL and BL groups
-[2025-05-25 14:35:42] Extracting pattern from PatBlk file...
-[2025-05-25 14:35:43] Pattern copied to mask document
-[2025-05-25 14:35:43] Protected 0 disclaimer text items
-[2025-05-25 14:35:43] Scaling pattern to match CL height...
-[2025-05-25 14:35:43] Scaling uniformly by 0.7739
-[2025-05-25 14:35:43] Pattern scaled and centered
-[2025-05-25 14:35:43] Creating clipping mask...
-[2025-05-25 14:35:43] Clipping path created
-[2025-05-25 14:35:43] Assembling final Target group...
-[2025-05-25 14:35:43] Target group assembled + clipping applied
-[2025-05-25 14:35:43] Saving to: D:\EPS\Iter\UI2\Target\2db_PatBlk.eps
-[2025-05-25 14:35:54] Successfully created: 2db_PatBlk.eps
-[2025-05-25 14:35:54] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
-[2025-05-26 04:36:24] ===== MSP1.jsx STARTED =====
-[2025-05-26 04:36:24] Processing PatCol masking
-[2025-05-26 04:36:24] Pattern: D:\EPS\Iter\UI3\PattFold\PatCol.eps
-[2025-05-26 04:36:24] Mask: D:\EPS\Iter\UI3\2dFold\2d.eps
-[2025-05-26 04:36:32] Fetching CL + BL from mask document
-[2025-05-26 04:36:32] Found CL and BL groups
-[2025-05-26 04:36:33] Extracting pattern from PatCol file...
-[2025-05-26 04:36:34] Pattern copied to mask document
-[2025-05-26 04:36:34] Protected 0 disclaimer text items
-[2025-05-26 04:36:34] Scaling pattern to match CL height...
-[2025-05-26 04:36:34] Scaling uniformly by 0.7739
-[2025-05-26 04:36:34] Pattern scaled and centered
-[2025-05-26 04:36:34] Creating clipping mask...
-[2025-05-26 04:36:34] Clipping path created
-[2025-05-26 04:36:34] Assembling final Target group...
-[2025-05-26 04:36:34] Target group assembled + clipping applied
-[2025-05-26 04:36:34] Saving to: D:\EPS\Iter\UI3\Target\2d_PatCol.eps
-[2025-05-26 04:36:50] Successfully created: 2d_PatCol.eps
-[2025-05-26 04:36:50] Processing PatBlk masking
-[2025-05-26 04:36:50] Pattern: D:\EPS\Iter\UI3\PattFold\PatBlk.eps
-[2025-05-26 04:36:50] Mask: D:\EPS\Iter\UI3\2dFold\2d.eps
-[2025-05-26 04:36:55] Fetching CL + BL from mask document
-[2025-05-26 04:36:55] Found CL and BL groups
-[2025-05-26 04:36:55] Extracting pattern from PatBlk file...
-[2025-05-26 04:36:56] Pattern copied to mask document
-[2025-05-26 04:36:56] Protected 0 disclaimer text items
-[2025-05-26 04:36:56] Scaling pattern to match CL height...
-[2025-05-26 04:36:56] Scaling uniformly by 0.7739
-[2025-05-26 04:36:56] Pattern scaled and centered
-[2025-05-26 04:36:56] Creating clipping mask...
-[2025-05-26 04:36:56] Clipping path created
-[2025-05-26 04:36:56] Assembling final Target group...
-[2025-05-26 04:36:56] Target group assembled + clipping applied
-[2025-05-26 04:36:56] Saving to: D:\EPS\Iter\UI3\Target\2d_PatBlk.eps
-[2025-05-26 04:37:05] Successfully created: 2d_PatBlk.eps
-[2025-05-26 04:37:05] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
-[2025-05-26 13:11:31] ===== MSP1.jsx STARTED =====
-[2025-05-26 13:11:31] Processing PatCol masking
-[2025-05-26 13:11:31] Pattern: D:\EPS\Iter\UI3\PattFold\PatCol.eps
-[2025-05-26 13:11:31] Mask: D:\EPS\Iter\UI3\2dFold\2d.eps
-[2025-05-26 13:11:33] Fetching CL + BL from mask document
-[2025-05-26 13:11:33] Found CL and BL groups
-[2025-05-26 13:11:33] Extracting pattern from PatCol file...
-[2025-05-26 13:11:34] Pattern copied to mask document
-[2025-05-26 13:11:34] Protected 0 disclaimer text items
-[2025-05-26 13:11:34] Scaling pattern to match CL height...
-[2025-05-26 13:11:34] Scaling uniformly by 0.7739
-[2025-05-26 13:11:34] Pattern scaled and centered
-[2025-05-26 13:11:34] Creating clipping mask...
-[2025-05-26 13:11:34] Clipping path created
-[2025-05-26 13:11:34] Assembling final Target group...
-[2025-05-26 13:11:34] Target group assembled + clipping applied
-[2025-05-26 13:11:34] Saving to: D:\EPS\Iter\UI3\Target\2d_PatCol.eps
-[2025-05-26 13:11:41] Successfully created: 2d_PatCol.eps
-[2025-05-26 13:11:41] Processing PatBlk masking
-[2025-05-26 13:11:41] Pattern: D:\EPS\Iter\UI3\PattFold\PatBlk.eps
-[2025-05-26 13:11:41] Mask: D:\EPS\Iter\UI3\2dFold\2d.eps
-[2025-05-26 13:11:42] Fetching CL + BL from mask document
-[2025-05-26 13:11:42] Found CL and BL groups
-[2025-05-26 13:11:42] Extracting pattern from PatBlk file...
-[2025-05-26 13:11:43] Pattern copied to mask document
-[2025-05-26 13:11:43] ERROR in processMasking: undefined은(는) 개체가 아닙니다.
-[2025-05-26 13:11:43] ===== MSP1.jsx FAILED: undefined은(는) 개체가 아닙니다. =====
-[2025-05-26 13:12:20] ===== MSP1.jsx STARTED =====
-[2025-05-26 13:12:20] Processing PatCol masking
-[2025-05-26 13:12:20] Pattern: D:\EPS\Iter\UI3\PattFold\PatCol.eps
-[2025-05-26 13:12:20] Mask: D:\EPS\Iter\UI3\2dFold\2db.eps
-[2025-05-26 13:12:22] Fetching CL + BL from mask document
-[2025-05-26 13:12:22] Found CL and BL groups
-[2025-05-26 13:12:22] Extracting pattern from PatCol file...
-[2025-05-26 13:12:22] Pattern copied to mask document
-[2025-05-26 13:12:22] Protected 0 disclaimer text items
-[2025-05-26 13:12:22] Scaling pattern to match CL height...
-[2025-05-26 13:12:22] Scaling uniformly by 0.7739
-[2025-05-26 13:12:22] Pattern scaled and centered
-[2025-05-26 13:12:22] Creating clipping mask...
-[2025-05-26 13:12:22] Clipping path created
-[2025-05-26 13:12:22] Assembling final Target group...
-[2025-05-26 13:12:22] Target group assembled + clipping applied
-[2025-05-26 13:12:22] Saving to: D:\EPS\Iter\UI3\Target\2db_PatCol.eps
-[2025-05-26 13:12:29] Successfully created: 2db_PatCol.eps
-[2025-05-26 13:12:29] Processing PatBlk masking
-[2025-05-26 13:12:29] Pattern: D:\EPS\Iter\UI3\PattFold\PatBlk.eps
-[2025-05-26 13:12:29] Mask: D:\EPS\Iter\UI3\2dFold\2db.eps
-[2025-05-26 13:12:31] Fetching CL + BL from mask document
-[2025-05-26 13:12:31] Found CL and BL groups
-[2025-05-26 13:12:31] Extracting pattern from PatBlk file...
-[2025-05-26 13:12:31] Pattern copied to mask document
-[2025-05-26 13:12:31] Protected 0 disclaimer text items
-[2025-05-26 13:12:31] Scaling pattern to match CL height...
-[2025-05-26 13:12:31] Scaling uniformly by 0.7739
-[2025-05-26 13:12:31] Pattern scaled and centered
-[2025-05-26 13:12:31] Creating clipping mask...
-[2025-05-26 13:12:31] Clipping path created
-[2025-05-26 13:12:31] Assembling final Target group...
-[2025-05-26 13:12:31] Target group assembled + clipping applied
-[2025-05-26 13:12:31] Saving to: D:\EPS\Iter\UI3\Target\2db_PatBlk.eps
-[2025-05-26 13:12:35] Successfully created: 2db_PatBlk.eps
-[2025-05-26 13:12:35] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
-[2025-05-26 13:12:48] ===== MSP1.jsx STARTED =====
-[2025-05-26 13:12:48] Processing PatCol masking
-[2025-05-26 13:12:48] Pattern: D:\EPS\Iter\UI3\PattFold\PatCol.eps
-[2025-05-26 13:12:48] Mask: D:\EPS\Iter\UI3\2dFold\2dc.eps
-[2025-05-26 13:12:50] Fetching CL + BL from mask document
-[2025-05-26 13:12:50] Found CL and BL groups
-[2025-05-26 13:12:50] Extracting pattern from PatCol file...
-[2025-05-26 13:12:51] Pattern copied to mask document
-[2025-05-26 13:12:51] Protected 0 disclaimer text items
-[2025-05-26 13:12:51] Scaling pattern to match CL height...
-[2025-05-26 13:12:51] Scaling uniformly by 0.7739
-[2025-05-26 13:12:51] Pattern scaled and centered
-[2025-05-26 13:12:51] Creating clipping mask...
-[2025-05-26 13:12:51] Clipping path created
-[2025-05-26 13:12:51] Assembling final Target group...
-[2025-05-26 13:12:51] Target group assembled + clipping applied
-[2025-05-26 13:12:51] Saving to: D:\EPS\Iter\UI3\Target\2dc_PatCol.eps
-[2025-05-26 13:12:57] Successfully created: 2dc_PatCol.eps
-[2025-05-26 13:12:57] Processing PatBlk masking
-[2025-05-26 13:12:57] Pattern: D:\EPS\Iter\UI3\PattFold\PatBlk.eps
-[2025-05-26 13:12:57] Mask: D:\EPS\Iter\UI3\2dFold\2dc.eps
-[2025-05-26 13:12:58] Fetching CL + BL from mask document
-[2025-05-26 13:12:58] Found CL and BL groups
-[2025-05-26 13:12:58] Extracting pattern from PatBlk file...
-[2025-05-26 13:12:59] Pattern copied to mask document
-[2025-05-26 13:12:59] Protected 0 disclaimer text items
-[2025-05-26 13:12:59] Scaling pattern to match CL height...
-[2025-05-26 13:12:59] Scaling uniformly by 0.7739
-[2025-05-26 13:12:59] Pattern scaled and centered
-[2025-05-26 13:12:59] Creating clipping mask...
-[2025-05-26 13:12:59] Clipping path created
-[2025-05-26 13:12:59] Assembling final Target group...
-[2025-05-26 13:12:59] Target group assembled + clipping applied
-[2025-05-26 13:12:59] Saving to: D:\EPS\Iter\UI3\Target\2dc_PatBlk.eps
-[2025-05-26 13:13:02] Successfully created: 2dc_PatBlk.eps
-[2025-05-26 13:13:02] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
-[2025-05-26 13:27:00] ===== MSP1.jsx STARTED =====
-[2025-05-26 13:27:00] Processing PatCol masking
-[2025-05-26 13:27:00] Pattern: D:\EPS\Iter\UI3\PattFold\PatCol.eps
-[2025-05-26 13:27:00] Mask: D:\EPS\Iter\UI3\2dFold\2d.eps
-[2025-05-26 13:27:02] Fetching CL + BL from mask document
-[2025-05-26 13:27:02] Found CL and BL groups
-[2025-05-26 13:27:02] Extracting pattern from PatCol file...
-[2025-05-26 13:27:03] Pattern copied to mask document
-[2025-05-26 13:27:03] Protected 0 disclaimer text items
-[2025-05-26 13:27:03] Scaling pattern to match CL height...
-[2025-05-26 13:27:03] Scaling uniformly by 0.7739
-[2025-05-26 13:27:03] Pattern scaled and centered
-[2025-05-26 13:27:03] Creating clipping mask...
-[2025-05-26 13:27:03] Clipping path created
-[2025-05-26 13:27:03] Assembling final Target group...
-[2025-05-26 13:27:03] Target group assembled + clipping applied
-[2025-05-26 13:27:03] Saving to: D:\EPS\Iter\UI3\Target\2d_PatCol.eps
-[2025-05-26 13:27:09] Successfully created: 2d_PatCol.eps
-[2025-05-26 13:27:09] Processing PatBlk masking
-[2025-05-26 13:27:09] Pattern: D:\EPS\Iter\UI3\PattFold\PatBlk.eps
-[2025-05-26 13:27:09] Mask: D:\EPS\Iter\UI3\2dFold\2d.eps
-[2025-05-26 13:27:10] Fetching CL + BL from mask document
-[2025-05-26 13:27:10] Found CL and BL groups
-[2025-05-26 13:27:10] Extracting pattern from PatBlk file...
-[2025-05-26 13:27:11] Pattern copied to mask document
-[2025-05-26 13:27:11] Protected 0 disclaimer text items
-[2025-05-26 13:27:11] Scaling pattern to match CL height...
-[2025-05-26 13:27:11] Scaling uniformly by 0.7739
-[2025-05-26 13:27:11] Pattern scaled and centered
-[2025-05-26 13:27:11] Creating clipping mask...
-[2025-05-26 13:27:11] Clipping path created
-[2025-05-26 13:27:11] Assembling final Target group...
-[2025-05-26 13:27:11] Target group assembled + clipping applied
-[2025-05-26 13:27:11] Saving to: D:\EPS\Iter\UI3\Target\2d_PatBlk.eps
-[2025-05-26 13:27:14] Successfully created: 2d_PatBlk.eps
-[2025-05-26 13:27:14] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
-[2025-05-26 13:28:35] ===== MSP1.jsx STARTED =====
-[2025-05-26 13:28:35] Processing PatCol masking
-[2025-05-26 13:28:35] Pattern: D:\EPS\Iter\UI3\PattFold\PatCol.eps
-[2025-05-26 13:28:35] Mask: D:\EPS\Iter\UI3\2dFold\2db.eps
-[2025-05-26 13:28:37] Fetching CL + BL from mask document
-[2025-05-26 13:28:37] Found CL and BL groups
-[2025-05-26 13:28:37] Extracting pattern from PatCol file...
-[2025-05-26 13:28:38] Pattern copied to mask document
-[2025-05-26 13:28:38] Protected 0 disclaimer text items
-[2025-05-26 13:28:38] Scaling pattern to match CL height...
-[2025-05-26 13:28:38] Scaling uniformly by 0.7739
-[2025-05-26 13:28:38] Pattern scaled and centered
-[2025-05-26 13:28:38] Creating clipping mask...
-[2025-05-26 13:28:38] Clipping path created
-[2025-05-26 13:28:38] Assembling final Target group...
-[2025-05-26 13:28:38] Target group assembled + clipping applied
-[2025-05-26 13:28:38] Saving to: D:\EPS\Iter\UI3\Target\2db_PatCol.eps
-[2025-05-26 13:28:44] Successfully created: 2db_PatCol.eps
-[2025-05-26 13:28:44] Processing PatBlk masking
-[2025-05-26 13:28:44] Pattern: D:\EPS\Iter\UI3\PattFold\PatBlk.eps
-[2025-05-26 13:28:44] Mask: D:\EPS\Iter\UI3\2dFold\2db.eps
-[2025-05-26 13:28:45] Fetching CL + BL from mask document
-[2025-05-26 13:28:45] Found CL and BL groups
-[2025-05-26 13:28:45] Extracting pattern from PatBlk file...
-[2025-05-26 13:28:46] Pattern copied to mask document
-[2025-05-26 13:28:46] Protected 0 disclaimer text items
-[2025-05-26 13:28:46] Scaling pattern to match CL height...
-[2025-05-26 13:28:46] Scaling uniformly by 0.7739
-[2025-05-26 13:28:46] Pattern scaled and centered
-[2025-05-26 13:28:46] Creating clipping mask...
-[2025-05-26 13:28:46] Clipping path created
-[2025-05-26 13:28:46] Assembling final Target group...
-[2025-05-26 13:28:46] Target group assembled + clipping applied
-[2025-05-26 13:28:46] Saving to: D:\EPS\Iter\UI3\Target\2db_PatBlk.eps
-[2025-05-26 13:28:49] Successfully created: 2db_PatBlk.eps
-[2025-05-26 13:28:49] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
-[2025-05-26 13:28:58] ===== MSP1.jsx STARTED =====
-[2025-05-26 13:28:58] Processing PatCol masking
-[2025-05-26 13:28:58] Pattern: D:\EPS\Iter\UI3\PattFold\PatCol.eps
-[2025-05-26 13:28:58] Mask: D:\EPS\Iter\UI3\2dFold\2dc.eps
-[2025-05-26 13:28:59] Fetching CL + BL from mask document
-[2025-05-26 13:28:59] Found CL and BL groups
-[2025-05-26 13:28:59] Extracting pattern from PatCol file...
-[2025-05-26 13:29:00] Pattern copied to mask document
-[2025-05-26 13:29:00] Protected 0 disclaimer text items
-[2025-05-26 13:29:00] Scaling pattern to match CL height...
-[2025-05-26 13:29:00] Scaling uniformly by 0.7739
-[2025-05-26 13:29:00] Pattern scaled and centered
-[2025-05-26 13:29:00] Creating clipping mask...
-[2025-05-26 13:29:00] Clipping path created
-[2025-05-26 13:29:00] Assembling final Target group...
-[2025-05-26 13:29:00] Target group assembled + clipping applied
-[2025-05-26 13:29:00] Saving to: D:\EPS\Iter\UI3\Target\2dc_PatCol.eps
-[2025-05-26 13:29:06] Successfully created: 2dc_PatCol.eps
-[2025-05-26 13:29:06] Processing PatBlk masking
-[2025-05-26 13:29:06] Pattern: D:\EPS\Iter\UI3\PattFold\PatBlk.eps
-[2025-05-26 13:29:06] Mask: D:\EPS\Iter\UI3\2dFold\2dc.eps
-[2025-05-26 13:29:08] Fetching CL + BL from mask document
-[2025-05-26 13:29:08] Found CL and BL groups
-[2025-05-26 13:29:08] Extracting pattern from PatBlk file...
-[2025-05-26 13:29:08] Pattern copied to mask document
-[2025-05-26 13:29:08] Protected 0 disclaimer text items
-[2025-05-26 13:29:08] Scaling pattern to match CL height...
-[2025-05-26 13:29:08] Scaling uniformly by 0.7739
-[2025-05-26 13:29:08] Pattern scaled and centered
-[2025-05-26 13:29:08] Creating clipping mask...
-[2025-05-26 13:29:08] Clipping path created
-[2025-05-26 13:29:08] Assembling final Target group...
-[2025-05-26 13:29:08] Target group assembled + clipping applied
-[2025-05-26 13:29:08] Saving to: D:\EPS\Iter\UI3\Target\2dc_PatBlk.eps
-[2025-05-26 13:29:12] Successfully created: 2dc_PatBlk.eps
-[2025-05-26 13:29:12] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
-[2025-05-26 13:48:34] ===== MSP1.jsx STARTED =====
-[2025-05-26 13:48:34] Processing PatCol masking
-[2025-05-26 13:48:34] Pattern: C:\Users\ingyu\Downloads\임팩트 갤24_뭉크_개구리_컬러.eps
-[2025-05-26 13:48:34] Mask: D:\EPS\Iter\UI3\2dFold\2d.eps
-[2025-05-26 13:48:43] Fetching CL + BL from mask document
-[2025-05-26 13:48:43] Found CL and BL groups
-[2025-05-26 13:48:43] Extracting pattern from PatCol file...
-[2025-05-26 13:48:44] Pattern copied to mask document
-[2025-05-26 13:48:44] Protected 0 disclaimer text items
-[2025-05-26 13:48:44] Scaling pattern to match CL height...
-[2025-05-26 13:48:44] Scaling uniformly by 0.9973
-[2025-05-26 13:48:44] Pattern scaled and centered
-[2025-05-26 13:48:44] Creating clipping mask...
-[2025-05-26 13:48:44] Clipping path created
-[2025-05-26 13:48:44] Assembling final Target group...
-[2025-05-26 13:48:44] Target group assembled + clipping applied
-[2025-05-26 13:48:44] Saving to: D:\EPS\Iter\UI3\Target\2d_PatCol.eps
-[2025-05-26 13:48:50] Successfully created: 2d_PatCol.eps
-[2025-05-26 13:48:50] Processing PatBlk masking
-[2025-05-26 13:48:50] Pattern: C:\Users\ingyu\Downloads\임팩트 갤24_뭉크_개구리_백판.eps
-[2025-05-26 13:48:50] Mask: D:\EPS\Iter\UI3\2dFold\2d.eps
-[2025-05-26 13:48:59] Fetching CL + BL from mask document
-[2025-05-26 13:48:59] Found CL and BL groups
-[2025-05-26 13:48:59] Extracting pattern from PatBlk file...
-[2025-05-26 13:49:00] Pattern copied to mask document
-[2025-05-26 13:49:00] Protected 0 disclaimer text items
-[2025-05-26 13:49:00] Scaling pattern to match CL height...
-[2025-05-26 13:49:00] Scaling uniformly by 0.9973
-[2025-05-26 13:49:00] Pattern scaled and centered
-[2025-05-26 13:49:00] Creating clipping mask...
-[2025-05-26 13:49:00] Clipping path created
-[2025-05-26 13:49:00] Assembling final Target group...
-[2025-05-26 13:49:00] Target group assembled + clipping applied
-[2025-05-26 13:49:00] Saving to: D:\EPS\Iter\UI3\Target\2d_PatBlk.eps
-[2025-05-26 13:49:05] Successfully created: 2d_PatBlk.eps
-[2025-05-26 13:49:05] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
-[2025-05-26 13:54:27] ===== MSP1.jsx STARTED =====
-[2025-05-26 13:54:27] Processing PatCol masking
-[2025-05-26 13:54:27] Pattern: C:\Users\ingyu\Downloads\임팩트 s25u_004_디지.eps
-[2025-05-26 13:54:27] Mask: D:\EPS\Iter\UI3\2dFold\2d.eps
-[2025-05-26 13:54:30] Fetching CL + BL from mask document
-[2025-05-26 13:54:30] Found CL and BL groups
-[2025-05-26 13:54:30] Extracting pattern from PatCol file...
-[2025-05-26 13:54:36] Pattern copied to mask document
-[2025-05-26 13:54:36] Protected 0 disclaimer text items
-[2025-05-26 13:54:36] Scaling pattern to match CL height...
-[2025-05-26 13:54:36] Scaling uniformly by 0.9055
-[2025-05-26 13:54:36] Pattern scaled and centered
-[2025-05-26 13:54:36] Creating clipping mask...
-[2025-05-26 13:54:36] Clipping path created
-[2025-05-26 13:54:36] Assembling final Target group...
-[2025-05-26 13:54:36] Target group assembled + clipping applied
-[2025-05-26 13:54:36] Saving to: D:\EPS\Iter\UI3\Target\2d_PatCol.eps
-[2025-05-26 13:54:43] Successfully created: 2d_PatCol.eps
-[2025-05-26 13:54:43] Processing PatBlk masking
-[2025-05-26 13:54:43] Pattern: C:\Users\ingyu\Downloads\임팩트 s25u_004_디지_백판.eps
-[2025-05-26 13:54:43] Mask: D:\EPS\Iter\UI3\2dFold\2d.eps
-[2025-05-26 13:54:45] Fetching CL + BL from mask document
-[2025-05-26 13:54:45] Found CL and BL groups
-[2025-05-26 13:54:46] Extracting pattern from PatBlk file...
-[2025-05-26 13:54:51] Pattern copied to mask document
-[2025-05-26 13:54:51] Protected 0 disclaimer text items
-[2025-05-26 13:54:51] Scaling pattern to match CL height...
-[2025-05-26 13:54:51] Scaling uniformly by 0.9055
-[2025-05-26 13:54:51] Pattern scaled and centered
-[2025-05-26 13:54:51] Creating clipping mask...
-[2025-05-26 13:54:51] Clipping path created
-[2025-05-26 13:54:51] Assembling final Target group...
-[2025-05-26 13:54:51] Target group assembled + clipping applied
-[2025-05-26 13:54:51] Saving to: D:\EPS\Iter\UI3\Target\2d_PatBlk.eps
-[2025-05-26 13:54:57] Successfully created: 2d_PatBlk.eps
-[2025-05-26 13:54:57] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
-[2025-05-26 13:57:09] ===== MSP1.jsx STARTED =====
-[2025-05-26 13:57:09] Processing PatCol masking
-[2025-05-26 13:57:09] Pattern: C:\Users\ingyu\Downloads\impact_design_s24u_15_포커스웨이브_컬러.eps
-[2025-05-26 13:57:09] Mask: D:\EPS\Iter\UI3\2dFold\2d.eps
-[2025-05-26 13:57:12] Fetching CL + BL from mask document
-[2025-05-26 13:57:12] Found CL and BL groups
-[2025-05-26 13:57:12] Extracting pattern from PatCol file...
-[2025-05-26 13:57:13] Pattern copied to mask document
-[2025-05-26 13:57:13] Protected 0 disclaimer text items
-[2025-05-26 13:57:13] Scaling pattern to match CL height...
-[2025-05-26 13:57:13] Scaling uniformly by 0.9032
-[2025-05-26 13:57:13] Pattern scaled and centered
-[2025-05-26 13:57:13] Creating clipping mask...
-[2025-05-26 13:57:13] Clipping path created
-[2025-05-26 13:57:13] Assembling final Target group...
-[2025-05-26 13:57:13] Target group assembled + clipping applied
-[2025-05-26 13:57:13] Saving to: D:\EPS\Iter\UI3\Target\2d_PatCol.eps
-[2025-05-26 13:57:19] Successfully created: 2d_PatCol.eps
-[2025-05-26 13:57:19] Processing PatBlk masking
-[2025-05-26 13:57:19] Pattern: C:\Users\ingyu\Downloads\impact_design_s24u_15_포커스웨이브_백판.eps
-[2025-05-26 13:57:19] Mask: D:\EPS\Iter\UI3\2dFold\2d.eps
-[2025-05-26 13:57:22] Fetching CL + BL from mask document
-[2025-05-26 13:57:22] Found CL and BL groups
-[2025-05-26 13:57:22] Extracting pattern from PatBlk file...
-[2025-05-26 13:57:23] Pattern copied to mask document
-[2025-05-26 13:57:23] Protected 0 disclaimer text items
-[2025-05-26 13:57:23] Scaling pattern to match CL height...
-[2025-05-26 13:57:23] Scaling uniformly by 0.9032
-[2025-05-26 13:57:23] Pattern scaled and centered
-[2025-05-26 13:57:23] Creating clipping mask...
-[2025-05-26 13:57:23] Clipping path created
-[2025-05-26 13:57:23] Assembling final Target group...
-[2025-05-26 13:57:23] Target group assembled + clipping applied
-[2025-05-26 13:57:23] Saving to: D:\EPS\Iter\UI3\Target\2d_PatBlk.eps
-[2025-05-26 13:57:28] Successfully created: 2d_PatBlk.eps
-[2025-05-26 13:57:28] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
-[2025-05-26 14:00:50] ===== MSP1.jsx STARTED =====
-[2025-05-26 14:00:50] Processing PatCol masking
-[2025-05-26 14:00:50] Pattern: C:\Users\ingyu\Downloads\임팩트 갤24_뭉크_개구리_컬러.eps
-[2025-05-26 14:00:50] Mask: D:\EPS\Iter\UI3\2dFold\2d.eps
-[2025-05-26 14:00:57] Fetching CL + BL from mask document
-[2025-05-26 14:00:57] Found CL and BL groups
-[2025-05-26 14:00:57] Extracting pattern from PatCol file...
-[2025-05-26 14:00:58] Pattern copied to mask document
-[2025-05-26 14:00:58] ERROR in processMasking: undefined은(는) 개체가 아닙니다.
-[2025-05-26 14:00:58] ===== MSP1.jsx FAILED: undefined은(는) 개체가 아닙니다. =====
-[2025-05-26 14:01:23] ===== MSP1.jsx STARTED =====
-[2025-05-26 14:01:23] Processing PatCol masking
-[2025-05-26 14:01:23] Pattern: C:\Users\ingyu\Downloads\임팩트 갤24_뭉크_개구리_컬러.eps
-[2025-05-26 14:01:23] Mask: D:\EPS\Iter\UI3\2dFold\2db.eps
-[2025-05-26 14:01:25] Fetching CL + BL from mask document
-[2025-05-26 14:01:25] Found CL and BL groups
-[2025-05-26 14:01:26] Extracting pattern from PatCol file...
-[2025-05-26 14:01:27] Pattern copied to mask document
-[2025-05-26 14:01:27] Protected 0 disclaimer text items
-[2025-05-26 14:01:27] Scaling pattern to match CL height...
-[2025-05-26 14:01:27] Scaling uniformly by 0.9973
-[2025-05-26 14:01:27] Pattern scaled and centered
-[2025-05-26 14:01:27] Creating clipping mask...
-[2025-05-26 14:01:27] Clipping path created
-[2025-05-26 14:01:27] Assembling final Target group...
-[2025-05-26 14:01:27] Target group assembled + clipping applied
-[2025-05-26 14:01:27] Saving to: D:\EPS\Iter\UI3\Target\2db_PatCol.eps
-[2025-05-26 14:01:33] Successfully created: 2db_PatCol.eps
-[2025-05-26 14:01:33] Processing PatBlk masking
-[2025-05-26 14:01:33] Pattern: C:\Users\ingyu\Downloads\임팩트 갤24_뭉크_개구리_백판.eps
-[2025-05-26 14:01:33] Mask: D:\EPS\Iter\UI3\2dFold\2db.eps
-[2025-05-26 14:01:40] Fetching CL + BL from mask document
-[2025-05-26 14:01:40] Found CL and BL groups
-[2025-05-26 14:01:40] Extracting pattern from PatBlk file...
-[2025-05-26 14:01:41] Pattern copied to mask document
-[2025-05-26 14:01:41] Protected 0 disclaimer text items
-[2025-05-26 14:01:41] Scaling pattern to match CL height...
-[2025-05-26 14:01:41] Scaling uniformly by 0.9973
-[2025-05-26 14:01:41] Pattern scaled and centered
-[2025-05-26 14:01:41] Creating clipping mask...
-[2025-05-26 14:01:41] Clipping path created
-[2025-05-26 14:01:41] Assembling final Target group...
-[2025-05-26 14:01:41] Target group assembled + clipping applied
-[2025-05-26 14:01:41] Saving to: D:\EPS\Iter\UI3\Target\2db_PatBlk.eps
-[2025-05-26 14:01:47] Successfully created: 2db_PatBlk.eps
-[2025-05-26 14:01:47] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
-[2025-05-30 15:47:51] ===== MSP1.jsx STARTED =====
-[2025-05-30 15:47:51] Processing PatCol masking
-[2025-05-30 15:47:51] Pattern: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
-[2025-05-30 15:47:51] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
-[2025-05-30 15:48:03] Fetching CL + BL from mask document
-[2025-05-30 15:48:03] Found CL and BL groups
-[2025-05-30 15:48:04] Extracting pattern from PatCol file...
-[2025-05-30 15:48:05] Pattern copied to mask document
-[2025-05-30 15:48:05] Protected 0 disclaimer text items
-[2025-05-30 15:48:05] Scaling pattern to match CL height...
-[2025-05-30 15:48:05] Scaling uniformly by 0.9973
-[2025-05-30 15:48:05] Pattern scaled and centered
-[2025-05-30 15:48:05] Creating clipping mask...
-[2025-05-30 15:48:05] Clipping path created
-[2025-05-30 15:48:05] Assembling final Target group...
-[2025-05-30 15:48:05] Target group assembled + clipping applied
-[2025-05-30 15:48:05] Saving to: D:\EPS\Iter\UI4\Target\2d_PatCol.eps
-[2025-05-30 15:48:12] Successfully created: 2d_PatCol.eps
-[2025-05-30 15:48:12] Processing PatBlk masking
-[2025-05-30 15:48:12] Pattern: D:\EPS\Iter\UI4\MolancanoDemo\FrogBlk.eps
-[2025-05-30 15:48:12] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
-[2025-05-30 15:48:17] Fetching CL + BL from mask document
-[2025-05-30 15:48:17] Found CL and BL groups
-[2025-05-30 15:48:17] Extracting pattern from PatBlk file...
-[2025-05-30 15:48:18] Pattern copied to mask document
-[2025-05-30 15:48:18] Protected 0 disclaimer text items
-[2025-05-30 15:48:18] Scaling pattern to match CL height...
-[2025-05-30 15:48:18] Scaling uniformly by 0.9973
-[2025-05-30 15:48:18] Pattern scaled and centered
-[2025-05-30 15:48:18] Creating clipping mask...
-[2025-05-30 15:48:18] Clipping path created
-[2025-05-30 15:48:18] Assembling final Target group...
-[2025-05-30 15:48:18] Target group assembled + clipping applied
-[2025-05-30 15:48:18] Saving to: D:\EPS\Iter\UI4\Target\2d_PatBlk.eps
-[2025-05-30 15:48:24] Successfully created: 2d_PatBlk.eps
-[2025-05-30 15:48:24] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
-[2025-05-30 18:35:19] ===== MSP1_hybrid.jsx STARTED =====
-[2025-05-30 18:35:19] Processing PatCol masking (Hybrid mode)
-[2025-05-30 18:35:19] Pattern: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
-[2025-05-30 18:35:19] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
-[2025-05-30 18:35:19] Preserve strokes: true
-[2025-05-30 18:35:23] Fetching CL + BL from mask document
-[2025-05-30 18:35:23] Found CL and BL groups
-[2025-05-30 18:35:24] Pasted pattern into mask document
-[2025-05-30 18:35:24] Scaling uniformly by 1.0738
-[2025-05-30 18:35:24] Pattern scaled and centered
-[2025-05-30 18:35:24] Creating hybrid clipping mask...
-[2025-05-30 18:35:24] Collecting paths for stroke preservation...
-[2025-05-30 18:35:48] Successfully created compound path
-[2025-05-30 18:35:48] Clipping path configured
-[2025-05-30 18:35:48] Assembling final Target group...
-[2025-05-30 18:35:48] ERROR in processMasking: The top item in the group must be a path item to create a mask
-[2025-05-30 18:35:48] ===== MSP1_hybrid.jsx FAILED: The top item in the group must be a path item to create a mask =====
-[2025-05-30 18:45:03] ===== MSP1_hybrid.jsx STARTED =====
-[2025-05-30 18:45:03] Processing PatCol masking (Hybrid mode)
-[2025-05-30 18:45:03] Pattern: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
-[2025-05-30 18:45:03] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
-[2025-05-30 18:45:03] Preserve strokes: true
-[2025-05-30 18:45:04] Fetching CL + BL from mask document
-[2025-05-30 18:45:04] ERROR in processMasking: Mask layer must contain at least CL + BL groups.
-[2025-05-30 18:45:04] ===== MSP1_hybrid.jsx FAILED: Mask layer must contain at least CL + BL groups. =====
-[2025-05-30 19:13:52] ===== MSP1.jsx STARTED =====
-[2025-05-30 19:13:52] Processing PatCol masking
-[2025-05-30 19:13:52] Pattern: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
-[2025-05-30 19:13:52] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
-[2025-05-30 19:14:13] Fetching CL + BL from mask document
-[2025-05-30 19:14:13] Found CL and BL groups
-[2025-05-30 19:14:13] Extracting pattern from PatCol file...
-[2025-05-30 19:14:15] Pattern copied to mask document
-[2025-05-30 19:14:15] Protected 0 disclaimer text items
-[2025-05-30 19:14:15] Scaling pattern to match CL height...
-[2025-05-30 19:14:15] Scaling uniformly by 0.9973
-[2025-05-30 19:14:15] Pattern scaled and centered
-[2025-05-30 19:14:15] Creating clipping mask...
-[2025-05-30 19:14:15] Clipping path created
-[2025-05-30 19:14:15] Assembling final Target group...
-[2025-05-30 19:14:15] Target group assembled + clipping applied
-[2025-05-30 19:14:15] Saving to: D:\EPS\Iter\UI4\Target\2d_PatCol.eps
-[2025-05-30 19:14:22] Successfully created: 2d_PatCol.eps
-[2025-05-30 19:14:22] Processing PatBlk masking
-[2025-05-30 19:14:22] Pattern: D:\EPS\Iter\UI4\MolancanoDemo\FrogBlk.eps
-[2025-05-30 19:14:22] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
-[2025-05-30 19:14:34] Fetching CL + BL from mask document
-[2025-05-30 19:14:34] Found CL and BL groups
-[2025-05-30 19:14:35] Extracting pattern from PatBlk file...
-[2025-05-30 19:14:37] Pattern copied to mask document
-[2025-05-30 19:14:37] Protected 0 disclaimer text items
-[2025-05-30 19:14:37] Scaling pattern to match CL height...
-[2025-05-30 19:14:37] Scaling uniformly by 0.9973
-[2025-05-30 19:14:37] Pattern scaled and centered
-[2025-05-30 19:14:37] Creating clipping mask...
-[2025-05-30 19:14:37] Clipping path created
-[2025-05-30 19:14:37] Assembling final Target group...
-[2025-05-30 19:14:37] Target group assembled + clipping applied
-[2025-05-30 19:14:37] Saving to: D:\EPS\Iter\UI4\Target\2d_PatBlk.eps
-[2025-05-30 19:14:43] Successfully created: 2d_PatBlk.eps
-[2025-05-30 19:14:43] ===== MSP1.jsx COMPLETED SUCCESSFULLY =====
-[2025-05-30 21:49:52] ===== MSP1_stroke.jsx STARTED =====
-[2025-05-30 21:49:52] Processing PatCol masking
-[2025-05-30 21:49:52] Pattern: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
-[2025-05-30 21:49:52] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
-[2025-05-30 21:50:12] Fetching CL + BL from mask document
-[2025-05-30 21:50:12] Found CL and BL groups
-[2025-05-30 21:50:12] Extracting pattern from PatCol file...
-[2025-05-30 21:50:14] Pattern copied to mask document
-[2025-05-30 21:50:14] Protected 0 disclaimer text items
-[2025-05-30 21:50:14] Scaling pattern to match CL height...
-[2025-05-30 21:50:14] Scaling uniformly by 0.9973
-[2025-05-30 21:50:14] Pattern scaled and centered
-[2025-05-30 21:50:14] Creating clipping mask with preserved stroke...
-[2025-05-30 21:50:14] Clipping path created
-[2025-05-30 21:50:14] Assembling final Target group...
-[2025-05-30 21:50:14] Target group assembled + clipping applied
-[2025-05-30 21:50:14] Saving to: D:\EPS\Iter\UI4\Target\2d_PatCol.eps
-[2025-05-30 21:50:22] Successfully created: 2d_PatCol.eps
-[2025-05-30 21:50:22] Processing PatBlk masking
-[2025-05-30 21:50:22] Pattern: D:\EPS\Iter\UI4\MolancanoDemo\FrogBlk.eps
-[2025-05-30 21:50:22] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
-[2025-05-30 21:50:39] Fetching CL + BL from mask document
-[2025-05-30 21:50:39] Found CL and BL groups
-[2025-05-30 21:50:39] Extracting pattern from PatBlk file...
-[2025-05-30 21:50:41] Pattern copied to mask document
-[2025-05-30 21:50:41] Protected 0 disclaimer text items
-[2025-05-30 21:50:41] Scaling pattern to match CL height...
-[2025-05-30 21:50:41] Scaling uniformly by 0.9973
-[2025-05-30 21:50:41] Pattern scaled and centered
-[2025-05-30 21:50:41] Creating clipping mask with preserved stroke...
-[2025-05-30 21:50:41] Clipping path created
-[2025-05-30 21:50:41] Assembling final Target group...
-[2025-05-30 21:50:41] Target group assembled + clipping applied
-[2025-05-30 21:50:41] Saving to: D:\EPS\Iter\UI4\Target\2d_PatBlk.eps
-[2025-05-30 21:50:47] Successfully created: 2d_PatBlk.eps
-[2025-05-30 21:50:47] ===== MSP1_stroke.jsx COMPLETED SUCCESSFULLY =====
-[2025-05-30 22:00:58] ===== MSP1_compound.jsx STARTED =====
-[2025-05-30 22:00:58] Processing PatCol masking
-[2025-05-30 22:00:58] Pattern: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
-[2025-05-30 22:00:58] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
-[2025-05-30 22:01:07] Fetching CL + BL from mask document
-[2025-05-30 22:01:07] Found CL and BL groups
-[2025-05-30 22:01:07] Extracting pattern from PatCol file...
-[2025-05-30 22:01:09] Pattern copied to mask document
-[2025-05-30 22:01:09] Protected 0 disclaimer text items
-[2025-05-30 22:01:09] Scaling pattern to match CL height...
-[2025-05-30 22:01:09] Scaling uniformly by 0.9973
-[2025-05-30 22:01:09] Pattern scaled and centered
-[2025-05-30 22:01:09] Creating compound path clipping mask...
-[2025-05-30 22:01:13] Compound clipping path created
-[2025-05-30 22:01:13] Assembling final Target group...
-[2025-05-30 22:01:13] ERROR in processMasking: The top item in the group must be a path item to create a mask
-[2025-05-30 22:01:13] ===== MSP1_compound.jsx FAILED: The top item in the group must be a path item to create a mask =====
-[2025-05-30 22:07:03] ===== MSP1_compound.jsx STARTED =====
-[2025-05-30 22:07:03] ===== MSP1_compound.jsx FAILED: Missing required parameters. PatCol: , PatBlk: , Mask:  =====
-[2025-05-30 22:10:02] ===== MSP1_compound.jsx STARTED =====
-[2025-05-30 22:10:02] Processing PatCol masking
-[2025-05-30 22:10:02] Pattern: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
-[2025-05-30 22:10:02] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
-[2025-05-30 22:10:10] Fetching CL + BL from mask document
-[2025-05-30 22:10:10] Found CL and BL groups
-[2025-05-30 22:10:11] Extracting pattern from PatCol file...
-[2025-05-30 22:10:12] Pattern copied to mask document
-[2025-05-30 22:10:12] Protected 0 disclaimer text items
-[2025-05-30 22:10:12] Scaling pattern to match CL height...
-[2025-05-30 22:10:12] Scaling uniformly by 0.9973
-[2025-05-30 22:10:12] Pattern scaled and centered
-[2025-05-30 22:10:12] Creating compound path clipping mask...
-[2025-05-30 22:10:17] ERROR in processMasking: Failed to create compound path from mask
-[2025-05-30 22:10:17] ===== MSP1_compound.jsx FAILED: Failed to create compound path from mask =====
-[2025-05-30 22:13:34] ===== MSP1_hybrid.jsx STARTED =====
-[2025-05-30 22:13:34] ===== MSP1_hybrid.jsx FAILED: Missing required parameters. PatCol: , PatBlk: , Mask:  =====
-[2025-05-30 22:14:21] ===== MSP1_hybrid.jsx STARTED =====
-[2025-05-30 22:14:21] ===== MSP1_hybrid.jsx FAILED: Missing required parameters. PatCol: , PatBlk: , Mask:  =====
-[2025-05-30 22:22:33] ===== MSP1_hybrid.jsx STARTED =====
-[2025-05-30 22:22:33] Processing PatCol masking (Hybrid mode)
-[2025-05-30 22:22:33] Pattern: D:\EPS\Iter\UI4\MolancanoDemo\FrogCol.eps
-[2025-05-30 22:22:33] Mask: D:\EPS\Iter\UI4\2dFold\2d.eps
-[2025-05-30 22:22:33] Preserve strokes: true
-[2025-05-30 22:22:50] Fetching CL + BL from mask document
-[2025-05-30 22:22:50] Found CL and BL groups
-[2025-05-30 22:22:52] Pasted pattern into mask document
-[2025-05-30 22:22:52] Scaling uniformly by 1.0738
-[2025-05-30 22:22:52] Pattern scaled and centered
-[2025-05-30 22:22:52] Creating hybrid clipping mask...
-[2025-05-30 22:22:52] Collecting strokes before compound path creation...
-[2025-05-30 22:23:02] Successfully created compound path
-[2025-05-30 22:23:02] Clipping path configured (compound path: true)
-[2025-05-30 22:23:02] Assembling final Target group...
-[2025-05-30 22:23:02] ERROR in processMasking: The top item in the group must be a path item to create a mask
-[2025-05-30 22:23:02] ===== MSP1_hybrid.jsx FAILED: The top item in the group must be a path item to create a mask =====
+[2025-05-31 08:27:03] ===== MSP1_hybrid.jsx STARTED =====
+[2025-05-31 08:27:03] Processing PatCol masking (Hybrid mode)
+[2025-05-31 08:27:03] Pattern: /d/EPS/Iter/UI4/MolancanoDemo/FrogCol.eps
+[2025-05-31 08:27:03] Mask: /d/EPS/Iter/UI4/2dFold/2d.eps
+[2025-05-31 08:27:03] Preserve strokes: true
+[2025-05-31 08:27:30] Fetching CL + BL from mask document
+[2025-05-31 08:27:30] Found CL and BL groups
+[2025-05-31 08:27:31] Pasted pattern into mask document
+[2025-05-31 08:27:31] Scaling uniformly by 1.0738
+[2025-05-31 08:27:31] Pattern scaled and centered
+[2025-05-31 08:27:31] Creating hybrid clipping mask...
+[2025-05-31 08:27:31] Collecting strokes before compound path creation...
+[2025-05-31 08:27:48] Successfully created compound path
+[2025-05-31 08:27:48] Clipping path configured (compound path: true)
+[2025-05-31 08:27:48] Assembling final Target group...
+[2025-05-31 08:27:48] ERROR in processMasking: The top item in the group must be a path item to create a mask
+[2025-05-31 08:27:48] ===== MSP1_hybrid.jsx FAILED: The top item in the group must be a path item to create a mask =====
+[2025-05-31 08:27:03.304] [testMSP_hybrid_direct] ===== DIRECT MSP1_HYBRID CALLER STARTED =====
+[2025-05-31 08:27:03.304] [testMSP_hybrid_direct] Script Location: D:\EPS\Iter\UI4
+[2025-05-31 08:27:03.304] [testMSP_hybrid_direct] Checking file existence:
+[2025-05-31 08:27:03.304] [testMSP_hybrid_direct]   PatCol: /d/EPS/Iter/UI4/MolancanoDemo/FrogCol.eps - Exists: true
+[2025-05-31 08:27:03.304] [testMSP_hybrid_direct]   PatBlk: /d/EPS/Iter/UI4/MolancanoDemo/FrogBlk.eps - Exists: true
+[2025-05-31 08:27:03.304] [testMSP_hybrid_direct]   Mask: /d/EPS/Iter/UI4/2dFold/2d.eps - Exists: true
+[2025-05-31 08:27:03.304] [testMSP_hybrid_direct] Global parameters set:
+[2025-05-31 08:27:03.304] [testMSP_hybrid_direct]   MSP_patColPath: /d/EPS/Iter/UI4/MolancanoDemo/FrogCol.eps
+[2025-05-31 08:27:03.304] [testMSP_hybrid_direct]   MSP_patBlkPath: /d/EPS/Iter/UI4/MolancanoDemo/FrogBlk.eps
+[2025-05-31 08:27:03.304] [testMSP_hybrid_direct]   MSP_maskPath: /d/EPS/Iter/UI4/2dFold/2d.eps
+[2025-05-31 08:27:03.304] [testMSP_hybrid_direct]   MSP_preserveStrokes: true
+[2025-05-31 08:27:03.305] [testMSP_hybrid_direct] Looking for MSP1_hybrid.jsx at: D:\EPS\Iter\UI4\MSP1_hybrid.jsx
+[2025-05-31 08:27:03.305] [testMSP_hybrid_direct] MSP1_hybrid.jsx exists: true
+[2025-05-31 08:27:03.305] [testMSP_hybrid_direct] Executing MSP1_hybrid.jsx...
+[2025-05-31 08:27:48.841] [testMSP_hybrid_direct] Execution completed. Checking results...
+[2025-05-31 08:27:48.841] [testMSP_hybrid_direct]   Success: false
+[2025-05-31 08:27:48.841] [testMSP_hybrid_direct]   Output count: 0
+[2025-05-31 08:27:48.841] [testMSP_hybrid_direct] FAILED! Error: The top item in the group must be a path item to create a mask
+[2025-05-31 08:28:04.164] [testMSP_hybrid_direct] ===== DIRECT MSP1_HYBRID CALLER ENDED =====
+
+[2025-05-31 08:29:45] ===== MSP1_hybrid.jsx STARTED =====
+[2025-05-31 08:29:45] Processing PatCol masking (Hybrid mode)
+[2025-05-31 08:29:45] Pattern: /d/EPS/Iter/UI4/MolancanoDemo/FrogCol.eps
+[2025-05-31 08:29:45] Mask: /d/EPS/Iter/UI4/2dFold/2d.eps
+[2025-05-31 08:29:45] Preserve strokes: true
+[2025-05-31 08:29:51] Fetching CL + BL from mask document
+[2025-05-31 08:29:51] Found CL and BL groups
+[2025-05-31 08:29:52] Pasted pattern into mask document
+[2025-05-31 08:29:52] Scaling uniformly by 1.0738
+[2025-05-31 08:29:52] Pattern scaled and centered
+[2025-05-31 08:29:52] Creating hybrid clipping mask...
+[2025-05-31 08:29:52] Collecting strokes before compound path creation...
+[2025-05-31 08:30:42] Successfully created compound path
+[2025-05-31 08:30:42] Clipping path configured (compound path: true)
+[2025-05-31 08:30:42] Assembling final Target group...
+[2025-05-31 08:30:42] ERROR in processMasking: The top item in the group must be a path item to create a mask
+[2025-05-31 08:30:42] ===== MSP1_hybrid.jsx FAILED: The top item in the group must be a path item to create a mask =====
+[2025-05-31 08:29:45.149] [testMSP_hybrid_direct] ===== DIRECT MSP1_HYBRID CALLER STARTED =====
+[2025-05-31 08:29:45.149] [testMSP_hybrid_direct] Script Location: D:\EPS\Iter\UI4
+[2025-05-31 08:29:45.149] [testMSP_hybrid_direct] Checking file existence:
+[2025-05-31 08:29:45.150] [testMSP_hybrid_direct]   PatCol: /d/EPS/Iter/UI4/MolancanoDemo/FrogCol.eps - Exists: true
+[2025-05-31 08:29:45.150] [testMSP_hybrid_direct]   PatBlk: /d/EPS/Iter/UI4/MolancanoDemo/FrogBlk.eps - Exists: true
+[2025-05-31 08:29:45.150] [testMSP_hybrid_direct]   Mask: /d/EPS/Iter/UI4/2dFold/2d.eps - Exists: true
+[2025-05-31 08:29:45.150] [testMSP_hybrid_direct] Global parameters set:
+[2025-05-31 08:29:45.150] [testMSP_hybrid_direct]   MSP_patColPath: /d/EPS/Iter/UI4/MolancanoDemo/FrogCol.eps
+[2025-05-31 08:29:45.150] [testMSP_hybrid_direct]   MSP_patBlkPath: /d/EPS/Iter/UI4/MolancanoDemo/FrogBlk.eps
+[2025-05-31 08:29:45.150] [testMSP_hybrid_direct]   MSP_maskPath: /d/EPS/Iter/UI4/2dFold/2d.eps
+[2025-05-31 08:29:45.150] [testMSP_hybrid_direct]   MSP_preserveStrokes: true
+[2025-05-31 08:29:45.150] [testMSP_hybrid_direct] Looking for MSP1_hybrid.jsx at: D:\EPS\Iter\UI4\MSP1_hybrid.jsx
+[2025-05-31 08:29:45.150] [testMSP_hybrid_direct] MSP1_hybrid.jsx exists: true
+[2025-05-31 08:29:45.150] [testMSP_hybrid_direct] Executing MSP1_hybrid.jsx...
+[2025-05-31 08:30:42.476] [testMSP_hybrid_direct] Execution completed. Checking results...
+[2025-05-31 08:30:42.476] [testMSP_hybrid_direct]   Success: false
+[2025-05-31 08:30:42.476] [testMSP_hybrid_direct]   Output count: 0
+[2025-05-31 08:30:42.476] [testMSP_hybrid_direct] FAILED! Error: The top item in the group must be a path item to create a mask
+[2025-05-31 08:31:23.443] [testMSP_hybrid_direct] ===== DIRECT MSP1_HYBRID CALLER ENDED =====
+
+[2025-05-31 09:36:59] ===== MSP1_pathfinder.jsx STARTED =====
+[2025-05-31 09:36:59] Processing PatCol masking with Pathfinder
+[2025-05-31 09:36:59] Pattern: /d/EPS/Iter/UI4/MolancanoDemo/FrogCol.eps
+[2025-05-31 09:36:59] Mask: /d/EPS/Iter/UI4/2dFold/2d.eps
+[2025-05-31 09:37:02] Fetching CL + BL from mask document
+[2025-05-31 09:37:02] ERROR in processMasking: Mask layer must contain at least CL + BL groups.
+[2025-05-31 09:37:02] ===== MSP1_pathfinder.jsx FAILED: Mask layer must contain at least CL + BL groups. =====
+[2025-05-31 09:36:59.981] [testMSP_hybrid3_direct] ===== DIRECT MSP1_HYBRID3 CALLER STARTED =====
+[2025-05-31 09:36:59.981] [testMSP_hybrid3_direct] Script Location: D:\EPS\Iter\UI4
+[2025-05-31 09:36:59.981] [testMSP_hybrid3_direct] Checking file existence:
+[2025-05-31 09:36:59.981] [testMSP_hybrid3_direct]   PatCol: /d/EPS/Iter/UI4/MolancanoDemo/FrogCol.eps - Exists: true
+[2025-05-31 09:36:59.981] [testMSP_hybrid3_direct]   PatBlk: /d/EPS/Iter/UI4/MolancanoDemo/FrogBlk.eps - Exists: true
+[2025-05-31 09:36:59.981] [testMSP_hybrid3_direct]   Mask: /d/EPS/Iter/UI4/2dFold/2d.eps - Exists: true
+[2025-05-31 09:36:59.981] [testMSP_hybrid3_direct] Global parameters set:
+[2025-05-31 09:36:59.981] [testMSP_hybrid3_direct]   MSP_patColPath: /d/EPS/Iter/UI4/MolancanoDemo/FrogCol.eps
+[2025-05-31 09:36:59.981] [testMSP_hybrid3_direct]   MSP_patBlkPath: /d/EPS/Iter/UI4/MolancanoDemo/FrogBlk.eps
+[2025-05-31 09:36:59.981] [testMSP_hybrid3_direct]   MSP_maskPath: /d/EPS/Iter/UI4/2dFold/2d.eps
+[2025-05-31 09:36:59.981] [testMSP_hybrid3_direct]   MSP_preserveStrokes: true
+[2025-05-31 09:36:59.983] [testMSP_hybrid3_direct] Looking for MSP1_hybrid3.jsx at: D:\EPS\Iter\UI4\MSP1_hybrid3.jsx
+[2025-05-31 09:36:59.983] [testMSP_hybrid3_direct] MSP1_hybrid3.jsx exists: true
+[2025-05-31 09:36:59.983] [testMSP_hybrid3_direct] Executing MSP1_hybrid3.jsx...
+[2025-05-31 09:37:02.725] [testMSP_hybrid3_direct] Execution completed. Checking results...
+[2025-05-31 09:37:02.725] [testMSP_hybrid3_direct]   Success: false
+[2025-05-31 09:37:02.725] [testMSP_hybrid3_direct]   Output count: 0
+[2025-05-31 09:37:02.725] [testMSP_hybrid3_direct] FAILED! Error: Mask layer must contain at least CL + BL groups.
+[2025-05-31 09:50:06.096] [testMSP_hybrid3_direct] ===== DIRECT MSP1_HYBRID3 CALLER ENDED =====
+
+[2025-05-31 09:50:55] ===== MSP1_hybrid3_debug STARTED =====
+[2025-05-31 09:50:55] Processing PatCol masking with Pathfinder (DEBUG MODE)
+[2025-05-31 09:50:55] Pattern: /d/EPS/Iter/UI4/MolancanoDemo/FrogCol.eps
+[2025-05-31 09:50:55] Mask: /d/EPS/Iter/UI4/2dFold/2d.eps
+[2025-05-31 09:50:55] DEBUG: Mask document opened - Layers: 2
+[2025-05-31 09:50:57] Fetching CL + BL from mask document (enhanced search)
+[2025-05-31 09:50:57] DEBUG: Starting comprehensive group search
+[2025-05-31 09:50:57] DEBUG: Searching layer 0: Target
+[2025-05-31 09:50:57] DEBUG: Searching in Layer0 with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer0[0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer0[0] with 2 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer0[0][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer0[0][0] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer0[0][1]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer0[0][1] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Searching layer 1: 레이어 1
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1 with 13 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[0] with 4 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[0][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[0][0] with 4 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: CompoundPathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: CompoundPathItem
+[2025-05-31 09:50:57] DEBUG: Item 2 type: CompoundPathItem
+[2025-05-31 09:50:57] DEBUG: Item 3 type: CompoundPathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[0][1]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[0][1] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: CompoundPathItem
+[2025-05-31 09:50:57] DEBUG: Item 2 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 3 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[0][3]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[0][3] with 5 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: CompoundPathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: CompoundPathItem
+[2025-05-31 09:50:57] DEBUG: Item 2 type: CompoundPathItem
+[2025-05-31 09:50:57] DEBUG: Item 3 type: CompoundPathItem
+[2025-05-31 09:50:57] DEBUG: Item 4 type: CompoundPathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[1]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[1] with 2 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[1][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[1][0] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[1][0][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[1][0][0] with 4 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 2 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 3 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[1][1]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[1][1] with 4 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 2 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 3 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 2 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[2]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[2] with 2 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[2][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[2][0] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[2][0][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[2][0][0] with 2 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[2][0][0][1]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[2][0][0][1] with 8 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 2 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 3 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 4 type: CompoundPathItem
+[2025-05-31 09:50:57] DEBUG: Item 5 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 6 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 7 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 3 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[3]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[3] with 2 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[3][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[3][0] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[3][0][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[3][0][0] with 2 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[3][0][0][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[3][0][0][0] with 2 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[3][0][0][0][1]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[3][0][0][0][1] with 3 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 2 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[3][0][0][0][1][2]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[3][0][0][0][1][2] with 2 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[3][0][0][0][1][2][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[3][0][0][0][1][2][0] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[3][0][0][0][1][2][0][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[3][0][0][0][1][2][0][0] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: CompoundPathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[3][0][0][0][1][2][1]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[3][0][0][0][1][2][1] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[3][0][0][0][1][2][1][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[3][0][0][0][1][2][1][0] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: CompoundPathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[3][0][0][1]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[3][0][0][1] with 2 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[3][0][0][1][1]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[3][0][0][1][1] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[3][0][0][1][1][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[3][0][0][1][1][0] with 5 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 2 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 3 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 4 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: CompoundPathItem
+[2025-05-31 09:50:57] DEBUG: Item 4 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[4]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[4] with 2 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[4][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[4][0] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[4][0][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[4][0][0] with 5 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 2 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 3 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 4 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[4][1]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[4][1] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[4][1][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[4][1][0] with 5 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 2 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 3 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 4 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 5 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[5]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[5] with 2 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[5][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[5][0] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[5][0][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[5][0][0] with 4 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 2 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 3 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 6 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[6]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[6] with 2 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[6][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[6][0] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[6][0][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[6][0][0] with 4 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 2 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 3 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 7 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[7]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[7] with 2 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[7][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[7][0] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[7][0][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[7][0][0] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[7][0][0][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[7][0][0][0] with 3 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 2 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 8 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[8]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[8] with 2 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[8][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[8][0] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[8][0][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[8][0][0] with 2 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[8][0][0][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[8][0][0][0] with 4 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[8][0][0][0][1]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[8][0][0][0][1] with 2 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[8][0][0][0][1][1]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[8][0][0][0][1][1] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 2 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[8][0][0][0][2]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[8][0][0][0][2] with 2 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[8][0][0][0][2][1]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[8][0][0][0][2][1] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 3 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[8][0][0][0][3]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[8][0][0][0][3] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[8][0][0][1]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[8][0][0][1] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[8][0][0][1][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[8][0][0][1][0] with 4 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 2 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 3 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[8][0][0][1][0][3]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[8][0][0][1][0][3] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 9 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[9]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[9] with 2 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[9][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[9][0] with 2 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[9][0][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[9][0][0] with 2 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[9][0][0][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[9][0][0][0] with 6 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[9][0][0][0][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[9][0][0][0][0] with 2 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 2 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[9][0][0][0][2]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[9][0][0][0][2] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[9][0][0][0][2][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[9][0][0][0][2][0] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[9][0][0][0][2][0][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[9][0][0][0][2][0][0] with 2 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[9][0][0][0][2][0][0][1]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[9][0][0][0][2][0][0][1] with 2 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 3 type: PluginItem
+[2025-05-31 09:50:57] DEBUG: Item 4 type: PluginItem
+[2025-05-31 09:50:57] DEBUG: Item 5 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[9][0][0][1]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[9][0][0][1] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[9][0][0][1][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[9][0][0][1][0] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[9][0][0][1][0][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[9][0][0][1][0][0] with 3 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[9][0][0][1][0][0][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[9][0][0][1][0][0][0] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[9][0][0][1][0][0][0][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[9][0][0][1][0][0][0][0] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[9][0][0][1][0][0][0][0][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[9][0][0][1][0][0][0][0][0] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[9][0][0][1][0][0][0][0][0][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[9][0][0][1][0][0][0][0][0][0] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[9][0][0][1][0][0][0][0][0][0][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[9][0][0][1][0][0][0][0][0][0][0] with 1 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[9][0][0][1][0][0][0][0][0][0][0][0]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[9][0][0][1][0][0][0][0][0][0][0][0] with 2 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 2 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[9][0][1]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[9][0][1] with 18 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PluginItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: PluginItem
+[2025-05-31 09:50:57] DEBUG: Item 2 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 3 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 4 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 5 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 6 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 7 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 8 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 9 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 10 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 11 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 12 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 13 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 14 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 15 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 16 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[9][0][1][16]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[9][0][1][16] with 4 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 2 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 3 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 17 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[9][0][1][17]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[9][0][1][17] with 4 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 2 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 3 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 10 type: GroupItem
+[2025-05-31 09:50:57] DEBUG: Found group at Layer1[10]
+[2025-05-31 09:50:57] DEBUG: Searching in Layer1[10] with 627 items
+[2025-05-31 09:50:57] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 1 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 2 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 3 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 4 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 5 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 6 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 7 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 8 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 9 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 10 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 11 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 12 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 13 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 14 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 15 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 16 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 17 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 18 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 19 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 20 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 21 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 22 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 23 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 24 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 25 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 26 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 27 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 28 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 29 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 30 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 31 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 32 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 33 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 34 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 35 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 36 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 37 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 38 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 39 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 40 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 41 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 42 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 43 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 44 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 45 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 46 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 47 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 48 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 49 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 50 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 51 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 52 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 53 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 54 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 55 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 56 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 57 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 58 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 59 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 60 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 61 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 62 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 63 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 64 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 65 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 66 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 67 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 68 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 69 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 70 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 71 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 72 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 73 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 74 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 75 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 76 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 77 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 78 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 79 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 80 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 81 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 82 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 83 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 84 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 85 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 86 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 87 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 88 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 89 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 90 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 91 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 92 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 93 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 94 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 95 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 96 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 97 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 98 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 99 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 100 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 101 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 102 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 103 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 104 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 105 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 106 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 107 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 108 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 109 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 110 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 111 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 112 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 113 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 114 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 115 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 116 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 117 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 118 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 119 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 120 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 121 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 122 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 123 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 124 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 125 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 126 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 127 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 128 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 129 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 130 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 131 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 132 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 133 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 134 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 135 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 136 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 137 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 138 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 139 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 140 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 141 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 142 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 143 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 144 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 145 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 146 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 147 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 148 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 149 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 150 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 151 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 152 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 153 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 154 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 155 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 156 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 157 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 158 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 159 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 160 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 161 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 162 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 163 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 164 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 165 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 166 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 167 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 168 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 169 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 170 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 171 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 172 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 173 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 174 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 175 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 176 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 177 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 178 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 179 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 180 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 181 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 182 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 183 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 184 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 185 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 186 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 187 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 188 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 189 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 190 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 191 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 192 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 193 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 194 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 195 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 196 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 197 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 198 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 199 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 200 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 201 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 202 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 203 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 204 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 205 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 206 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 207 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 208 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 209 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 210 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 211 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 212 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 213 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 214 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 215 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 216 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 217 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 218 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 219 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 220 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 221 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 222 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 223 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 224 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 225 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 226 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 227 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 228 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 229 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 230 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 231 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 232 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 233 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 234 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 235 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 236 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 237 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 238 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 239 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 240 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 241 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 242 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 243 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 244 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 245 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 246 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 247 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 248 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 249 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 250 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 251 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 252 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 253 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 254 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 255 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 256 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 257 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 258 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 259 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 260 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 261 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 262 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 263 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 264 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 265 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 266 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 267 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 268 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 269 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 270 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 271 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 272 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 273 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 274 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 275 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 276 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 277 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 278 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 279 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 280 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 281 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 282 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 283 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 284 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 285 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 286 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 287 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 288 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 289 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 290 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 291 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 292 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 293 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 294 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 295 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 296 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 297 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 298 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 299 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 300 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 301 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 302 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 303 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 304 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 305 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 306 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 307 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 308 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 309 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 310 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 311 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 312 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 313 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 314 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 315 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 316 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 317 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 318 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 319 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 320 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 321 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 322 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 323 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 324 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 325 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 326 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 327 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 328 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 329 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 330 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 331 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 332 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 333 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 334 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 335 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 336 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 337 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 338 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 339 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 340 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 341 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 342 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 343 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 344 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 345 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 346 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 347 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 348 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 349 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 350 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 351 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 352 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 353 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 354 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 355 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 356 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 357 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 358 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 359 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 360 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 361 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 362 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 363 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 364 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 365 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 366 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 367 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 368 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 369 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 370 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 371 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 372 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 373 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 374 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 375 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 376 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 377 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 378 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 379 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 380 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 381 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 382 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 383 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 384 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 385 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 386 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 387 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 388 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 389 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 390 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 391 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 392 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 393 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 394 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 395 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 396 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 397 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 398 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 399 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 400 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 401 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 402 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 403 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 404 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 405 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 406 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 407 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 408 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 409 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 410 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 411 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 412 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 413 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 414 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 415 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 416 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 417 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 418 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 419 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 420 type: PathItem
+[2025-05-31 09:50:57] DEBUG: Item 421 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 422 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 423 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 424 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 425 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 426 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 427 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 428 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 429 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 430 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 431 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 432 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 433 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 434 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 435 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 436 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 437 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 438 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 439 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 440 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 441 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 442 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 443 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 444 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 445 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 446 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 447 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 448 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 449 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 450 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 451 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 452 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 453 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 454 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 455 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 456 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 457 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 458 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 459 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 460 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 461 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 462 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 463 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 464 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 465 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 466 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 467 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 468 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 469 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 470 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 471 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 472 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 473 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 474 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 475 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 476 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 477 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 478 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 479 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 480 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 481 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 482 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 483 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 484 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 485 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 486 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 487 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 488 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 489 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 490 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 491 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 492 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 493 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 494 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 495 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 496 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 497 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 498 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 499 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 500 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 501 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 502 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 503 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 504 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 505 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 506 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 507 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 508 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 509 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 510 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 511 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 512 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 513 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 514 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 515 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 516 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 517 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 518 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 519 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 520 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 521 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 522 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 523 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 524 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 525 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 526 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 527 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 528 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 529 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 530 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 531 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 532 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 533 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 534 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 535 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 536 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 537 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 538 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 539 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 540 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 541 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 542 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 543 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 544 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 545 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 546 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 547 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 548 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 549 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 550 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 551 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 552 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 553 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 554 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 555 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 556 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 557 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 558 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 559 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 560 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 561 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 562 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 563 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 564 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 565 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 566 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 567 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 568 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 569 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 570 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 571 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 572 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 573 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 574 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 575 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 576 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 577 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 578 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 579 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 580 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 581 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 582 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 583 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 584 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 585 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 586 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 587 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 588 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 589 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 590 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 591 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 592 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 593 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 594 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 595 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 596 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 597 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 598 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 599 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 600 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 601 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 602 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 603 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 604 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 605 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 606 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 607 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 608 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 609 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 610 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 611 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 612 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 613 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 614 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 615 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 616 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 617 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 618 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 619 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 620 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 621 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 622 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 623 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 624 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 625 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 626 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 11 type: GroupItem
+[2025-05-31 09:50:58] DEBUG: Found group at Layer1[11]
+[2025-05-31 09:50:58] DEBUG: Searching in Layer1[11] with 397 items
+[2025-05-31 09:50:58] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 1 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 2 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 3 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 4 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 5 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 6 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 7 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 8 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 9 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 10 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 11 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 12 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 13 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 14 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 15 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 16 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 17 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 18 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 19 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 20 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 21 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 22 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 23 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 24 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 25 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 26 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 27 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 28 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 29 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 30 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 31 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 32 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 33 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 34 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 35 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 36 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 37 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 38 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 39 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 40 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 41 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 42 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 43 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 44 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 45 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 46 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 47 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 48 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 49 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 50 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 51 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 52 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 53 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 54 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 55 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 56 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 57 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 58 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 59 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 60 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 61 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 62 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 63 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 64 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 65 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 66 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 67 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 68 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 69 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 70 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 71 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 72 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 73 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 74 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 75 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 76 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 77 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 78 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 79 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 80 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 81 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 82 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 83 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 84 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 85 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 86 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 87 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 88 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 89 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 90 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 91 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 92 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 93 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 94 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 95 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 96 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 97 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 98 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 99 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 100 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 101 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 102 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 103 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 104 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 105 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 106 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 107 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 108 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 109 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 110 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 111 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 112 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 113 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 114 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 115 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 116 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 117 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 118 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 119 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 120 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 121 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 122 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 123 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 124 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 125 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 126 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 127 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 128 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 129 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 130 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 131 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 132 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 133 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 134 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 135 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 136 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 137 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 138 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 139 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 140 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 141 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 142 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 143 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 144 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 145 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 146 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 147 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 148 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 149 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 150 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 151 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 152 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 153 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 154 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 155 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 156 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 157 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 158 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 159 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 160 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 161 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 162 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 163 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 164 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 165 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 166 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 167 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 168 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 169 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 170 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 171 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 172 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 173 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 174 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 175 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 176 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 177 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 178 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 179 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 180 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 181 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 182 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 183 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 184 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 185 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 186 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 187 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 188 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 189 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 190 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 191 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 192 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 193 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 194 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 195 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 196 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 197 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 198 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 199 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 200 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 201 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 202 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 203 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 204 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 205 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 206 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 207 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 208 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 209 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 210 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 211 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 212 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 213 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 214 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 215 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 216 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 217 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 218 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 219 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 220 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 221 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 222 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 223 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 224 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 225 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 226 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 227 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 228 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 229 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 230 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 231 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 232 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 233 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 234 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 235 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 236 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 237 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 238 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 239 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 240 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 241 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 242 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 243 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 244 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 245 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 246 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 247 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 248 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 249 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 250 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 251 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 252 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 253 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 254 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 255 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 256 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 257 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 258 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 259 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 260 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 261 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 262 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 263 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 264 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 265 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 266 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 267 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 268 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 269 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 270 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 271 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 272 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 273 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 274 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 275 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 276 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 277 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 278 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 279 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 280 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 281 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 282 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 283 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 284 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 285 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 286 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 287 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 288 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 289 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 290 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 291 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 292 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 293 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 294 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 295 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 296 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 297 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 298 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 299 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 300 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 301 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 302 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 303 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 304 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 305 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 306 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 307 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 308 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 309 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 310 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 311 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 312 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 313 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 314 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 315 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 316 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 317 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 318 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 319 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 320 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 321 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 322 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 323 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 324 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 325 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 326 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 327 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 328 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 329 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 330 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 331 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 332 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 333 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 334 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 335 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 336 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 337 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 338 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 339 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 340 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 341 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 342 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 343 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 344 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 345 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 346 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 347 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 348 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 349 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 350 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 351 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 352 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 353 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 354 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 355 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 356 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 357 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 358 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 359 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 360 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 361 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 362 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 363 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 364 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 365 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 366 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 367 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 368 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 369 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 370 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 371 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 372 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 373 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 374 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 375 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 376 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 377 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 378 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 379 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 380 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 381 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 382 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 383 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 384 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 385 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 386 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 387 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 388 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 389 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 390 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 391 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 392 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 393 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 394 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 395 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 396 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Item 12 type: GroupItem
+[2025-05-31 09:50:58] DEBUG: Found group at Layer1[12]
+[2025-05-31 09:50:58] DEBUG: Searching in Layer1[12] with 1 items
+[2025-05-31 09:50:58] DEBUG: Item 0 type: PathItem
+[2025-05-31 09:50:58] DEBUG: Total groups found: 79
+[2025-05-31 09:50:58] DEBUG: Group 0 - Path: Layer0[0], Name: '', Items: 2
+[2025-05-31 09:50:58] DEBUG: Group 1 - Path: Layer0[0][0], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 2 - Path: Layer0[0][1], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 3 - Path: Layer1[0], Name: '', Items: 4
+[2025-05-31 09:50:58] DEBUG: Group 4 - Path: Layer1[0][0], Name: '', Items: 4
+[2025-05-31 09:50:58] DEBUG: Group 5 - Path: Layer1[0][1], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 6 - Path: Layer1[0][3], Name: '', Items: 5
+[2025-05-31 09:50:58] DEBUG: Group 7 - Path: Layer1[1], Name: '', Items: 2
+[2025-05-31 09:50:58] DEBUG: Group 8 - Path: Layer1[1][0], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 9 - Path: Layer1[1][0][0], Name: '', Items: 4
+[2025-05-31 09:50:58] DEBUG: Group 10 - Path: Layer1[1][1], Name: '', Items: 4
+[2025-05-31 09:50:58] DEBUG: Group 11 - Path: Layer1[2], Name: '', Items: 2
+[2025-05-31 09:50:58] DEBUG: Group 12 - Path: Layer1[2][0], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 13 - Path: Layer1[2][0][0], Name: '', Items: 2
+[2025-05-31 09:50:58] DEBUG: Group 14 - Path: Layer1[2][0][0][1], Name: '', Items: 8
+[2025-05-31 09:50:58] DEBUG: Group 15 - Path: Layer1[3], Name: '', Items: 2
+[2025-05-31 09:50:58] DEBUG: Group 16 - Path: Layer1[3][0], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 17 - Path: Layer1[3][0][0], Name: '', Items: 2
+[2025-05-31 09:50:58] DEBUG: Group 18 - Path: Layer1[3][0][0][0], Name: '', Items: 2
+[2025-05-31 09:50:58] DEBUG: Group 19 - Path: Layer1[3][0][0][0][1], Name: '', Items: 3
+[2025-05-31 09:50:58] DEBUG: Group 20 - Path: Layer1[3][0][0][0][1][2], Name: '', Items: 2
+[2025-05-31 09:50:58] DEBUG: Group 21 - Path: Layer1[3][0][0][0][1][2][0], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 22 - Path: Layer1[3][0][0][0][1][2][0][0], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 23 - Path: Layer1[3][0][0][0][1][2][1], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 24 - Path: Layer1[3][0][0][0][1][2][1][0], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 25 - Path: Layer1[3][0][0][1], Name: '', Items: 2
+[2025-05-31 09:50:58] DEBUG: Group 26 - Path: Layer1[3][0][0][1][1], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 27 - Path: Layer1[3][0][0][1][1][0], Name: '', Items: 5
+[2025-05-31 09:50:58] DEBUG: Group 28 - Path: Layer1[4], Name: '', Items: 2
+[2025-05-31 09:50:58] DEBUG: Group 29 - Path: Layer1[4][0], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 30 - Path: Layer1[4][0][0], Name: '', Items: 5
+[2025-05-31 09:50:58] DEBUG: Group 31 - Path: Layer1[4][1], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 32 - Path: Layer1[4][1][0], Name: '', Items: 5
+[2025-05-31 09:50:58] DEBUG: Group 33 - Path: Layer1[5], Name: '', Items: 2
+[2025-05-31 09:50:58] DEBUG: Group 34 - Path: Layer1[5][0], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 35 - Path: Layer1[5][0][0], Name: '', Items: 4
+[2025-05-31 09:50:58] DEBUG: Group 36 - Path: Layer1[6], Name: '', Items: 2
+[2025-05-31 09:50:58] DEBUG: Group 37 - Path: Layer1[6][0], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 38 - Path: Layer1[6][0][0], Name: '', Items: 4
+[2025-05-31 09:50:58] DEBUG: Group 39 - Path: Layer1[7], Name: '', Items: 2
+[2025-05-31 09:50:58] DEBUG: Group 40 - Path: Layer1[7][0], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 41 - Path: Layer1[7][0][0], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 42 - Path: Layer1[7][0][0][0], Name: '', Items: 3
+[2025-05-31 09:50:58] DEBUG: Group 43 - Path: Layer1[8], Name: '', Items: 2
+[2025-05-31 09:50:58] DEBUG: Group 44 - Path: Layer1[8][0], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 45 - Path: Layer1[8][0][0], Name: '', Items: 2
+[2025-05-31 09:50:58] DEBUG: Group 46 - Path: Layer1[8][0][0][0], Name: '', Items: 4
+[2025-05-31 09:50:58] DEBUG: Group 47 - Path: Layer1[8][0][0][0][1], Name: '', Items: 2
+[2025-05-31 09:50:58] DEBUG: Group 48 - Path: Layer1[8][0][0][0][1][1], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 49 - Path: Layer1[8][0][0][0][2], Name: '', Items: 2
+[2025-05-31 09:50:58] DEBUG: Group 50 - Path: Layer1[8][0][0][0][2][1], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 51 - Path: Layer1[8][0][0][0][3], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 52 - Path: Layer1[8][0][0][1], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 53 - Path: Layer1[8][0][0][1][0], Name: '', Items: 4
+[2025-05-31 09:50:58] DEBUG: Group 54 - Path: Layer1[8][0][0][1][0][3], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 55 - Path: Layer1[9], Name: '', Items: 2
+[2025-05-31 09:50:58] DEBUG: Group 56 - Path: Layer1[9][0], Name: '', Items: 2
+[2025-05-31 09:50:58] DEBUG: Group 57 - Path: Layer1[9][0][0], Name: '', Items: 2
+[2025-05-31 09:50:58] DEBUG: Group 58 - Path: Layer1[9][0][0][0], Name: '', Items: 6
+[2025-05-31 09:50:58] DEBUG: Group 59 - Path: Layer1[9][0][0][0][0], Name: '', Items: 2
+[2025-05-31 09:50:58] DEBUG: Group 60 - Path: Layer1[9][0][0][0][2], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 61 - Path: Layer1[9][0][0][0][2][0], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 62 - Path: Layer1[9][0][0][0][2][0][0], Name: '', Items: 2
+[2025-05-31 09:50:58] DEBUG: Group 63 - Path: Layer1[9][0][0][0][2][0][0][1], Name: '', Items: 2
+[2025-05-31 09:50:58] DEBUG: Group 64 - Path: Layer1[9][0][0][1], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 65 - Path: Layer1[9][0][0][1][0], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 66 - Path: Layer1[9][0][0][1][0][0], Name: '', Items: 3
+[2025-05-31 09:50:58] DEBUG: Group 67 - Path: Layer1[9][0][0][1][0][0][0], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 68 - Path: Layer1[9][0][0][1][0][0][0][0], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 69 - Path: Layer1[9][0][0][1][0][0][0][0][0], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 70 - Path: Layer1[9][0][0][1][0][0][0][0][0][0], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 71 - Path: Layer1[9][0][0][1][0][0][0][0][0][0][0], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Group 72 - Path: Layer1[9][0][0][1][0][0][0][0][0][0][0][0], Name: '', Items: 2
+[2025-05-31 09:50:58] DEBUG: Group 73 - Path: Layer1[9][0][1], Name: '', Items: 18
+[2025-05-31 09:50:58] DEBUG: Group 74 - Path: Layer1[9][0][1][16], Name: '', Items: 4
+[2025-05-31 09:50:58] DEBUG: Group 75 - Path: Layer1[9][0][1][17], Name: '', Items: 4
+[2025-05-31 09:50:58] DEBUG: Group 76 - Path: Layer1[10], Name: '', Items: 627
+[2025-05-31 09:50:58] DEBUG: Group 77 - Path: Layer1[11], Name: '', Items: 397
+[2025-05-31 09:50:58] DEBUG: Group 78 - Path: Layer1[12], Name: '', Items: 1
+[2025-05-31 09:50:58] DEBUG: Using positional fallback (first two groups)
+[2025-05-31 09:50:58] Found CL and BL groups successfully
+[2025-05-31 09:50:58] DEBUG: Rest of processing would continue here
+[2025-05-31 09:51:00] ===== MSP1_hybrid3_debug COMPLETED =====
+
+[2025-05-31 10:13:12] [testMSP_hybrid3_flexible_direct] Starting flexible masking test
+[2025-05-31 10:13:12] ===== MSP1_hybrid3_flexible STARTED =====
+[2025-05-31 10:13:12] Processing PatCol masking with flexible Pathfinder
+[2025-05-31 10:13:12] Pattern: /d/EPS/Iter/UI4/MolancanoDemo/FrogCol.eps
+[2025-05-31 10:13:12] Mask: /d/EPS/Iter/UI4/2dFold/2d.eps
+[2025-05-31 10:13:27] Searching for suitable mask shape...
+[2025-05-31 10:13:27] Layer 0 (레이어 1): found 9 paths
+[2025-05-31 10:13:27] Total paths found: 9
+[2025-05-31 10:13:27] Selected largest path as mask (area: 80096.79)
+[2025-05-31 10:13:28] Extracting pattern from PatCol file...
+[2025-05-31 10:13:29] Pattern copied to mask document
+[2025-05-31 10:13:29] Scaling pattern to match mask height...
+[2025-05-31 10:13:29] Scaling uniformly by 0.9353
+[2025-05-31 10:13:29] Pattern scaled and centered
+[2025-05-31 10:13:29] Creating clipping mask...
+[2025-05-31 10:13:29] Clipping mask applied
+[2025-05-31 10:13:29] Saving to: D:\EPS\Iter\UI4\Target\2d_PatCol.eps
+[2025-05-31 10:13:37] Successfully created: 2d_PatCol.eps
+[2025-05-31 10:13:37] Processing PatBlk masking with flexible Pathfinder
+[2025-05-31 10:13:37] Pattern: /d/EPS/Iter/UI4/MolancanoDemo/FrogBlk.eps
+[2025-05-31 10:13:37] Mask: /d/EPS/Iter/UI4/2dFold/2d.eps
+[2025-05-31 10:13:44] Searching for suitable mask shape...
+[2025-05-31 10:13:44] Layer 0 (레이어 1): found 9 paths
+[2025-05-31 10:13:44] Total paths found: 9
+[2025-05-31 10:13:44] Selected largest path as mask (area: 80096.79)
+[2025-05-31 10:13:44] Extracting pattern from PatBlk file...
+[2025-05-31 10:13:46] Pattern copied to mask document
+[2025-05-31 10:13:46] Scaling pattern to match mask height...
+[2025-05-31 10:13:46] Scaling uniformly by 0.9353
+[2025-05-31 10:13:46] Pattern scaled and centered
+[2025-05-31 10:13:46] Creating clipping mask...
+[2025-05-31 10:13:46] Clipping mask applied
+[2025-05-31 10:13:46] Saving to: D:\EPS\Iter\UI4\Target\2d_PatBlk.eps
+[2025-05-31 10:13:52] Successfully created: 2d_PatBlk.eps
+[2025-05-31 10:13:52] ===== MSP1_hybrid3_flexible COMPLETED SUCCESSFULLY =====
+[2025-05-31 11:13:54] ===== testMSP.jsx STARTED =====
+[2025-05-31 11:13:54] Script folder: /d/EPS/Iter/UI4
+[2025-05-31 11:13:54] Test paths:
+[2025-05-31 11:13:54]   PatCol: D:\EPS\Iter\UI2\PatCol.eps
+[2025-05-31 11:13:54]   PatBlk: D:\EPS\Iter\UI2\PatBlk.eps
+[2025-05-31 11:13:54]   Mask: D:\EPS\Iter\UI2\2d.eps
+[2025-05-31 11:13:54] All input files verified to exist
+[2025-05-31 11:13:54] Including MSP1.jsx...
+[2025-05-31 11:13:54] MSP1.jsx execution complete
+[2025-05-31 11:13:54] Success: false
+[2025-05-31 11:13:54] Error message: 
+[2025-05-31 11:13:54] Output paths: 0 files
+[2025-05-31 11:14:31] ===== testMSP.jsx COMPLETED =====
+
+[2025-05-31 11:14:53] [testMSP_pathfinder_flex] Starting flexible Pathfinder test
+[2025-05-31 11:14:53] [testMSP_pathfinder_flex] This approach should work with mask structure: 2 unnamed groups
+[2025-05-31 11:14:53] ===== MSP1_pathfinder_flex STARTED =====
+[2025-05-31 11:14:53] Processing PatCol with flexible Pathfinder masking
+[2025-05-31 11:14:53] Pattern: /d/EPS/Iter/UI4/MolancanoDemo/FrogCol.eps
+[2025-05-31 11:14:53] Mask: /d/EPS/Iter/UI4/2dFold/2d.eps
+[2025-05-31 11:15:07] Flexibly searching for mask groups...
+[2025-05-31 11:15:07] Searching layer 0: 레이어 1
+[2025-05-31 11:15:07] Found 2 groups
+[2025-05-31 11:15:07] Using group with 397 items as primary mask
+[2025-05-31 11:15:07] Found secondary mask with 1 items
+[2025-05-31 11:15:07] Extracting pattern...
+[2025-05-31 11:15:09] Pattern pasted
+[2025-05-31 11:15:09] Scaling by 0.9973
+[2025-05-31 11:15:09] Pattern positioned
+[2025-05-31 11:15:09] Preparing mask for Pathfinder...
+[2025-05-31 11:15:09] Mask converted to compound path
+[2025-05-31 11:15:09] Applying Pathfinder Intersect...
+[2025-05-31 11:15:11] Pathfinder Intersect applied
+[2025-05-31 11:15:11] Saving to: D:\EPS\Iter\UI4\Target\2d_PatCol.eps
+[2025-05-31 11:15:19] Successfully created: 2d_PatCol.eps
+[2025-05-31 11:15:19] Processing PatBlk with flexible Pathfinder masking
+[2025-05-31 11:15:19] Pattern: /d/EPS/Iter/UI4/MolancanoDemo/FrogBlk.eps
+[2025-05-31 11:15:19] Mask: /d/EPS/Iter/UI4/2dFold/2d.eps
+[2025-05-31 11:15:23] Flexibly searching for mask groups...
+[2025-05-31 11:15:23] Searching layer 0: 레이어 1
+[2025-05-31 11:15:23] Found 2 groups
+[2025-05-31 11:15:23] Using group with 397 items as primary mask
+[2025-05-31 11:15:23] Found secondary mask with 1 items
+[2025-05-31 11:15:23] Extracting pattern...
+[2025-05-31 11:15:24] Pattern pasted
+[2025-05-31 11:15:24] Scaling by 0.9973
+[2025-05-31 11:15:24] Pattern positioned
+[2025-05-31 11:15:24] Preparing mask for Pathfinder...
+[2025-05-31 11:15:24] Mask converted to compound path
+[2025-05-31 11:15:24] Applying Pathfinder Intersect...
+[2025-05-31 11:15:26] Pathfinder Intersect applied
+[2025-05-31 11:15:26] Saving to: D:\EPS\Iter\UI4\Target\2d_PatBlk.eps
+[2025-05-31 11:15:32] Successfully created: 2d_PatBlk.eps
+[2025-05-31 11:15:32] ===== MSP1_pathfinder_flex COMPLETED =====

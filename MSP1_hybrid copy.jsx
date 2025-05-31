@@ -279,7 +279,7 @@ var MSP_preserveStrokes = $.global.MSP_preserveStrokes;
             
             // Add items to group in correct order
             // IMPORTANT: Pattern must be added first, then clipping path on top
-            patGroup.move(targG, ElementPlacement.PLACEATEND);
+            patGroup.move(targG, ElementPlacement.PLACEATBEGINNING);
             clipPath.move(targG, ElementPlacement.PLACEATBEGINNING);
             
             // Add disclaimers back

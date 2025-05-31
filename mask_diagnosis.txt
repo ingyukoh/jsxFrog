@@ -1,0 +1,33 @@
+===== MASK FILE DIAGNOSIS =====
+Mask file: /d/EPS/Iter/UI4/2dFold/2d.eps
+Document opened successfully
+Document name: 2d.eps
+
+LAYER STRUCTURE:
+Total layers: 1
+  
+Layer 0: 레이어 1
+    Visible: true
+    Locked: false
+    Page items: 2
+    Page item breakdown:
+      Group 0:
+        Name: (unnamed)
+        Items in group: 397
+          PathItem: 397
+      Group 1:
+        Name: (unnamed)
+        Items in group: 1
+          PathItem: 1
+    
+Item type summary for layer 0:
+      GroupItem: 2 items (indices: 0, 1)
+
+
+SEARCHING FOR CL/BL PATTERNS:
+  Checking group at Document[0]
+    >>> Contains paths - possible mask group!
+  Checking group at Document[398]
+    >>> Contains paths - possible mask group!
+
+===== DIAGNOSIS COMPLETE =====
