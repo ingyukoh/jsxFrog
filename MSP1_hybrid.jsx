@@ -127,8 +127,13 @@ var MSP_preserveStrokes = $.global.MSP_preserveStrokes;
             
             // Paste pattern
             app.activeDocument = docPattern;
-            docPattern.selectObjectsOnActiveArtboard();
-            app.copy();
+            // Unlock all items to ensure complete selection
+            for (var n = 0; n < docPattern.pageItems.length; n++) {
+                unlockDeep(docPattern.pageItems[n]);
+            }
+            // Select everything rather than just the active artboard
+            app.executeMenuCommand("selectall");
+            app.executeMenuCommand("copy");
             
             app.activeDocument = docMask;
             app.paste();
