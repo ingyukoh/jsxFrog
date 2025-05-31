@@ -202,6 +202,17 @@ var MSP_maskPath = $.global.MSP_maskPath;
             }
             
             var clipPath = outerPath.duplicate();
+
+            // Preserve original stroke as a visible outline
+            var strokeOutline = null;
+            if (clipPath.stroked) {
+                strokeOutline = clipPath.duplicate();
+                strokeOutline.clipping = false;
+                strokeOutline.filled = false;
+                strokeOutline.stroked = true;
+                log("Stroke outline created");
+            }
+
             clipPath.filled = false;
             clipPath.stroked = false;
             clipPath.clipping = true;
@@ -222,6 +233,10 @@ var MSP_maskPath = $.global.MSP_maskPath;
             // Add items to group in correct order
             clipPath.move(targG, ElementPlacement.PLACEATBEGINNING);
             patGroup.move(targG, ElementPlacement.PLACEATEND);
+            if (strokeOutline) {
+                strokeOutline.move(targG, ElementPlacement.PLACEATBEGINNING);
+                log("Stroke outline added to group");
+            }
             
             // Add disclaimers back
             for (var d = 0; d < disclaimers.length; d++) {
